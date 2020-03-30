@@ -116,12 +116,11 @@ CREATE TRIGGER day_validation
     BEFORE INSERT ON session FOR EACH ROW
     BEGIN
         IF ((SELECT c.day_week FROM class AS c WHERE c.id_class=new.id_class) <> 7) AND
-           ((new.hour = '8:00') OR (new.hour = '9:30') OR (new.hour = '11:00')) THEN
-            signal sqlstate '45000' SET MESSAGE_TEXT = 'Esa clase no existe en los horarios definidos';
+           ((new.hour IN ('8:00','9:30','11:00'))) THEN
+            signal sqlstate '45000' SET MESSAGE_TEXT = 'Ese horario no estan disponible de lunes a viernes';
         ELSEIF ((SELECT c.day_week FROM class AS c WHERE c.id_class=new.id_class) = 7) AND
-        ((new.hour = '5:00') OR (new.hour = '6:00') OR (new.hour = '7:00') OR (new.hour = '12:00')
-            OR (new.hour = '16:30') OR (new.hour = '17:30') OR (new.hour = '18:30') ) THEN
-           signal sqlstate '45000' SET MESSAGE_TEXT = 'Esa clase no existe en los horarios definidos';
+        (new.hour IN ('5:00','6:00','7:00','12:00','16:30','17:30','18:30','19:30')) THEN
+           signal sqlstate '45000' SET MESSAGE_TEXT = 'Ese horario no estan disponible el dia sabado';
         END IF;
     END;
 //
@@ -147,9 +146,9 @@ Delimiter ;
 
 /*
 INSERT INTO class(id_wod, date) VALUES (NULL, '2020-03-22')
+*/
 /*
-/*
-INSERT INTO class(id_class,id_wod, date) VALUES (1, NULL, '2020-03-16');
+INSERT INTO class(id_class,id_wod, date) VALUES (1, NULL, '2020-03-21');
 INSERT INTO  session(id_class,hour) VALUES (1,'5:00');
 INSERT INTO  session(id_class,hour) VALUES (1,'6:00');
 INSERT INTO  session(id_class,hour) VALUES (1,'8:00');
