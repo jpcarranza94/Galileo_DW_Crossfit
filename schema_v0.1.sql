@@ -124,6 +124,6 @@ CREATE TRIGGER validar_dia
 
 -- INSERT INTO class(id_wod, date) VALUES (NULL, '2020-03-22')
 
-
+-- holi xd
 
 
