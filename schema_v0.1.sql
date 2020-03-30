@@ -133,6 +133,7 @@ Delimiter ;
 
 -- INSERT INTO class(id_wod, date) VALUES (NULL, '2020-03-22')
 
+<<<<<<< HEAD
 INSERT INTO class(id_class,id_wod, date) VALUES (1, NULL, '2020-03-16');
 INSERT INTO  session(id_class,hour) VALUES (1,'5:00');
 INSERT INTO  session(id_class,hour) VALUES (1,'6:00');
@@ -143,3 +144,8 @@ INSERT INTO  session(id_class,hour) VALUES (1,'11:00');
 INSERT INTO  session(id_class,hour) VALUES (1,'19:30');
 
 -- TRUNCATE TABLE session;
+=======
+-- holi xd
+
+
+>>>>>>> f2c66f26da9482be165369600f0062538c8fbac0
