@@ -68,6 +68,7 @@ CREATE TABLE `class` (
   `date` DATE,
   `day_week` INT GENERATED ALWAYS AS (DAYOFWEEK(date)),
   PRIMARY KEY (`id_class`),
+  CONSTRAINT `check_day_week` CHECK ( day_week <> 1 ),
   CONSTRAINT `fk_id_wod_cw` FOREIGN KEY (id_wod) REFERENCES wod (id_wod) ON DELETE set null ON UPDATE CASCADE
 );
 
@@ -107,4 +108,22 @@ CREATE TABLE `session` (
   CONSTRAINT `fk_id_coach_sc` FOREIGN KEY (id_coach) REFERENCES coach (id_coach) ON DELETE SET NULL ON UPDATE CASCADE,
   CONSTRAINT `fk_id_class_sc` FOREIGN KEY (id_class) REFERENCES class (id_class) ON DELETE SET NULL ON UPDATE CASCADE
 );
+
+-- Triggers
+/*
+CREATE TRIGGER validar_dia
+    BEFORE INSERT ON session FOR EACH ROW
+    Begin
+        IF (SELECT day_week from class)
+
+
+    end;
+*/
+
+-- Triggers
+
+-- INSERT INTO class(id_wod, date) VALUES (NULL, '2020-03-22')
+
+
+
 
