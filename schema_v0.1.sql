@@ -100,7 +100,7 @@ CREATE TABLE `session` (
   `wod_level` ENUM ('RX','RX+','SCALED'), 
   `wod_score` INT,
   `specialty_score` INT,
-  `hour` ENUM ('5:00','6:00','7:00','8:00','9:30','11:00','12:00','16:30','17:30','18:30'),
+  `hour` ENUM ('5:00','6:00','7:00','8:00','9:30','11:00','12:00','16:30','17:30','18:30','19:30'),
   PRIMARY KEY (`id_session`),
   CONSTRAINT `fk_id_specialty_ss` FOREIGN KEY (id_specialty) REFERENCES specialty (id_specialty) ON DELETE SET NULL ON UPDATE CASCADE,
   CONSTRAINT `fk_id_warmup_sw` FOREIGN KEY (id_warmup) REFERENCES warmup (id_warmup) ON DELETE SET NULL ON UPDATE CASCADE,
@@ -109,68 +109,19 @@ CREATE TABLE `session` (
   CONSTRAINT `fk_id_class_sc` FOREIGN KEY (id_class) REFERENCES class (id_class) ON DELETE SET NULL ON UPDATE CASCADE
 );
 
-CREATE TABLE `valid_schedules` (
-  `id_vd` INT AUTO_INCREMENT,
-  `day_week` INT,
-  `hour` ENUM ('5:00','6:00','7:00','8:00','9:30','11:00','12:00','16:30','17:30','18:30'),
-  PRIMARY KEY (`id_vd`)
-);
--- Lunes
-INSERT INTO valid_schedules(day_week, hour)  VALUES (2, '5:00');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (2, '6:00');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (2, '7:00');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (2, '12:00');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (2, '16:30');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (2, '17:30');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (2, '18:30');
--- Martes
-INSERT INTO valid_schedules(day_week, hour)  VALUES (3, '5:00');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (3, '6:00');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (3, '7:00');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (3, '12:00');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (3, '16:30');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (3, '17:30');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (3, '18:30');
--- Miercoles
-INSERT INTO valid_schedules(day_week, hour)  VALUES (4, '5:00');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (4, '6:00');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (4, '7:00');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (4, '12:00');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (4, '16:30');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (4, '17:30');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (4, '18:30');
--- Jueves
-INSERT INTO valid_schedules(day_week, hour)  VALUES (5, '5:00');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (5, '6:00');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (5, '7:00');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (5, '12:00');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (5, '16:30');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (5, '17:30');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (5, '18:30');
--- Viernes
-INSERT INTO valid_schedules(day_week, hour)  VALUES (6, '5:00');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (6, '6:00');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (6, '7:00');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (6, '12:00');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (6, '16:30');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (6, '17:30');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (6, '18:30');
--- Sabado
-INSERT INTO valid_schedules(day_week, hour)  VALUES (7, '8:00');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (7, '9:30');
-INSERT INTO valid_schedules(day_week, hour)  VALUES (7, '11:00');
-
 -- Triggers
 
 Delimiter //
 CREATE TRIGGER validar_dia
     BEFORE INSERT ON session FOR EACH ROW
     BEGIN
-        -- IF (SELECT vs.day_week, vs.hour FROM valid_schedules AS vs WHERE vs.hour=new.hour AND vs.day_week=(SELECT cl.day_week FROM class AS cl WHERE NEW.id_class=cl.id_class) IS NULL) THEN
-        IF ((SELECT c.day_week FROM class AS c WHERE c.id_class=new.id_class) = 7) AND
+        IF ((SELECT c.day_week FROM class AS c WHERE c.id_class=new.id_class) <> 7) AND
            ((new.hour = '8:00') OR (new.hour = '9:30') OR (new.hour = '11:00')) THEN
            signal sqlstate '45000';
-           set new.wod_score = -500;
+        ELSEIF ((SELECT c.day_week FROM class AS c WHERE c.id_class=new.id_class) = 7) AND
+        ((new.hour = '5:00') OR (new.hour = '6:00') OR (new.hour = '7:00') OR (new.hour = '12:00')
+            OR (new.hour = '16:30') OR (new.hour = '17:30') OR (new.hour = '18:30') ) THEN
+           signal sqlstate '45000';
         END IF;
         set new.wod_score = 1000;
     END;
@@ -182,11 +133,13 @@ Delimiter ;
 
 -- INSERT INTO class(id_wod, date) VALUES (NULL, '2020-03-22')
 
-INSERT INTO class(id_class,id_wod, date) VALUES (1, NULL, '2020-03-21');
+INSERT INTO class(id_class,id_wod, date) VALUES (1, NULL, '2020-03-16');
 INSERT INTO  session(id_class,hour) VALUES (1,'5:00');
 INSERT INTO  session(id_class,hour) VALUES (1,'6:00');
 INSERT INTO  session(id_class,hour) VALUES (1,'8:00');
 INSERT INTO  session(id_class,hour) VALUES (1,'9:30');
 INSERT INTO  session(id_class,hour) VALUES (1,'12:00');
+INSERT INTO  session(id_class,hour) VALUES (1,'11:00');
+INSERT INTO  session(id_class,hour) VALUES (1,'19:30');
 
 -- TRUNCATE TABLE session;
