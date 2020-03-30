@@ -144,8 +144,4 @@ INSERT INTO  session(id_class,hour) VALUES (1,'11:00');
 INSERT INTO  session(id_class,hour) VALUES (1,'19:30');
 
 -- TRUNCATE TABLE session;
-=======
--- holi xd
 
-
->>>>>>> f2c66f26da9482be165369600f0062538c8fbac0
