@@ -112,28 +112,42 @@ CREATE TABLE `session` (
 -- Triggers
 
 Delimiter //
-CREATE TRIGGER validar_dia
+CREATE TRIGGER day_validation
     BEFORE INSERT ON session FOR EACH ROW
     BEGIN
         IF ((SELECT c.day_week FROM class AS c WHERE c.id_class=new.id_class) <> 7) AND
            ((new.hour = '8:00') OR (new.hour = '9:30') OR (new.hour = '11:00')) THEN
-           signal sqlstate '45000';
+            signal sqlstate '45000' SET MESSAGE_TEXT = 'Esa clase no existe en los horarios definidos';
         ELSEIF ((SELECT c.day_week FROM class AS c WHERE c.id_class=new.id_class) = 7) AND
         ((new.hour = '5:00') OR (new.hour = '6:00') OR (new.hour = '7:00') OR (new.hour = '12:00')
             OR (new.hour = '16:30') OR (new.hour = '17:30') OR (new.hour = '18:30') ) THEN
-           signal sqlstate '45000';
+           signal sqlstate '45000' SET MESSAGE_TEXT = 'Esa clase no existe en los horarios definidos';
         END IF;
-        set new.wod_score = 1000;
+    END;
+//
+Delimiter ;
+
+Delimiter //
+CREATE TRIGGER athlete_session_per_day
+    BEFORE INSERT ON session FOR EACH ROW
+    BEGIN
+        IF ((SELECT s.id_athlete FROM athlete AS a, class AS c, session AS s WHERE c.id_class=new.id_class AND a.id_athlete=new.id_athlete) IS NOT NULL) THEN
+           signal sqlstate '45000' SET MESSAGE_TEXT = 'Solamente se puede una clase por dia';
+        END IF;
     END;
 //
 Delimiter ;
 
 
--- Triggers
+-- Pruebas
 
--- INSERT INTO class(id_wod, date) VALUES (NULL, '2020-03-22')
 
-<<<<<<< HEAD
+-- Pruebas day_validation
+
+/*
+INSERT INTO class(id_wod, date) VALUES (NULL, '2020-03-22')
+/*
+/*
 INSERT INTO class(id_class,id_wod, date) VALUES (1, NULL, '2020-03-16');
 INSERT INTO  session(id_class,hour) VALUES (1,'5:00');
 INSERT INTO  session(id_class,hour) VALUES (1,'6:00');
@@ -142,6 +156,16 @@ INSERT INTO  session(id_class,hour) VALUES (1,'9:30');
 INSERT INTO  session(id_class,hour) VALUES (1,'12:00');
 INSERT INTO  session(id_class,hour) VALUES (1,'11:00');
 INSERT INTO  session(id_class,hour) VALUES (1,'19:30');
-
 -- TRUNCATE TABLE session;
+*/
 
+-- Pruebas session
+
+/*
+INSERT INTO class(id_class,id_wod, date) VALUES (1, NULL, '2020-03-16');
+INSERT INTO athlete (id_athlete, name, weight, height, age, sex, solvency, telephone, DPI) VALUES (1, 'Andre', null, null, null, null, null, null, null);
+INSERT INTO  session(id_session, id_athlete, id_class, hour) VALUES (1, 1, 1, '5:00');
+SELECT COUNT(s.id_session) FROM athlete AS a, class AS c, session as s WHERE c.id_class=1 AND a.id_athlete=1;
+INSERT INTO  session(id_session, id_athlete, id_class, hour) VALUES (2, 1, 1, '6:00');
+SELECT COUNT(s.id_session) FROM athlete AS a, class AS c, session as s WHERE c.id_class=1 AND a.id_athlete=1;
+*/
