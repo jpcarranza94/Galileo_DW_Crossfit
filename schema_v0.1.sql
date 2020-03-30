@@ -1,5 +1,9 @@
+CREATE DATABASE crossfit;
+
+USE crossfit;
+
 CREATE TABLE `wod` (
-  `id_wod` INT,
+  `id_wod` INT AUTO_INCREMENT,
   `name` VARCHAR(25),
   `description` VARCHAR(500),
   `mode` ENUM ('AMRAP','EMOM','FOR TIME', 'TABATA', 'FOR MAX WEIGTH'),
@@ -9,45 +13,46 @@ CREATE TABLE `wod` (
 );
 
 CREATE TABLE `personal_records_sp` (
-  `id_pr_sp` INT,
-  `id_speciality` INT,
+  `id_pr_sp` INT AUTO_INCREMENT,
   `id_athlete` INT,
+  `id_specialty` INT,
   `dia` TIMESTAMP,
   `value` DOUBLE,
   PRIMARY KEY (`id_pr_sp`),
-  KEY `FK` (`id_speciality`, `id_athlete`)
+  CONSTRAINT `fk_id_athlete` FOREIGN KEY (id_athlete) REFERENCES athlete (id_athlete) ON DELETE CASCADE ON UPDATE CASCADE,
+  CONSTRAINT `fk_id_specialty` FOREIGN KEY (id_specialty) REFERENCES specialty (id_specialty) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 CREATE TABLE `rxgoals` (
-  `id_rxgoals` INT,
+  `id_rxgoals` INT AUTO_INCREMENT,
   `id_wod` INT,
   `sex` ENUM ('M','F'),
   `rx` INT,
   `rxplus` INT,
   `dim` ENUM ('kgs','sec','reps','rounds'),
   PRIMARY KEY (`id_rxgoals`),
-  KEY `FK` (`id_wod`)
+  CONSTRAINT `fk_id_wod` FOREIGN KEY (id_wod) REFERENCES wod (id_wod) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 CREATE TABLE `class` (
-  `id_class` INT,
+  `id_class` INT AUTO_INCREMENT,
   `id_wod` INT,
   `date` DATE,
   PRIMARY KEY (`id_class`),
-  KEY `FK` (`id_wod`)
+  CONSTRAINT `fk_id_wod` FOREIGN KEY (id_wod) REFERENCES wod (id_wod) ON DELETE set null ON UPDATE CASCADE
 );
 
 CREATE TABLE `warmup` (
-  `id_warmup` INT,
+  `id_warmup` INT AUTO_INCREMENT,
   `description` VARCHAR(500),
   PRIMARY KEY (`id_warmup`)
 );
 
 CREATE TABLE `athlete` (
-  `id_athlete` INT,
+  `id_athlete` INT AUTO_INCREMENT,
   `name` VARCHAR(20),
-  `weight` DOUBLE,
-  `height` DOUBLE,
+  `weight` FLOAT(5,2),
+  `height` FLOAT(3,2),
   `age` INT,
   `sex` ENUM ('M','F'),
   `solvency` BOOLEAN,
@@ -56,36 +61,36 @@ CREATE TABLE `athlete` (
   PRIMARY KEY (`id_athlete`)
 );
 
-CREATE TABLE `speciality` (
-  `id_speciality` INT,
+CREATE TABLE `specialty` (
+  `id_specialty` INT AUTO_INCREMENT,
   `description` VARCHAR(500),
   `type` ENUM ('Skill','Strength','Lifting','Complex'),
   `dim` ENUM ('mts','seg','lbs'),
-  PRIMARY KEY (`id_speciality`)
+  PRIMARY KEY (`id_specialty`)
 );
 
 CREATE TABLE `coach` (
-  `id_coach` INT,
+  `id_coach` INT AUTO_INCREMENT,
   `id_athelte` INT,
   PRIMARY KEY (`id_coach`),
-  KEY `FK` (`id_athelte`)
+  CONSTRAINT `fk_id_athelte` FOREIGN KEY (id_athelte) REFERENCES athlete (id_athlete) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 CREATE TABLE `personal_records_wod` (
-  `id_pr_wod` INT,
+  `id_pr_wod` INT AUTO_INCREMENT,
   `id_wod` INT,
   `id_athlete` INT,
   `dia` TIMESTAMP,
   `value` DOUBLE,
   PRIMARY KEY (`id_pr_wod`),
-  KEY `FK` (`id_wod`, `id_athlete`)
+  CONSTRAINT `fk_id_wod` FOREIGN KEY (id_wod) REFERENCES wod (id_wod) ON DELETE SET NULL ON UPDATE    CASCADE,
+  CONSTRAINT `fk_id_athelte` FOREIGN KEY (id_athlete) REFERENCES athlete (id_athlete) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 CREATE TABLE `session` (
-  `id_session` INT,
+  `id_session` INT AUTO_INCREMENT,
   `id_specialty` INT,
   `id_warmup` INT,
-  `id_wod` INT,
   `id_athlete` INT,
   `id_coach` INT,
   `id_class` INT,
@@ -94,6 +99,11 @@ CREATE TABLE `session` (
   `specialty_score` INT,
   `hour` ENUM ('8:00','6:00','7:00','9:30','11:00','12:00','16:30','17:30','18:30'),
   PRIMARY KEY (`id_session`),
-  KEY `FK` (`id_specialty`, `id_warmup`, `id_wod`, `id_athlete`, `id_coach`, `id_class`)
+  CONSTRAINT `fk_id_specialty` FOREIGN KEY (id_specialty) REFERENCES specialty (id_specialty) ON DELETE SET NULL ON UPDATE CASCADE,
+  CONSTRAINT `fk_id_warmup` FOREIGN KEY (id_warmup) REFERENCES warmup (id_warmup) ON DELETE SET NULL ON UPDATE CASCADE,
+  CONSTRAINT `fk_id_athlete` FOREIGN KEY (id_athlete) REFERENCES athlete (id_athlete) ON DELETE SET NULL ON UPDATE CASCADE,
+  CONSTRAINT `fk_id_coach` FOREIGN KEY (id_coach) REFERENCES coach (id_coach) ON DELETE SET NULL ON UPDATE CASCADE,
+  CONSTRAINT `fk_id_class` FOREIGN KEY (id_class) REFERENCES class (id_class) ON DELETE SET NULL ON UPDATE CASCADE
+
 );
 
