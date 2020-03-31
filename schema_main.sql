@@ -126,11 +126,8 @@ CREATE TRIGGER day_validation
         (new.hour IN ('5:00','6:00','7:00','12:00','16:30','17:30','18:30','19:30')) THEN
            signal sqlstate '45000' SET MESSAGE_TEXT = 'Ese horario no estan disponible el dia sabado';
 
-        -- Ya se definio una clase para este día
-        ELSEIF (FALSE) THEN
-           signal sqlstate '45000' SET MESSAGE_TEXT = 'Este día ya cuenta con una clase definida';
-
         END IF;
+
     END;
 //
 Delimiter ;
@@ -139,15 +136,23 @@ Delimiter //
 CREATE TRIGGER athlete_session_per_day
     BEFORE INSERT ON session FOR EACH ROW
     BEGIN
+
+        -- El atleta solo puede recibir una clase por día
         IF ((SELECT s.id_session FROM session as s JOIN class as c ON s.id_class=c.id_class JOIN athlete as a ON s.id_athlete = a.id_athlete
-        WHERE a.id_athlete = new.id_athlete AND c.id_class = new.id_class) IS NOT NULL) THEN -- Clase por día
+        WHERE a.id_athlete = new.id_athlete AND c.id_class = new.id_class) IS NOT NULL) THEN
            signal sqlstate '45000' SET MESSAGE_TEXT = 'Solamente se puede una clase por dia';
+
+        -- El Coach no puede ser atleta y coach en la misma clase
         ELSEIF ((SELECT a.id_athlete FROM athlete a INNER JOIN coach c on a.id_athlete = c.id_athlete WHERE id_coach=new.id_coach) = new.id_athlete) THEN
-           signal sqlstate '45000' SET MESSAGE_TEXT = 'El coach no se puede asignar a su misma clase'; -- Coach es coach y atleta
+           signal sqlstate '45000' SET MESSAGE_TEXT = 'El coach puede ser atleta de su misma clase';
+
+        -- El Coach no puede tener mas de 3 clases por dia
         ELSEIF ((SELECT COUNT(DISTINCT s.hour) FROM session as s WHERE s.id_coach=new.id_coach and s.id_class=new.id_class) = 3 ) AND
-        ((SELECT DISTINCT se2.hour FROM  session as se2 WHERE se2.hour = new.hour) IS NULL )  THEN -- No más de 3 clases por día
+        ((SELECT DISTINCT se2.hour FROM  session as se2 WHERE se2.hour = new.hour) IS NULL )  THEN
            signal sqlstate '45000' SET MESSAGE_TEXT = 'Un coach no puede tener más de 3 clases por dia';
+
         END IF;
+
     END;
 //
 Delimiter ;

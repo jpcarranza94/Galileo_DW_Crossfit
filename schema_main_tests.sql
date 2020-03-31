@@ -30,6 +30,18 @@ INSERT INTO  session(id_class,hour) VALUES (1,'11:00');
 INSERT INTO  session(id_class,hour) VALUES (1,'19:30');
 -- TRUNCATE TABLE session;
 */
+-- Pruebas 'Ese horario no estan disponible de lunes a viernes' y 'Ese horario no estan disponible el dia sabado'
+/*
+INSERT INTO class(id_class,id_wod, date) VALUES (1, NULL, '2020-03-21');
+INSERT INTO  session(id_class,hour) VALUES (1,'5:00');
+INSERT INTO  session(id_class,hour) VALUES (1,'6:00');
+INSERT INTO  session(id_class,hour) VALUES (1,'8:00');
+INSERT INTO  session(id_class,hour) VALUES (1,'9:30');
+INSERT INTO  session(id_class,hour) VALUES (1,'12:00');
+INSERT INTO  session(id_class,hour) VALUES (1,'11:00');
+INSERT INTO  session(id_class,hour) VALUES (1,'19:30');
+-- TRUNCATE TABLE session;
+*/
 
 -- Pruebas athlete_session_per_day ----------------------------------------------------------------------
 /*
