@@ -109,10 +109,10 @@ CREATE TABLE `session` (
   CONSTRAINT `fk_id_class_sc` FOREIGN KEY (id_class) REFERENCES class (id_class) ON DELETE SET NULL ON UPDATE CASCADE
 );
 
--- Triggers
+-- -----------------------------Triggers -------------------------------------------------------------------------------
 
 Delimiter //
-CREATE TRIGGER day_validation
+CREATE TRIGGER day_validations
     BEFORE INSERT ON session FOR EACH ROW
     BEGIN
 
@@ -132,8 +132,10 @@ CREATE TRIGGER day_validation
 //
 Delimiter ;
 
+-- ------------------------------------------------
+
 Delimiter //
-CREATE TRIGGER athlete_session_per_day
+CREATE TRIGGER athlete_coach_validations
     BEFORE INSERT ON session FOR EACH ROW
     BEGIN
 
@@ -156,3 +158,21 @@ CREATE TRIGGER athlete_session_per_day
     END;
 //
 Delimiter ;
+
+-- ------------------------------------------------
+
+Delimiter //
+CREATE TRIGGER update_max_pr_sp
+    BEFORE INSERT ON personal_records_sp FOR EACH ROW
+    BEGIN
+
+        -- Se modifica si se logra superar el máximo
+        IF (FALSE) THEN
+           signal sqlstate '45000' SET MESSAGE_TEXT = 'Solamente se puede una clase por dia';
+
+        END IF;
+
+    END;
+//
+Delimiter ;
+
