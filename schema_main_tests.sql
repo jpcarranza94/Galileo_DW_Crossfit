@@ -1,10 +1,24 @@
--- PRUEBAS *****
+USE crossfit;
+
+truncate session;
+truncate class;
+truncate athlete;
+truncate coach;
+truncate personal_records_sp;
+truncate personal_records_wod;
+truncate rxgoals;
+truncate specialty;
+truncate warmup;
+truncate wod;
+
+-- PRUEBAS TRIGGERS*****
 
 -- Pruebas day_validation ------------------------------------------------------------------------------
 
 /*
 INSERT INTO class(id_wod, date) VALUES (NULL, '2020-03-22')
 */
+-- Pruebas 'Ese horario no estan disponible de lunes a viernes' y 'Ese horario no estan disponible el dia sabado'
 /*
 INSERT INTO class(id_class,id_wod, date) VALUES (1, NULL, '2020-03-21');
 INSERT INTO  session(id_class,hour) VALUES (1,'5:00');
