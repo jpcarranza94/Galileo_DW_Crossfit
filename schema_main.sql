@@ -186,17 +186,18 @@ CREATE TRIGGER update_max_pr_sp
         DECLARE temp_id_athlete int;
         DECLARE temp_date date;
         DECLARE temp_id_specialty int;
-        DECLARE temp_maxcurrent double;
+        DECLARE temp_max_current double;
 
         DECLARE errorMessage VARCHAR(255);
 
         SET @temp_id_athlete := (SELECT s.id_athlete FROM session s WHERE  s.id_session=new.id_session_results);
-        SET @temp_date := (SELECT s.date FROM session s WHERE  s.id_session=new.id_session_results);
         SET @temp_id_specialty := (SELECT s.id_specialty FROM session s WHERE  s.id_session=new.id_session_results);
-        SET @temp_maxcurrent := (SELECT  MAX(p.value) FROM personal_records_sp p WHERE  (p.id_athlete=@temp_id_athlete) AND (p.id_specialty=@temp_id_specialty));
+        SET @temp_date := (SELECT s.date FROM session s WHERE  s.id_session=new.id_session_results);
+        SET @temp_max_current := ((SELECT  MAX(p.value) FROM personal_records_sp p WHERE  (p.id_athlete=@temp_id_athlete) AND (p.id_specialty=@temp_id_specialty))*1);
 
 
-        SET errorMessage = CONCAT('Athlete: ', @temp_id_athlete,' ;date: ',@temp_date,' ;specialty: ',@temp_id_specialty, '; max: ', @temp_maxcurrent);
+
+        SET errorMessage = CONCAT('Date: ',@temp_date,' |athlete: ', @temp_id_athlete,' |specialty: ',@temp_id_specialty, ' |max: ', @temp_max_current);
         SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = errorMessage;
         /*
         DECLARE max_pr_score INT;
