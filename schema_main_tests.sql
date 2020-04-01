@@ -155,8 +155,8 @@ SELECT id_session,id_athlete,id_coach,id_class,hour FROM session;
 -- Pruebas update_max_pr_sp ----------------------------------------------------------------------
 
 
-INSERT INTO class(id_class,id_wod, date) VALUES (1, NULL, '2020-03-16');
-INSERT INTO class(id_class,id_wod, date) VALUES (2, NULL, '2020-03-17');
+INSERT INTO class(id_wod, date) VALUES (NULL, '2020-03-16');
+INSERT INTO class(id_wod, date) VALUES (NULL, '2020-03-17');
 
 INSERT INTO athlete (id_athlete, name, weight, height, age, sex, solvency, telephone, DPI) VALUES (1, 'ElCoach', null, null, null, null, 1, null, null);
 INSERT INTO athlete (id_athlete, name, weight, height, age, sex, solvency, telephone, DPI) VALUES (2, 'Andre', null, null, null, null, 1, null, null);
@@ -167,11 +167,11 @@ INSERT INTO coach (id_coach, id_athlete) VALUES (1,1);
 INSERT INTO specialty(id_specialty, description, type, dim) VALUES (1,"Que dolor",'Skill','seg');
 INSERT INTO specialty(id_specialty, description, type, dim) VALUES (2,"Hola",'Skill','seg');
 
-INSERT INTO  session(id_session, id_coach, id_class, id_athlete, hour, id_specialty) VALUES (1, 1, 1, 2, '5:00',1);
-INSERT INTO  session(id_session, id_coach, id_class, id_athlete, hour, id_specialty) VALUES (2, 1, 1, 3, '6:00',1);
+INSERT INTO  session(id_coach, date, id_athlete, hour, id_specialty) VALUES (1, '2020-03-16', 2, '5:00',1);
+INSERT INTO  session(id_coach, date, id_athlete, hour, id_specialty) VALUES (1, '2020-03-16', 3, '6:00',1);
 
-INSERT personal_records_sp(id_athlete, id_specialty, date, value) VALUES (2, 1,"2000-03-11", 25);
-
+INSERT personal_records_sp(id_athlete, id_specialty, date, value) VALUES (2, 1,'2000-03-11', 25);
+INSERT personal_records_sp(id_athlete, id_specialty, date, value) VALUES (2, 2,'2000-03-11', 55);
 
 select * from personal_records_sp;
 select * from session;
@@ -179,8 +179,9 @@ select * from session_results;
 
 
 
-INSERT INTO session_results(id_session_results, wod_level, wod_score, specialty_score, id_session) VALUE (5,'SCALED',null,50,1);
-INSERT INTO session_results(id_session_results, wod_level, wod_score, specialty_score, id_session) VALUE (6,'SCALED',null,40,2);
+INSERT INTO session_results(id_session_results, wod_level, wod_score, specialty_score) VALUES (2,'SCALED',32,23);
+SELECT  MAX(p.value) FROM personal_records_sp p WHERE  p.id_athlete='2' AND p.id_specialty='1';
+
 
 INSERT INTO  session(id_session, id_coach, id_class, id_athlete, hour, id_specialty) VALUES (3, 1, 2, 3, '6:00',2);
 INSERT INTO session_results(id_session_results, wod_level, wod_score, specialty_score, id_session) VALUE (11,'SCALED',null,489,3);

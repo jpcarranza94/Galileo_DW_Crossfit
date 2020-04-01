@@ -63,13 +63,11 @@ CREATE TABLE `rxgoals` (
 );
 
 CREATE TABLE `class` (
-  `id_class` INT AUTO_INCREMENT,
-  `id_wod` INT,
-  `date` DATE UNIQUE,
-  `day_week` INT GENERATED ALWAYS AS (DAYOFWEEK(date)),
-  PRIMARY KEY (`id_class`),
-  CONSTRAINT `check_day_week` CHECK ( day_week <> 1 ),
-  CONSTRAINT `fk_id_wod_cw` FOREIGN KEY (id_wod) REFERENCES wod (id_wod) ON DELETE set null ON UPDATE CASCADE
+    `date` DATE PRIMARY KEY UNIQUE,
+    `id_wod` INT,
+    `day_week` INT GENERATED ALWAYS AS (DAYOFWEEK(date)),
+    CONSTRAINT `check_day_week` CHECK ( day_week <> 1 ),
+    CONSTRAINT `fk_id_wod_cw` FOREIGN KEY (id_wod) REFERENCES wod (id_wod) ON DELETE set null ON UPDATE CASCADE
 );
 
 CREATE TABLE `coach` (
@@ -91,30 +89,26 @@ CREATE TABLE `personal_records_wod` (
 );
 
 CREATE TABLE `session` (
-  `id_session` INT AUTO_INCREMENT,
+  `id_session` INT AUTO_INCREMENT UNIQUE,
   `id_specialty` INT,
   `id_warmup` INT,
   `id_athlete` INT,
   `id_coach` INT,
-  `id_class` INT,
+  `date` DATE,
   `hour` ENUM ('5:00','6:00','7:00','8:00','9:30','11:00','12:00','16:30','17:30','18:30','19:30'),
   PRIMARY KEY (`id_session`),
   CONSTRAINT `fk_id_specialty_ss` FOREIGN KEY (id_specialty) REFERENCES specialty (id_specialty) ON DELETE SET NULL ON UPDATE CASCADE,
   CONSTRAINT `fk_id_warmup_sw` FOREIGN KEY (id_warmup) REFERENCES warmup (id_warmup) ON DELETE SET NULL ON UPDATE CASCADE,
   CONSTRAINT `fk_id_athlete_sa` FOREIGN KEY (id_athlete) REFERENCES athlete (id_athlete) ON DELETE SET NULL ON UPDATE CASCADE,
   CONSTRAINT `fk_id_coach_sc` FOREIGN KEY (id_coach) REFERENCES coach (id_coach) ON DELETE SET NULL ON UPDATE CASCADE,
-  CONSTRAINT `fk_id_class_sc` FOREIGN KEY (id_class) REFERENCES class (id_class) ON DELETE SET NULL ON UPDATE CASCADE
+  CONSTRAINT `fk_id_class_sc` FOREIGN KEY (date) REFERENCES class (date) ON DELETE SET NULL ON UPDATE CASCADE
 );
 
 CREATE TABLE `session_results` (
-  `id_session_results` INT AUTO_INCREMENT,
+  `id_session_results` INT PRIMARY KEY REFERENCES session (id_session),
   `wod_level` ENUM ('RX','RX+','SCALED'),
   `wod_score` INT,
-  `specialty_score` INT,
-  id_session INT,
-
-  PRIMARY KEY (`id_session_results`),
-  CONSTRAINT `fk_id_session_sr` FOREIGN KEY (id_session) REFERENCES session(id_session) ON DELETE CASCADE ON UPDATE CASCADE
+  `specialty_score` INT
 );
 
 -- -----------------------------Triggers -------------------------------------------------------------------------------
@@ -125,12 +119,12 @@ CREATE TRIGGER day_validations
     BEGIN
 
         -- Clases de Lunes a Viernes en los horarios
-        IF ((SELECT c.day_week FROM class AS c WHERE c.id_class=new.id_class) <> 7) AND
+        IF ((SELECT c.day_week FROM class AS c WHERE c.date=new.date) <> 7) AND
            ((new.hour IN ('8:00','9:30','11:00'))) THEN
             signal sqlstate '45000' SET MESSAGE_TEXT = 'Ese horario no estan disponible de lunes a viernes';
 
         -- Clases Sabados en los horarios
-        ELSEIF ((SELECT c.day_week FROM class AS c WHERE c.id_class=new.id_class) = 7) AND
+        ELSEIF ((SELECT c.day_week FROM class AS c WHERE c.date=new.date) = 7) AND
         (new.hour IN ('5:00','6:00','7:00','12:00','16:30','17:30','18:30','19:30')) THEN
            signal sqlstate '45000' SET MESSAGE_TEXT = 'Ese horario no estan disponible el dia sabado';
 
@@ -148,8 +142,8 @@ CREATE TRIGGER athlete_coach_validations
     BEGIN
 
         -- El atleta solo puede recibir una clase por día
-        IF ((SELECT s.id_session FROM session as s JOIN class as c ON s.id_class=c.id_class JOIN athlete as a ON s.id_athlete = a.id_athlete
-        WHERE a.id_athlete = new.id_athlete AND c.id_class = new.id_class) IS NOT NULL) THEN
+        IF ((SELECT s.id_session FROM session as s JOIN class as c ON s.date=c.date JOIN athlete as a ON s.id_athlete = a.id_athlete
+        WHERE a.id_athlete = new.id_athlete AND c.date = new.date) IS NOT NULL) THEN
            signal sqlstate '45000' SET MESSAGE_TEXT = 'Solamente se puede una clase por dia';
 
         -- El Coach no puede ser atleta y coach en la misma clase
@@ -157,7 +151,7 @@ CREATE TRIGGER athlete_coach_validations
            signal sqlstate '45000' SET MESSAGE_TEXT = 'El coach puede ser atleta de su misma clase';
 
         -- El Coach no puede tener mas de 3 clases por dia
-        ELSEIF ((SELECT COUNT(DISTINCT s.hour) FROM session as s WHERE s.id_coach=new.id_coach and s.id_class=new.id_class) = 3 ) AND
+        ELSEIF ((SELECT COUNT(DISTINCT s.hour) FROM session as s WHERE s.id_coach=new.id_coach and s.date=new.date) = 3 ) AND
                ((SELECT DISTINCT se2.hour FROM  session as se2 WHERE se2.hour = new.hour) IS NULL )THEN
            signal sqlstate '45000' SET MESSAGE_TEXT = 'Un coach no puede tener más de 3 clases por dia';
 
@@ -189,7 +183,22 @@ Delimiter //
 CREATE TRIGGER update_max_pr_sp
     BEFORE INSERT ON session_results FOR EACH ROW
     BEGIN
+        DECLARE temp_id_athlete int;
+        DECLARE temp_date date;
+        DECLARE temp_id_specialty int;
+        DECLARE temp_maxcurrent double;
 
+        DECLARE errorMessage VARCHAR(255);
+
+        SET @temp_id_athlete := (SELECT s.id_athlete FROM session s WHERE  s.id_session=new.id_session_results);
+        SET @temp_date := (SELECT s.date FROM session s WHERE  s.id_session=new.id_session_results);
+        SET @temp_id_specialty := (SELECT s.id_specialty FROM session s WHERE  s.id_session=new.id_session_results);
+        SET @temp_maxcurrent := (SELECT  MAX(p.value) FROM personal_records_sp p WHERE  (p.id_athlete=@temp_id_athlete) AND (p.id_specialty=@temp_id_specialty));
+
+
+        SET errorMessage = CONCAT('Athlete: ', @temp_id_athlete,' ;date: ',@temp_date,' ;specialty: ',@temp_id_specialty, '; max: ', @temp_maxcurrent);
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = errorMessage;
+        /*
         DECLARE max_pr_score INT;
         SET max_pr_score = (SELECT MAX(p.value) FROM personal_records_sp p where p.id_athlete= (SELECT s.id_specialty FROM session s INNER JOIN session_results sr on sr.id_session = s.id_session WHERE sr.id_session = new.id_session)
              AND p.id_specialty =
@@ -211,7 +220,7 @@ CREATE TRIGGER update_max_pr_sp
             (SELECT c.date FROM class c INNER JOIN session s on c.id_class=s.id_class INNER JOIN session_results sr on sr.id_session = s.id_session WHERE sr.id_session = new.id_session),
             new.specialty_score);
         END IF;
-
+    */
     END;
 //
 Delimiter ;
