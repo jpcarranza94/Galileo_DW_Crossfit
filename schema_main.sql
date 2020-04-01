@@ -20,7 +20,7 @@ CREATE TABLE `athlete` (
   `height` FLOAT(3,2),
   `age` INT,
   `sex` ENUM ('M','F'),
-  `solvency` BOOLEAN,
+  `solvency` BOOLEAN NOT NULL,
   `telephone` INT,
   `DPI` INT,
   PRIMARY KEY (`id_athlete`)
@@ -44,7 +44,7 @@ CREATE TABLE `personal_records_sp` (
   `id_pr_sp` INT AUTO_INCREMENT,
   `id_athlete` INT,
   `id_specialty` INT,
-  `dia` TIMESTAMP,
+  `date` date,
   `value` DOUBLE,
   PRIMARY KEY (`id_pr_sp`),
   CONSTRAINT `fk_id_athlete_pra` FOREIGN KEY (id_athlete) REFERENCES athlete (id_athlete) ON DELETE CASCADE ON UPDATE CASCADE,
@@ -83,7 +83,7 @@ CREATE TABLE `personal_records_wod` (
   `id_pr_wod` INT AUTO_INCREMENT,
   `id_wod` INT,
   `id_athlete` INT,
-  `dia` TIMESTAMP,
+  `date` date,
   `value` DOUBLE,
   PRIMARY KEY (`id_pr_wod`),
   CONSTRAINT `fk_id_wod_pw` FOREIGN KEY (id_wod) REFERENCES wod (id_wod) ON DELETE SET NULL ON UPDATE    CASCADE,
@@ -97,9 +97,6 @@ CREATE TABLE `session` (
   `id_athlete` INT,
   `id_coach` INT,
   `id_class` INT,
-  `wod_level` ENUM ('RX','RX+','SCALED'), 
-  `wod_score` INT,
-  `specialty_score` INT,
   `hour` ENUM ('5:00','6:00','7:00','8:00','9:30','11:00','12:00','16:30','17:30','18:30','19:30'),
   PRIMARY KEY (`id_session`),
   CONSTRAINT `fk_id_specialty_ss` FOREIGN KEY (id_specialty) REFERENCES specialty (id_specialty) ON DELETE SET NULL ON UPDATE CASCADE,
@@ -107,6 +104,17 @@ CREATE TABLE `session` (
   CONSTRAINT `fk_id_athlete_sa` FOREIGN KEY (id_athlete) REFERENCES athlete (id_athlete) ON DELETE SET NULL ON UPDATE CASCADE,
   CONSTRAINT `fk_id_coach_sc` FOREIGN KEY (id_coach) REFERENCES coach (id_coach) ON DELETE SET NULL ON UPDATE CASCADE,
   CONSTRAINT `fk_id_class_sc` FOREIGN KEY (id_class) REFERENCES class (id_class) ON DELETE SET NULL ON UPDATE CASCADE
+);
+
+CREATE TABLE `session_results` (
+  `id_session_results` INT AUTO_INCREMENT,
+  `wod_level` ENUM ('RX','RX+','SCALED'),
+  `wod_score` INT,
+  `specialty_score` INT,
+  id_session INT,
+
+  PRIMARY KEY (`id_session_results`),
+  CONSTRAINT `fk_id_session_sr` FOREIGN KEY (id_session) REFERENCES session(id_session) ON DELETE CASCADE ON UPDATE CASCADE
 );
 
 -- -----------------------------Triggers -------------------------------------------------------------------------------
@@ -150,7 +158,7 @@ CREATE TRIGGER athlete_coach_validations
 
         -- El Coach no puede tener mas de 3 clases por dia
         ELSEIF ((SELECT COUNT(DISTINCT s.hour) FROM session as s WHERE s.id_coach=new.id_coach and s.id_class=new.id_class) = 3 ) AND
-        ((SELECT DISTINCT se2.hour FROM  session as se2 WHERE se2.hour = new.hour) IS NULL )  THEN
+               ((SELECT DISTINCT se2.hour FROM  session as se2 WHERE se2.hour = new.hour) IS NULL )THEN
            signal sqlstate '45000' SET MESSAGE_TEXT = 'Un coach no puede tener más de 3 clases por dia';
 
         END IF;
@@ -162,14 +170,46 @@ Delimiter ;
 -- ------------------------------------------------
 
 Delimiter //
-CREATE TRIGGER update_max_pr_sp
-    BEFORE INSERT ON personal_records_sp FOR EACH ROW
+CREATE TRIGGER solvency_validations
+    BEFORE INSERT ON session FOR EACH ROW
     BEGIN
 
-        -- Se modifica si se logra superar el máximo
-        IF (FALSE) THEN
-           signal sqlstate '45000' SET MESSAGE_TEXT = 'Solamente se puede una clase por dia';
+        -- Atleta no solvente
+        IF ((SELECT a.solvency FROM athlete a WHERE a.id_athlete = new.id_athlete) = 0) THEN
+            signal sqlstate '45000' SET MESSAGE_TEXT = 'Este atleta no se encuentra solvente de pago';
+        END IF;
 
+    END;
+//
+Delimiter ;
+
+-- ------------------------------------------------
+
+Delimiter //
+CREATE TRIGGER update_max_pr_sp
+    BEFORE INSERT ON session_results FOR EACH ROW
+    BEGIN
+
+        DECLARE max_pr_score INT;
+        SET max_pr_score = (SELECT MAX(p.value) FROM personal_records_sp p where p.id_athlete= (SELECT s.id_specialty FROM session s INNER JOIN session_results sr on sr.id_session = s.id_session WHERE sr.id_session = new.id_session)
+             AND p.id_specialty =
+        ((SELECT s.id_specialty FROM session s INNER JOIN session_results sr on sr.id_session = s.id_session WHERE sr.id_session = new.id_session)));
+
+
+        IF (max_pr_score IS NULL ) THEN
+             INSERT personal_records_sp(id_athlete, id_specialty, date, value) VALUES (
+            (SELECT s.id_athlete FROM session s INNER JOIN session_results sr on sr.id_session = s.id_session WHERE sr.id_session = new.id_session),
+            (SELECT s.id_specialty FROM session s INNER JOIN session_results sr on sr.id_session = s.id_session WHERE sr.id_session = new.id_session),
+            (SELECT c.date FROM class c INNER JOIN session s on c.id_class=s.id_class INNER JOIN session_results sr on sr.id_session = s.id_session WHERE sr.id_session = new.id_session),
+            new.specialty_score);
+
+        ELSEIF ((SELECT sr.specialty_score FROM session_results sr  INNER JOIN session s on sr.id_session = s.id_session WHERE sr.id_session = new.id_session) >
+             max_pr_score) THEN
+           INSERT personal_records_sp(id_athlete, id_specialty, date, value) VALUES (
+            (SELECT s.id_athlete FROM session s INNER JOIN session_results sr on sr.id_session = s.id_session WHERE sr.id_session = new.id_session),
+            (SELECT s.id_specialty FROM session s INNER JOIN session_results sr on sr.id_session = s.id_session WHERE sr.id_session = new.id_session),
+            (SELECT c.date FROM class c INNER JOIN session s on c.id_class=s.id_class INNER JOIN session_results sr on sr.id_session = s.id_session WHERE sr.id_session = new.id_session),
+            new.specialty_score);
         END IF;
 
     END;
