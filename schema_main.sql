@@ -195,33 +195,18 @@ CREATE TRIGGER update_max_pr_sp
         SET @temp_date := (SELECT s.date FROM session s WHERE  s.id_session=new.id_session_results);
         SET @temp_max_current := ((SELECT  MAX(p.value) FROM personal_records_sp p WHERE  (p.id_athlete=@temp_id_athlete) AND (p.id_specialty=@temp_id_specialty))*1);
 
+        -- SET errorMessage = CONCAT('Date: ',@temp_date,' |athlete: ', @temp_id_athlete,' |specialty: ',@temp_id_specialty, ' |max: ', @temp_max_current);
+        -- SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = errorMessage;
+
+        IF (@temp_max_current IS NULL) THEN
+             INSERT personal_records_sp(id_athlete, id_specialty, date, value) VALUES (@temp_id_athlete,@temp_id_specialty,@temp_date,new.specialty_score);
 
 
-        SET errorMessage = CONCAT('Date: ',@temp_date,' |athlete: ', @temp_id_athlete,' |specialty: ',@temp_id_specialty, ' |max: ', @temp_max_current);
-        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = errorMessage;
-        /*
-        DECLARE max_pr_score INT;
-        SET max_pr_score = (SELECT MAX(p.value) FROM personal_records_sp p where p.id_athlete= (SELECT s.id_specialty FROM session s INNER JOIN session_results sr on sr.id_session = s.id_session WHERE sr.id_session = new.id_session)
-             AND p.id_specialty =
-        ((SELECT s.id_specialty FROM session s INNER JOIN session_results sr on sr.id_session = s.id_session WHERE sr.id_session = new.id_session)));
+        ELSEIF (new.specialty_score > @temp_max_current) THEN
+            INSERT personal_records_sp(id_athlete, id_specialty, date, value) VALUES (@temp_id_athlete,@temp_id_specialty,@temp_date,new.specialty_score);
 
-
-        IF (max_pr_score IS NULL ) THEN
-             INSERT personal_records_sp(id_athlete, id_specialty, date, value) VALUES (
-            (SELECT s.id_athlete FROM session s INNER JOIN session_results sr on sr.id_session = s.id_session WHERE sr.id_session = new.id_session),
-            (SELECT s.id_specialty FROM session s INNER JOIN session_results sr on sr.id_session = s.id_session WHERE sr.id_session = new.id_session),
-            (SELECT c.date FROM class c INNER JOIN session s on c.id_class=s.id_class INNER JOIN session_results sr on sr.id_session = s.id_session WHERE sr.id_session = new.id_session),
-            new.specialty_score);
-
-        ELSEIF ((SELECT sr.specialty_score FROM session_results sr  INNER JOIN session s on sr.id_session = s.id_session WHERE sr.id_session = new.id_session) >
-             max_pr_score) THEN
-           INSERT personal_records_sp(id_athlete, id_specialty, date, value) VALUES (
-            (SELECT s.id_athlete FROM session s INNER JOIN session_results sr on sr.id_session = s.id_session WHERE sr.id_session = new.id_session),
-            (SELECT s.id_specialty FROM session s INNER JOIN session_results sr on sr.id_session = s.id_session WHERE sr.id_session = new.id_session),
-            (SELECT c.date FROM class c INNER JOIN session s on c.id_class=s.id_class INNER JOIN session_results sr on sr.id_session = s.id_session WHERE sr.id_session = new.id_session),
-            new.specialty_score);
         END IF;
-    */
+
     END;
 //
 Delimiter ;

@@ -169,39 +169,28 @@ INSERT INTO specialty(id_specialty, description, type, dim) VALUES (2,"Hola",'Sk
 
 INSERT INTO  session(id_coach, date, id_athlete, hour, id_specialty) VALUES (1, '2020-03-16', 2, '5:00',1);
 INSERT INTO  session(id_coach, date, id_athlete, hour, id_specialty) VALUES (1, '2020-03-16', 3, '6:00',1);
-INSERT INTO  session(id_coach, date, id_athlete, hour, id_specialty) VALUES (1, '2020-03-17', 3, '6:00',2);
-
-INSERT personal_records_sp(id_athlete, id_specialty, date, value) VALUES (2, 1,'2000-03-11', 25);
-INSERT personal_records_sp(id_athlete, id_specialty, date, value) VALUES (2, 1,'2000-03-11', 55);
-INSERT personal_records_sp(id_athlete, id_specialty, date, value) VALUES (3, 1,'2000-03-11', 60);
-
-INSERT personal_records_sp(id_athlete, id_specialty, date, value) VALUES (3, 2,'2000-03-11', 100);
+INSERT INTO  session(id_coach, date, id_athlete, hour, id_specialty) VALUES (1, '2020-03-17', 3, '6:00',1);
 
 select * from personal_records_sp;
 select * from session;
 select * from session_results;
 
+INSERT INTO session_results(id_session_results, wod_level, wod_score, specialty_score) VALUES (2,'SCALED',null,30);
+
+INSERT INTO session_results(id_session_results, wod_level, wod_score, specialty_score) VALUES (3,'SCALED',null,20);
+
+-- INSERT personal_records_sp(id_athlete, id_specialty, date, value) VALUES (2, 1,'2000-03-11', 25);
+-- INSERT personal_records_sp(id_athlete, id_specialty, date, value) VALUES (2, 1,'2000-03-11', 55);
+-- INSERT personal_records_sp(id_athlete, id_specialty, date, value) VALUES (3, 1,'2000-03-11', 60);
+
+-- INSERT personal_records_sp(id_athlete, id_specialty, date, value) VALUES (3, 2,'2000-03-11', 100);
+
+
+
 
 
 INSERT INTO session_results(id_session_results, wod_level, wod_score, specialty_score) VALUES (3,'SCALED',32,23);
-SELECT  MAX(DISTINCT p.value) FROM personal_records_sp p WHERE  p.id_athlete='2' AND p.id_specialty='1';
-
-
-INSERT INTO  session(id_session, id_coach, id_class, id_athlete, hour, id_specialty) VALUES (3, 1, 2, 3, '6:00',2);
-INSERT INTO session_results(id_session_results, wod_level, wod_score, specialty_score, id_session) VALUE (11,'SCALED',null,489,3);
-
-
-SELECT MAX(p.value) FROM personal_records_sp p where p.id_athlete='3' AND p.id_specialty='1';
-SELECT sr.specialty_score FROM session_results sr  INNER JOIN session s on sr.id_session = s.id_session WHERE sr.id_session = '3';
-
-SELECT s.id_athlete FROM session s INNER JOIN session_results sr on sr.id_session = s.id_session WHERE sr.id_session = '1';
-SELECT s.id_specialty FROM session s INNER JOIN session_results sr on sr.id_session = s.id_session WHERE sr.id_session = '1';
-SELECT c.date FROM class c INNER JOIN session s on c.id_class=s.id_class INNER JOIN session_results sr on sr.id_session = s.id_session WHERE sr.id_session = '1';
-
-SELECT * from personal_records_sp;
-
-SELECT MAX(p.value) FROM personal_records_sp p where p.id_athlete='3' AND p.id_specialty='1';
-
+SELECT sr.specialty_score FROM session_results sr  WHERE sr.id_session_results = '3';
 
 -- Query para unir 3 tablas (session, class, athlete)
 /*
