@@ -4,7 +4,7 @@ CREATE DATABASE crossfit;
 USE crossfit;
 
 CREATE TABLE  `wod` (
-  `id_wod` INT AUTO_INCREMENT,
+  `id_wod` INT AUTO_INCREMENT UNIQUE,
   `name` VARCHAR(25),
   `description` VARCHAR(500),
   `mode` ENUM ('AMRAP','EMOM','FOR TIME', 'TABATA', 'FOR MAX WEIGTH'),
@@ -186,24 +186,39 @@ CREATE TRIGGER update_max_pr_sp
         DECLARE temp_id_athlete int;
         DECLARE temp_date date;
         DECLARE temp_id_specialty int;
-        DECLARE temp_max_current double;
+        DECLARE temp_id_wod int;
+        DECLARE temp_max_current_sp double;
+        DECLARE temp_max_current_wod double;
 
         DECLARE errorMessage VARCHAR(255);
 
         SET @temp_id_athlete := (SELECT s.id_athlete FROM session s WHERE  s.id_session=new.id_session_results);
         SET @temp_id_specialty := (SELECT s.id_specialty FROM session s WHERE  s.id_session=new.id_session_results);
         SET @temp_date := (SELECT s.date FROM session s WHERE  s.id_session=new.id_session_results);
-        SET @temp_max_current := ((SELECT  MAX(p.value) FROM personal_records_sp p WHERE  (p.id_athlete=@temp_id_athlete) AND (p.id_specialty=@temp_id_specialty))*1);
+        SET @temp_max_current_sp := ((SELECT  MAX(p.value) FROM personal_records_sp p WHERE  (p.id_athlete=@temp_id_athlete) AND (p.id_specialty=@temp_id_specialty))*1);
+
+        SET @temp_id_wod := ((SELECT c.id_wod FROM class c WHERE  c.date=@temp_date));
+        SET @temp_max_current_wod := ((SELECT  MAX(p.value) FROM personal_records_wod p WHERE  (p.id_athlete=@temp_id_athlete) AND (p.id_wod=@temp_id_wod))*1);
+
+
 
         -- SET errorMessage = CONCAT('Date: ',@temp_date,' |athlete: ', @temp_id_athlete,' |specialty: ',@temp_id_specialty, ' |max: ', @temp_max_current);
         -- SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = errorMessage;
 
-        IF (@temp_max_current IS NULL) THEN
+        IF (@temp_max_current_sp IS NULL) THEN
              INSERT personal_records_sp(id_athlete, id_specialty, date, value) VALUES (@temp_id_athlete,@temp_id_specialty,@temp_date,new.specialty_score);
 
-
-        ELSEIF (new.specialty_score > @temp_max_current) THEN
+        ELSEIF (new.specialty_score > @temp_max_current_sp) THEN
             INSERT personal_records_sp(id_athlete, id_specialty, date, value) VALUES (@temp_id_athlete,@temp_id_specialty,@temp_date,new.specialty_score);
+
+        END IF;
+
+        IF (@temp_max_current_wod IS NULL) THEN
+            INSERT personal_records_wod(id_athlete, id_wod, date, value) VALUES (@temp_id_athlete,@temp_id_wod,@temp_date,new.wod_score);
+
+        ELSEIF (new.wod_score > @temp_max_current_wod) THEN
+            INSERT personal_records_wod(id_athlete, id_wod, date, value) VALUES (@temp_id_athlete,@temp_id_wod,@temp_date,new.wod_score);
+
 
         END IF;
 
