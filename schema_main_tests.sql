@@ -173,17 +173,17 @@ INSERT INTO  session(id_coach, date_, id_athlete, hour, id_specialty) VALUES (1,
 INSERT INTO  session(id_coach, date_, id_athlete, hour, id_specialty) VALUES (1, '2020-03-16', 3, '6:00',1);
 INSERT INTO  session(id_coach, date_, id_athlete, hour, id_specialty) VALUES (1, '2020-03-17', 3, '6:00',1);
 
+INSERT INTO rxgoals(id_rxgoals, id_wod, sex, rx, rxplus, dim) VALUES (1,1,'M',100,90,'kgs');
 
 INSERT INTO session_results(id_session_results, wod_level, wod_score, specialty_score) VALUES (2,'SCALED',10,30);
-
 INSERT INTO session_results(id_session_results, wod_level, wod_score, specialty_score) VALUES (3,'SCALED',15,20);
 
 
-select * from personal_records_sp;
-select * from personal_records_wod;
-select * from wod;
-select * from session;
-select * from session_results;
+#select * from personal_records_sp;
+#select * from personal_records_wod;
+#select * from wod;
+#select * from session;
+#select * from session_results;
 
 
 
@@ -193,13 +193,6 @@ select * from session_results;
 -- INSERT personal_records_sp(id_athlete, id_specialty, date, value) VALUES (3, 1,'2000-03-11', 60);
 
 -- INSERT personal_records_sp(id_athlete, id_specialty, date, value) VALUES (3, 2,'2000-03-11', 100);
-
-
-
-
-
-INSERT INTO session_results(id_session_results, wod_level, wod_score, specialty_score) VALUES (3,'SCALED',32,23);
-SELECT sr.specialty_score FROM session_results sr  WHERE sr.id_session_results = '3';
 
 -- Query para unir 3 tablas (session, class, athlete)
 /*

@@ -123,6 +123,7 @@ CREATE TABLE `temp_leaderboard_session` (
   `wod_mode` ENUM ('AMRAP','EMOM','FOR TIME', 'TABATA', 'FOR MAX WEIGTH'),
   `wod_type` ENUM ('The Girls','The Heroes','Normal'),
   `date_` DATE,
+  `dim` ENUM ('kgs','sec','reps','rounds'),
   CONSTRAINT `fk_id_leader` FOREIGN KEY (id_athlete) REFERENCES athlete (id_athlete),
   CONSTRAINT `fk_date` FOREIGN KEY (date_) REFERENCES class (date_)
 );
