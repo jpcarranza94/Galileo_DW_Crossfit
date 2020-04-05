@@ -21,7 +21,7 @@ CREATE TABLE `athlete` (
   `age` INT,
   `sex` ENUM ('M','F'),
   `solvency` BOOLEAN NOT NULL,
-  `telephone` INT,
+  `telephone` VARCHAR(10),
   `DPI` INT,
   PRIMARY KEY (`id_athlete`)
 );
@@ -252,12 +252,55 @@ CREATE TRIGGER update_max_pr_sp
         IF (@temp_max_current_wod IS NULL) THEN
             INSERT personal_records_wod(id_athlete, id_wod, date_, value) VALUES (@temp_id_athlete,@temp_id_wod,@temp_date,new.wod_score);
 
-        ELSEIF (new.wod_score > @temp_max_current_wod) THEN
+        ELSEIF ((new.wod_score > @temp_max_current_wod) AND ((SELECT w.type FROM wod w
+            INNER JOIN class c2 ON w.id_wod = c2.id_wod
+            INNER JOIN session s2 ON c2.date_ = s2.date_
+            INNER JOIN session_results sr ON s2.id_session = sr.id_session_results
+            WHERE sr.id_session_results = new.id_session_results) IN ('The Girls', 'The Heroes'))) THEN
             INSERT personal_records_wod(id_athlete, id_wod, date_, value) VALUES (@temp_id_athlete,@temp_id_wod,@temp_date,new.wod_score);
 
 
         END IF;
 
+    END;
+//
+Delimiter ;
+
+-- Trigger que asigna nivel de WOD en la tabla de session results dependiendo de rxgoals
+Delimiter //
+CREATE TRIGGER assign_wod_level
+    BEFORE INSERT ON session_results FOR EACH ROW
+    BEGIN
+        DECLARE  temp_athlete_sex INT;
+        DECLARE temp_wod_rx INT;
+        DECLARE temp_wod_rxplus INT;
+
+        SET @temp_athlete_sex = (SELECT a.sex FROM athlete a
+            INNER JOIN session s ON a.id_athlete = s.id_athlete
+            INNER JOIN session_results sr ON s.id_session = sr.id_session_results
+            WHERE sr.id_session_results = NEW.id_session_results);
+
+        SET @temp_wod_rx = (SELECT rx.rx FROM rxgoals rx
+            INNER JOIN class c ON rx.id_wod = c.id_wod
+            INNER JOIN session s2 ON c.date_ = s2.date_
+            INNER JOIN session_results r ON s2.id_session = r.id_session_results
+            WHERE (rx.sex = @temp_athlete_sex AND
+            r.id_session_results = NEW.id_session_results));
+
+        SET @temp_wod_rxplus = (SELECT rx.rxplus FROM rxgoals rx
+            INNER JOIN class c ON rx.id_wod = c.id_wod
+            INNER JOIN session s2 ON c.date_ = s2.date_
+            INNER JOIN session_results r ON s2.id_session = r.id_session_results
+            WHERE (rx.sex = @temp_athlete_sex AND
+            r.id_session_results = NEW.id_session_results));
+
+        IF (NEW.wod_score >= temp_wod_rxplus) THEN
+            SET NEW.wod_level = 2;
+        ELSEIF ((NEW.wod_score < temp_wod_rxplus) & (NEW.wod_score >= temp_wod_rx)) THEN
+            SET NEW.wod_level = 1;
+        ELSEIF (NEW.wod_score < temp_wod_rx) THEN
+            SET NEW.wod_level = 3;
+        END IF;
     END;
 //
 Delimiter ;
