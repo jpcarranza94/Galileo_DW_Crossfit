@@ -14,7 +14,7 @@ BEGIN
 
 
 
-    INSERT INTO temp_leaderboard_session
+    INSERT INTO temp_leaderboard_session (id_leaderboard, id_athlete, athlete_name, wod_level, wod_score, sex, wod_name, wod_mode, wod_type, date_, dim)
         SELECT
                sr.id_session_results,
                a.id_athlete,
@@ -52,7 +52,7 @@ BEGIN
 
 END;
 
-CALL leaderboard_date('2020-03-16');
+CALL leaderboard_date('2019-01-05');
 
 -- Vista para ver que atletas no se encuentran solventes --
 
@@ -110,7 +110,7 @@ BEGIN
     GROUP BY specialty_type;
 END;
 
-CALL personal_records(3);
+CALL personal_records(4);
 
 
 -- Vista de top 10 de resultados de WoDs “the girls" --
@@ -119,7 +119,7 @@ DROP PROCEDURE IF EXISTS Top10TheGirls;
 CREATE PROCEDURE Top10TheGirls()
 BEGIN
     SELECT
-           w.name 'Nombre',
+           w.name 'Nombre de WOD',
            w.mode 'Tipo de WOD',
            a.name 'Nombre de atleta',
            prw.value 'Record',
@@ -128,11 +128,12 @@ BEGIN
         INNER JOIN personal_records_wod prw ON w.id_wod = prw.id_wod
         INNER JOIN athlete a ON prw.id_athlete = a.id_athlete
     WHERE w.type = 'The Girls'
-    ORDER BY prw.value, w.mode DESC
+    ORDER BY prw.value DESC, w.mode
     LIMIT 10;
 END;
 
 -- Vista que permitir a cualquier atleta activo revisar log de sus clases y punteos desde que inicio en el box. --
+CALL Top10TheGirls();
 
 DROP PROCEDURE IF EXISTS LogClasesAtleta;
 
@@ -161,7 +162,7 @@ BEGIN
     ORDER BY s.date_;
 END;
 
-CALL LogClasesAtleta(3);
+CALL LogClasesAtleta(4);
 
 
 
