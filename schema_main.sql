@@ -34,6 +34,7 @@ CREATE TABLE `warmup` (
 
 CREATE TABLE `specialty` (
   `id_specialty` INT AUTO_INCREMENT,
+  `name` VARCHAR(25),
   `description` VARCHAR(500),
   `type` ENUM ('Skill','Strength','Lifting','Complex'),
   `dim` ENUM ('mts','seg','lbs'),
@@ -126,6 +127,21 @@ CREATE TABLE `temp_leaderboard_session` (
   `dim` ENUM ('kgs','sec','reps','rounds'),
   CONSTRAINT `fk_id_leader` FOREIGN KEY (id_athlete) REFERENCES athlete (id_athlete),
   CONSTRAINT `fk_date` FOREIGN KEY (date_) REFERENCES class (date_)
+);
+
+CREATE TABLE temp_pr_atleta (
+    athlete_id INT PRIMARY KEY REFERENCES athlete (id_athlete),
+    specialty_name VARCHAR(25),
+    specialty_id INT,
+    id_pr_sp INT,
+    value_pr_sp INT,
+    date_pr INT,
+    pr_90 INT GENERATED ALWAYS AS (value_pr_sp * 0.90),
+    pr_80 INT GENERATED ALWAYS AS (value_pr_sp * 0.80),
+    pr_70 INT GENERATED ALWAYS AS (value_pr_sp * 0.70),
+    pr_60 INT GENERATED ALWAYS AS (value_pr_sp * 0.60),
+    CONSTRAINT fk_specialty_id_temp FOREIGN KEY (specialty_id) REFERENCES specialty(id_specialty),
+    CONSTRAINT fk_id_pr_sp FOREIGN KEY (id_pr_sp) REFERENCES personal_records_sp(id_pr_sp)
 );
 
 -- -----------------------------Triggers -------------------------------------------------------------------------------

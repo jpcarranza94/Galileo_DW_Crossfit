@@ -1,8 +1,10 @@
+-- Vista de leaderboard diario --
+
 USE crossfit;
 
 DROP PROCEDURE IF EXISTS leaderboard_date;
 
-#temp_leaderboard_session(id_leaderboard, id_athlete, athlete_name, wod_level, wod_score, sex, wod_name, wod_mode, wod_type, date_)
+
 CREATE PROCEDURE leaderboard_date(_date DATE)
 BEGIN
     DECLARE sessionDate DATE;
@@ -50,3 +52,21 @@ BEGIN
 END;
 
 CALL leaderboard_date('2020-03-16');
+
+-- Vista para ver que atletas no se encuentran solventes --
+
+CREATE PROCEDURE AthletesNotSolvent()
+BEGIN
+    SELECT id_athlete, name, telephone, DPI, solvency
+    FROM athlete WHERE solvency = 0;
+END;
+
+-- Vista de PRs por movimiento por atleta más 90%, 80%, 70% y 60% del valor del PR, se debe incluir la fecha en la que se cumplió con el PR.--
+
+CREATE PROCEDURE personal_records(_id_athlete INT)
+BEGIN
+    DECLARE atleta INT;
+    SELECT _id_athlete INTO atleta;
+
+    TRUNCATE temp_pr_atleta;
+    
