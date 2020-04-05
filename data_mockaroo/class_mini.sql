@@ -1,0 +1,10 @@
+insert into class (date_, id_wod) values ('2019-01-10', 11);
+insert into class (date_, id_wod) values ('2019-01-08', 4);
+insert into class (date_, id_wod) values ('2019-01-11', 22);
+insert into class (date_, id_wod) values ('2019-01-10', 4);
+insert into class (date_, id_wod) values ('2019-01-07', 16);
+insert into class (date_, id_wod) values ('2019-01-07', 15);
+insert into class (date_, id_wod) values ('2019-01-08', 20);
+insert into class (date_, id_wod) values ('2019-01-09', 8);
+insert into class (date_, id_wod) values ('2019-01-09', 10);
+insert into class (date_, id_wod) values ('2019-01-10', 18);
