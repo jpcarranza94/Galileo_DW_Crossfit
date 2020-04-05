@@ -131,11 +131,14 @@ CREATE TABLE `temp_leaderboard_session` (
 
 CREATE TABLE temp_pr_atleta (
     athlete_id INT PRIMARY KEY REFERENCES athlete (id_athlete),
+    athlete_name VARCHAR(20),
     specialty_name VARCHAR(25),
     specialty_id INT,
+    specialty_type ENUM ('Skill','Strength','Lifting','Complex'),
     id_pr_sp INT,
     value_pr_sp INT,
-    date_pr INT,
+    date_pr DATE,
+    `dim` ENUM ('mts','seg','lbs'),
     pr_90 INT GENERATED ALWAYS AS (value_pr_sp * 0.90),
     pr_80 INT GENERATED ALWAYS AS (value_pr_sp * 0.80),
     pr_70 INT GENERATED ALWAYS AS (value_pr_sp * 0.70),
