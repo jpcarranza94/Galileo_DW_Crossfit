@@ -1,750 +1,752 @@
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (1, 4, 3, 24, 9, '2020-02-29', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (2, 3, 1, 34, 8, '2019-12-03', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (3, 22, 1, 18, 4, '2019-02-06', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (4, 12, 1, 2, 2, '2020-01-13', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (5, 12, 2, 18, 9, '2019-07-29', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (6, 7, 2, 42, 8, '2019-05-04', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (7, 18, 2, 64, 1, '2019-06-06', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (8, 10, 1, 37, 4, '2020-03-20', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (9, 2, 3, 17, 4, '2020-03-23', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (10, 13, 3, 3, 3, '2019-07-22', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (11, 14, 3, 58, 1, '2019-06-06', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (12, 20, 2, 59, 6, '2020-02-29', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (13, 23, 2, 26, 2, '2019-08-16', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (14, 10, 2, 48, 10, '2019-07-25', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (15, 7, 3, 68, 8, '2020-02-29', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (16, 23, 1, 51, 3, '2019-11-28', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (17, 5, 3, 1, 7, '2019-05-11', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (18, 16, 2, 42, 8, '2020-01-11', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (19, 16, 2, 25, 8, '2019-02-10', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (20, 19, 1, 35, 9, '2019-10-27', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (21, 12, 1, 3, 9, '2019-02-05', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (22, 5, 1, 8, 2, '2019-08-22', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (23, 6, 1, 7, 3, '2020-03-23', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (24, 10, 2, 51, 3, '2020-02-29', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (25, 3, 3, 14, 6, '2019-01-28', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (26, 12, 1, 61, 8, '2019-02-05', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (27, 14, 1, 21, 1, '2019-03-31', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (28, 3, 2, 5, 7, '2019-10-27', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (29, 12, 3, 33, 4, '2020-02-29', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (30, 8, 3, 24, 7, '2019-11-26', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (31, 3, 3, 41, 4, '2019-04-19', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (32, 1, 3, 73, 3, '2019-08-30', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (33, 16, 3, 31, 8, '2019-02-06', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (34, 15, 3, 35, 2, '2019-12-30', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (35, 25, 3, 46, 7, '2020-02-29', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (36, 24, 4, 59, 8, '2019-04-19', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (37, 15, 2, 34, 4, '2019-08-10', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (38, 19, 1, 71, 6, '2019-10-02', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (39, 6, 1, 45, 9, '2020-03-23', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (40, 3, 4, 30, 3, '2019-02-06', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (41, 18, 2, 3, 4, '2019-07-29', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (42, 11, 1, 30, 2, '2019-03-30', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (43, 1, 2, 75, 10, '2019-08-30', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (44, 4, 4, 63, 8, '2019-11-28', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (45, 15, 2, 42, 6, '2020-02-29', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (46, 4, 1, 70, 7, '2019-06-27', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (47, 15, 4, 22, 8, '2020-01-11', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (48, 7, 4, 34, 7, '2019-09-06', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (49, 18, 3, 60, 2, '2020-03-22', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (50, 15, 2, 18, 10, '2019-06-06', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (51, 24, 1, 64, 2, '2019-02-05', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (52, 9, 2, 31, 4, '2019-04-19', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (53, 4, 3, 50, 5, '2019-08-30', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (54, 18, 1, 41, 9, '2019-11-30', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (55, 4, 2, 30, 8, '2019-01-28', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (56, 10, 3, 14, 7, '2020-03-23', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (57, 11, 2, 62, 4, '2019-10-27', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (58, 8, 4, 18, 2, '2019-02-05', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (59, 14, 4, 22, 2, '2019-12-03', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (60, 8, 3, 70, 5, '2019-10-02', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (61, 25, 4, 47, 2, '2020-01-13', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (62, 11, 4, 47, 6, '2019-07-17', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (63, 24, 3, 59, 2, '2019-09-22', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (64, 16, 1, 55, 8, '2019-10-26', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (65, 10, 1, 35, 6, '2019-03-30', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (66, 24, 3, 18, 4, '2019-02-05', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (67, 1, 3, 41, 8, '2019-03-31', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (68, 4, 1, 39, 9, '2020-01-13', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (69, 11, 3, 68, 2, '2019-02-10', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (70, 8, 4, 40, 10, '2019-01-28', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (71, 18, 3, 29, 2, '2020-02-29', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (72, 2, 1, 12, 8, '2019-10-05', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (73, 19, 2, 36, 6, '2019-03-30', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (74, 3, 3, 54, 8, '2019-04-02', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (75, 22, 3, 67, 5, '2019-03-15', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (76, 6, 2, 24, 4, '2019-06-06', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (77, 21, 1, 34, 3, '2020-03-22', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (78, 21, 1, 52, 4, '2019-06-06', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (79, 3, 4, 72, 2, '2019-10-26', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (80, 14, 4, 58, 9, '2019-08-22', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (81, 8, 3, 48, 1, '2019-07-22', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (82, 7, 4, 24, 2, '2019-09-22', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (83, 20, 1, 4, 10, '2019-12-30', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (84, 23, 3, 22, 2, '2019-02-28', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (85, 14, 3, 21, 6, '2019-05-11', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (86, 21, 2, 19, 8, '2019-02-10', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (87, 2, 1, 65, 3, '2019-12-30', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (88, 15, 3, 2, 1, '2019-07-25', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (89, 16, 3, 27, 4, '2019-01-28', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (90, 7, 4, 29, 10, '2019-08-22', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (91, 24, 4, 30, 8, '2020-02-29', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (92, 8, 1, 64, 1, '2019-08-13', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (93, 11, 2, 61, 9, '2019-03-31', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (94, 23, 2, 72, 5, '2019-10-26', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (95, 7, 3, 59, 10, '2019-07-22', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (96, 6, 4, 36, 4, '2019-12-15', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (97, 1, 4, 71, 4, '2019-08-09', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (98, 13, 1, 57, 3, '2019-09-06', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (99, 13, 3, 38, 4, '2019-05-03', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (100, 25, 1, 70, 2, '2019-05-03', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (101, 10, 4, 68, 8, '2019-06-11', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (102, 16, 3, 4, 2, '2019-09-06', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (103, 18, 3, 74, 7, '2019-10-05', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (104, 5, 4, 53, 3, '2019-08-10', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (105, 6, 4, 14, 10, '2019-01-28', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (106, 19, 1, 9, 9, '2019-01-28', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (107, 2, 4, 12, 7, '2019-03-15', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (108, 9, 4, 5, 3, '2019-04-02', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (109, 16, 3, 64, 6, '2020-03-22', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (110, 13, 2, 36, 5, '2019-02-05', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (111, 20, 4, 62, 7, '2019-02-10', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (112, 14, 2, 28, 1, '2019-03-31', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (113, 10, 4, 53, 7, '2019-04-19', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (114, 19, 1, 53, 10, '2019-01-28', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (115, 7, 4, 16, 5, '2019-08-13', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (116, 2, 3, 70, 4, '2019-03-31', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (117, 3, 1, 50, 1, '2019-01-28', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (118, 25, 4, 62, 8, '2019-02-10', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (119, 20, 2, 14, 10, '2019-09-06', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (120, 22, 3, 31, 7, '2019-11-26', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (121, 5, 1, 26, 1, '2019-07-29', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (122, 2, 1, 22, 8, '2019-09-29', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (123, 2, 2, 16, 10, '2020-02-29', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (124, 13, 2, 10, 2, '2019-03-31', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (125, 4, 1, 64, 10, '2019-06-11', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (126, 19, 3, 24, 8, '2020-03-22', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (127, 15, 4, 40, 8, '2019-05-04', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (128, 11, 2, 62, 1, '2019-05-04', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (129, 25, 3, 33, 9, '2019-08-31', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (130, 23, 2, 7, 5, '2019-05-04', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (131, 21, 2, 64, 4, '2019-04-19', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (132, 12, 3, 39, 8, '2020-03-23', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (133, 20, 3, 37, 3, '2019-10-27', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (134, 10, 1, 40, 3, '2019-08-13', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (135, 22, 2, 28, 4, '2019-03-31', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (136, 22, 1, 75, 1, '2020-03-23', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (137, 9, 3, 10, 7, '2020-01-11', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (138, 3, 3, 63, 10, '2019-05-11', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (139, 12, 2, 52, 4, '2019-07-17', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (140, 2, 4, 1, 3, '2019-02-06', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (141, 14, 4, 74, 5, '2019-12-15', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (142, 6, 1, 55, 8, '2019-10-26', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (143, 20, 2, 66, 1, '2019-04-19', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (144, 14, 1, 13, 2, '2019-02-10', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (145, 23, 2, 60, 6, '2019-01-28', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (146, 14, 3, 15, 8, '2019-03-30', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (147, 5, 3, 40, 8, '2019-11-28', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (148, 14, 4, 73, 9, '2019-05-09', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (149, 21, 2, 66, 4, '2020-03-20', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (150, 22, 3, 68, 6, '2019-10-02', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (151, 15, 3, 27, 2, '2019-08-22', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (152, 7, 4, 42, 4, '2019-07-22', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (153, 17, 3, 21, 2, '2019-05-11', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (154, 16, 2, 26, 8, '2019-07-29', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (155, 2, 3, 22, 4, '2019-06-06', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (156, 24, 4, 19, 6, '2019-09-29', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (157, 24, 4, 11, 2, '2019-05-11', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (158, 7, 2, 31, 3, '2020-03-20', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (159, 22, 2, 40, 4, '2019-12-03', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (160, 18, 1, 47, 8, '2019-05-11', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (161, 17, 2, 26, 7, '2019-07-25', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (162, 23, 1, 42, 4, '2019-03-30', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (163, 9, 3, 40, 8, '2019-08-16', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (164, 22, 4, 71, 8, '2019-02-10', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (165, 22, 3, 14, 2, '2019-08-30', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (166, 22, 3, 2, 5, '2020-01-13', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (167, 5, 3, 67, 5, '2019-12-03', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (168, 11, 2, 45, 8, '2019-12-15', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (169, 2, 1, 64, 9, '2019-08-31', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (170, 15, 1, 29, 7, '2019-09-29', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (171, 20, 1, 26, 7, '2019-03-30', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (172, 8, 3, 67, 5, '2019-10-27', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (173, 19, 3, 21, 1, '2019-08-16', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (174, 21, 2, 70, 3, '2019-09-06', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (175, 16, 3, 16, 1, '2019-11-26', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (176, 11, 2, 7, 2, '2019-08-09', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (177, 5, 2, 13, 4, '2019-06-11', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (178, 10, 2, 14, 9, '2019-02-06', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (179, 10, 2, 60, 7, '2019-09-22', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (180, 19, 4, 58, 7, '2019-11-30', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (181, 17, 4, 21, 4, '2020-02-29', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (182, 22, 1, 52, 10, '2020-02-29', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (183, 4, 4, 25, 1, '2019-03-15', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (184, 10, 2, 66, 9, '2019-06-06', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (185, 8, 4, 34, 6, '2020-03-20', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (186, 12, 2, 41, 7, '2019-04-19', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (187, 20, 1, 20, 3, '2019-02-10', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (188, 5, 1, 21, 10, '2019-12-30', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (189, 22, 4, 34, 4, '2019-07-17', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (190, 4, 3, 41, 8, '2019-02-10', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (191, 10, 3, 72, 5, '2019-04-19', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (192, 21, 2, 4, 6, '2019-02-28', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (193, 4, 2, 38, 10, '2019-09-06', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (194, 5, 3, 23, 9, '2019-05-11', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (195, 2, 3, 50, 5, '2019-10-05', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (196, 11, 3, 26, 1, '2019-09-06', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (197, 6, 3, 33, 8, '2019-10-26', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (198, 3, 1, 45, 6, '2019-09-22', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (199, 5, 4, 74, 3, '2019-03-31', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (200, 22, 1, 28, 6, '2019-02-06', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (201, 13, 4, 38, 9, '2019-12-30', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (202, 25, 3, 13, 7, '2019-08-10', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (203, 14, 1, 74, 10, '2019-03-30', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (204, 5, 2, 57, 7, '2019-06-06', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (205, 2, 2, 47, 9, '2019-06-06', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (206, 15, 4, 61, 9, '2019-09-22', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (207, 7, 1, 69, 6, '2020-03-20', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (208, 3, 4, 36, 5, '2019-06-11', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (209, 4, 3, 33, 2, '2019-08-10', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (210, 13, 1, 62, 6, '2019-09-06', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (211, 6, 1, 6, 8, '2019-11-26', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (212, 10, 4, 72, 10, '2019-10-27', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (213, 8, 4, 62, 8, '2019-09-06', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (214, 7, 3, 68, 6, '2019-03-30', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (215, 17, 2, 49, 7, '2019-03-30', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (216, 2, 1, 13, 9, '2019-08-22', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (217, 7, 4, 52, 3, '2019-05-11', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (218, 17, 1, 54, 3, '2020-02-29', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (219, 6, 2, 21, 10, '2019-02-05', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (220, 6, 1, 57, 10, '2019-07-17', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (221, 8, 2, 43, 4, '2019-08-09', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (222, 19, 1, 25, 5, '2019-06-27', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (223, 24, 3, 29, 8, '2019-08-31', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (224, 11, 3, 3, 10, '2019-12-03', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (225, 10, 3, 19, 3, '2019-07-29', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (226, 11, 2, 19, 10, '2019-08-09', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (227, 18, 2, 66, 9, '2019-05-09', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (228, 3, 4, 18, 8, '2019-11-30', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (229, 25, 3, 12, 6, '2019-01-28', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (230, 2, 2, 28, 3, '2020-03-23', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (231, 3, 3, 17, 3, '2019-11-26', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (232, 11, 2, 47, 9, '2019-09-29', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (233, 19, 2, 47, 10, '2019-12-15', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (234, 18, 3, 9, 9, '2019-05-03', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (235, 21, 3, 59, 9, '2019-07-17', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (236, 7, 2, 15, 7, '2019-03-31', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (237, 14, 2, 32, 6, '2020-03-20', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (238, 7, 1, 41, 4, '2019-02-10', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (239, 18, 1, 21, 5, '2020-03-20', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (240, 1, 1, 12, 7, '2020-01-13', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (241, 16, 2, 66, 4, '2019-02-10', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (242, 18, 2, 42, 1, '2019-10-05', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (243, 8, 4, 66, 1, '2019-11-28', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (244, 23, 2, 11, 7, '2019-11-30', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (245, 15, 2, 6, 10, '2019-09-22', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (246, 5, 3, 41, 5, '2020-02-29', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (247, 12, 2, 43, 3, '2019-12-15', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (248, 6, 1, 56, 7, '2020-01-13', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (249, 4, 3, 63, 1, '2019-04-19', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (250, 12, 4, 3, 10, '2019-05-24', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (251, 21, 3, 16, 8, '2019-08-16', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (252, 23, 2, 10, 2, '2019-03-30', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (253, 5, 3, 10, 3, '2019-01-28', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (254, 7, 3, 6, 10, '2019-08-13', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (255, 23, 2, 75, 1, '2019-09-29', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (256, 10, 1, 71, 1, '2019-08-22', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (257, 18, 3, 20, 4, '2019-03-30', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (258, 6, 3, 48, 3, '2019-04-02', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (259, 7, 4, 12, 4, '2020-03-20', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (260, 2, 3, 11, 5, '2019-11-30', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (261, 18, 1, 15, 7, '2019-08-30', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (262, 21, 1, 62, 5, '2019-11-28', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (263, 22, 4, 8, 10, '2019-10-26', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (264, 9, 1, 52, 6, '2019-01-28', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (265, 7, 1, 11, 4, '2019-05-09', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (266, 11, 3, 4, 1, '2019-07-25', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (267, 8, 3, 1, 3, '2019-05-04', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (268, 7, 2, 17, 7, '2020-03-23', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (269, 14, 3, 31, 3, '2019-06-27', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (270, 22, 4, 49, 1, '2019-06-06', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (271, 15, 2, 2, 4, '2019-02-06', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (272, 7, 2, 14, 9, '2019-08-31', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (273, 12, 4, 44, 6, '2019-06-11', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (274, 11, 3, 37, 3, '2019-09-06', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (275, 18, 2, 44, 1, '2020-01-11', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (276, 11, 1, 66, 6, '2019-02-06', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (277, 9, 4, 54, 7, '2020-03-22', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (278, 7, 4, 1, 8, '2019-10-02', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (279, 24, 3, 33, 8, '2020-03-23', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (280, 3, 1, 10, 4, '2019-04-02', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (281, 22, 2, 4, 10, '2019-09-29', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (282, 14, 3, 20, 9, '2019-08-07', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (283, 15, 2, 56, 2, '2019-12-30', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (284, 21, 1, 8, 3, '2019-09-06', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (285, 2, 1, 8, 9, '2019-01-28', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (286, 13, 1, 63, 7, '2019-06-06', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (287, 10, 4, 25, 3, '2019-05-09', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (288, 19, 3, 45, 2, '2019-08-07', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (289, 18, 1, 24, 9, '2019-02-10', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (290, 18, 2, 53, 6, '2019-05-03', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (291, 1, 3, 67, 10, '2019-10-26', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (292, 25, 3, 66, 8, '2019-03-30', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (293, 16, 3, 20, 1, '2019-06-27', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (294, 14, 1, 62, 8, '2019-01-28', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (295, 22, 4, 6, 7, '2020-03-23', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (296, 6, 1, 40, 6, '2019-04-19', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (297, 11, 2, 45, 6, '2019-07-17', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (298, 1, 4, 35, 1, '2020-03-20', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (299, 2, 4, 67, 10, '2019-03-31', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (300, 25, 1, 34, 9, '2019-09-06', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (301, 12, 2, 22, 5, '2019-08-31', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (302, 25, 1, 70, 7, '2019-09-29', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (303, 3, 3, 35, 6, '2019-08-31', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (304, 1, 4, 16, 5, '2019-03-15', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (305, 7, 4, 75, 5, '2020-02-29', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (306, 16, 1, 68, 3, '2019-03-15', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (307, 18, 2, 66, 4, '2019-10-26', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (308, 2, 3, 37, 5, '2019-03-30', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (309, 12, 2, 66, 2, '2019-08-13', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (310, 20, 3, 73, 5, '2019-03-31', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (311, 8, 1, 69, 4, '2019-02-05', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (312, 14, 1, 47, 2, '2019-08-22', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (313, 5, 1, 52, 5, '2019-06-06', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (314, 24, 2, 32, 6, '2019-05-03', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (315, 3, 4, 10, 5, '2020-03-22', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (316, 23, 2, 13, 9, '2019-09-29', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (317, 13, 1, 12, 1, '2020-03-23', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (318, 13, 1, 25, 7, '2019-03-15', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (319, 18, 4, 1, 8, '2019-03-30', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (320, 4, 1, 51, 5, '2019-07-29', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (321, 14, 4, 54, 7, '2020-03-23', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (322, 11, 4, 61, 10, '2019-02-10', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (323, 1, 1, 9, 8, '2019-10-27', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (324, 4, 3, 33, 1, '2019-02-10', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (325, 3, 2, 35, 4, '2019-10-05', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (326, 22, 1, 37, 4, '2019-07-29', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (327, 4, 2, 41, 7, '2019-10-26', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (328, 12, 1, 7, 7, '2019-11-26', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (329, 25, 2, 8, 6, '2019-11-30', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (330, 9, 2, 65, 6, '2019-03-30', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (331, 18, 1, 57, 8, '2019-08-09', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (332, 17, 2, 6, 4, '2019-03-30', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (333, 6, 3, 38, 10, '2019-05-24', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (334, 10, 3, 35, 3, '2019-03-15', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (335, 11, 2, 36, 7, '2019-10-02', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (336, 19, 1, 57, 9, '2019-08-13', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (337, 6, 4, 73, 4, '2019-10-02', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (338, 14, 1, 40, 1, '2019-03-30', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (339, 5, 2, 25, 8, '2019-07-25', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (340, 11, 3, 15, 7, '2019-08-09', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (341, 18, 4, 67, 3, '2019-02-05', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (342, 7, 1, 75, 3, '2019-06-11', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (343, 18, 1, 22, 6, '2019-09-22', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (344, 10, 2, 63, 6, '2020-03-20', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (345, 6, 4, 9, 8, '2019-12-15', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (346, 14, 3, 27, 9, '2019-06-27', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (347, 20, 3, 19, 3, '2019-05-03', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (348, 7, 4, 75, 9, '2019-12-30', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (349, 1, 4, 41, 5, '2019-05-24', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (350, 14, 2, 66, 5, '2019-02-05', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (351, 15, 1, 52, 2, '2019-09-22', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (352, 25, 1, 27, 1, '2019-04-02', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (353, 18, 3, 52, 2, '2019-08-09', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (354, 24, 1, 18, 1, '2019-05-03', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (355, 14, 4, 28, 8, '2020-03-22', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (356, 8, 4, 57, 3, '2019-08-07', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (357, 22, 1, 73, 8, '2019-04-02', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (358, 13, 3, 23, 6, '2019-07-17', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (359, 4, 1, 66, 7, '2019-12-03', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (360, 24, 4, 15, 5, '2019-10-05', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (361, 5, 4, 46, 5, '2019-05-04', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (362, 7, 2, 12, 4, '2019-05-03', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (363, 6, 3, 35, 6, '2019-11-26', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (364, 6, 1, 32, 4, '2019-11-26', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (365, 22, 2, 27, 8, '2019-11-28', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (366, 24, 1, 39, 1, '2019-08-07', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (367, 22, 4, 51, 9, '2019-08-13', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (368, 24, 4, 45, 5, '2019-09-22', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (369, 18, 4, 48, 2, '2019-05-03', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (370, 2, 2, 14, 1, '2020-02-29', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (371, 10, 1, 54, 3, '2019-08-10', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (372, 24, 2, 61, 3, '2020-02-29', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (373, 15, 4, 59, 1, '2020-03-22', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (374, 17, 3, 14, 6, '2019-02-28', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (375, 17, 1, 49, 2, '2019-01-28', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (376, 17, 2, 31, 2, '2019-05-03', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (377, 18, 1, 24, 7, '2019-02-10', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (378, 23, 2, 33, 8, '2019-03-30', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (379, 9, 2, 33, 7, '2019-01-28', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (380, 3, 3, 31, 7, '2019-11-28', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (381, 12, 4, 2, 10, '2019-08-31', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (382, 22, 4, 74, 1, '2019-12-15', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (383, 4, 2, 63, 4, '2019-07-29', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (384, 23, 2, 15, 8, '2019-08-16', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (385, 5, 1, 61, 1, '2019-10-05', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (386, 14, 1, 7, 1, '2019-07-17', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (387, 17, 2, 72, 6, '2019-07-25', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (388, 25, 1, 61, 7, '2020-03-20', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (389, 16, 2, 59, 9, '2019-04-19', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (390, 14, 3, 3, 5, '2019-09-29', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (391, 5, 2, 35, 9, '2019-05-09', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (392, 11, 3, 14, 2, '2019-10-02', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (393, 18, 2, 48, 4, '2019-05-24', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (394, 15, 3, 59, 3, '2019-09-29', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (395, 7, 1, 45, 5, '2019-08-09', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (396, 18, 3, 60, 1, '2020-03-22', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (397, 24, 3, 30, 3, '2019-11-28', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (398, 7, 1, 64, 5, '2019-07-17', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (399, 17, 3, 66, 5, '2019-11-28', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (400, 17, 4, 51, 6, '2019-08-22', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (401, 12, 4, 14, 7, '2019-09-06', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (402, 22, 3, 24, 5, '2020-02-29', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (403, 1, 1, 70, 7, '2019-11-30', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (404, 24, 3, 11, 9, '2019-11-26', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (405, 7, 4, 5, 6, '2019-02-05', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (406, 13, 4, 67, 5, '2019-02-05', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (407, 25, 1, 64, 9, '2019-07-17', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (408, 25, 4, 22, 8, '2020-03-23', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (409, 13, 4, 11, 4, '2019-07-29', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (410, 8, 3, 56, 2, '2019-08-16', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (411, 18, 4, 59, 1, '2019-06-06', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (412, 3, 2, 56, 3, '2019-02-06', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (413, 8, 1, 64, 9, '2019-11-26', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (414, 24, 1, 8, 9, '2019-12-03', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (415, 8, 2, 16, 6, '2019-08-09', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (416, 19, 4, 41, 4, '2019-06-27', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (417, 17, 4, 69, 10, '2019-02-28', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (418, 23, 4, 50, 10, '2019-05-04', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (419, 23, 2, 62, 2, '2020-03-20', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (420, 14, 2, 48, 3, '2019-12-03', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (421, 9, 3, 42, 3, '2019-09-06', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (422, 20, 1, 20, 9, '2019-12-30', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (423, 4, 4, 37, 1, '2019-08-07', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (424, 8, 1, 11, 10, '2019-03-31', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (425, 4, 4, 67, 7, '2019-09-22', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (426, 6, 2, 62, 8, '2019-08-09', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (427, 19, 3, 63, 3, '2020-03-23', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (428, 13, 4, 39, 4, '2019-07-22', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (429, 5, 1, 8, 9, '2019-11-28', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (430, 23, 4, 61, 10, '2019-08-09', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (431, 23, 3, 57, 10, '2019-10-05', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (432, 24, 1, 41, 4, '2019-07-22', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (433, 3, 2, 38, 7, '2019-01-28', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (434, 24, 1, 41, 1, '2019-02-06', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (435, 18, 2, 7, 7, '2019-04-02', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (436, 8, 3, 28, 4, '2019-11-30', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (437, 21, 1, 15, 8, '2019-03-30', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (438, 2, 2, 71, 6, '2019-04-19', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (439, 15, 4, 27, 6, '2019-08-16', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (440, 12, 1, 45, 5, '2019-08-22', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (441, 7, 4, 29, 1, '2019-02-05', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (442, 17, 2, 23, 8, '2019-10-02', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (443, 11, 2, 31, 8, '2019-09-06', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (444, 16, 2, 51, 4, '2019-02-05', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (445, 3, 1, 25, 1, '2019-07-22', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (446, 23, 4, 43, 2, '2019-05-09', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (447, 9, 3, 11, 3, '2020-01-13', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (448, 8, 4, 66, 5, '2019-09-22', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (449, 23, 2, 71, 2, '2019-10-27', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (450, 13, 1, 30, 5, '2019-11-30', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (451, 14, 3, 47, 9, '2019-08-09', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (452, 9, 1, 18, 8, '2020-03-20', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (453, 7, 4, 51, 10, '2019-08-31', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (454, 17, 4, 50, 8, '2019-03-15', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (455, 24, 4, 36, 1, '2019-03-15', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (456, 7, 2, 42, 1, '2019-10-27', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (457, 5, 4, 41, 2, '2019-08-13', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (458, 19, 4, 36, 5, '2019-03-30', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (459, 5, 1, 60, 5, '2019-11-26', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (460, 14, 1, 1, 3, '2019-07-25', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (461, 6, 2, 24, 10, '2019-08-30', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (462, 8, 3, 34, 1, '2020-03-23', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (463, 25, 1, 66, 1, '2019-02-06', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (464, 9, 4, 67, 4, '2019-09-06', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (465, 10, 2, 18, 7, '2020-01-11', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (466, 10, 3, 68, 6, '2019-07-29', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (467, 22, 3, 24, 1, '2019-02-05', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (468, 11, 3, 57, 4, '2019-07-25', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (469, 18, 3, 29, 9, '2019-08-22', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (470, 9, 4, 19, 8, '2019-10-02', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (471, 11, 4, 64, 6, '2019-08-10', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (472, 23, 1, 51, 6, '2019-01-28', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (473, 25, 2, 28, 5, '2019-10-27', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (474, 2, 1, 33, 6, '2019-08-30', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (475, 15, 3, 16, 2, '2019-12-03', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (476, 20, 1, 33, 1, '2019-03-15', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (477, 18, 3, 11, 5, '2019-07-22', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (478, 6, 1, 66, 7, '2019-05-03', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (479, 2, 3, 21, 5, '2019-11-30', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (480, 4, 1, 69, 3, '2019-08-10', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (481, 23, 1, 16, 1, '2019-01-28', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (482, 2, 1, 7, 2, '2019-07-22', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (483, 20, 1, 1, 1, '2019-06-27', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (484, 1, 4, 43, 2, '2019-08-10', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (485, 16, 2, 20, 10, '2019-11-28', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (486, 12, 3, 23, 1, '2019-09-29', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (487, 24, 3, 13, 2, '2019-02-05', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (488, 7, 1, 53, 8, '2019-08-09', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (489, 22, 1, 45, 6, '2019-05-03', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (490, 1, 3, 30, 8, '2019-08-16', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (491, 19, 4, 68, 7, '2019-08-30', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (492, 14, 3, 47, 8, '2019-05-24', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (493, 19, 3, 5, 10, '2019-03-15', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (494, 19, 3, 14, 1, '2019-11-28', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (495, 24, 1, 55, 10, '2019-06-06', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (496, 17, 2, 7, 4, '2019-06-27', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (497, 17, 3, 29, 8, '2019-12-30', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (498, 2, 3, 46, 10, '2019-08-10', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (499, 12, 1, 75, 1, '2020-01-13', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (500, 6, 2, 45, 8, '2019-12-03', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (501, 3, 2, 68, 8, '2019-12-03', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (502, 11, 2, 73, 7, '2019-05-03', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (503, 18, 3, 9, 1, '2019-07-22', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (504, 14, 4, 56, 2, '2019-11-30', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (505, 24, 4, 38, 7, '2019-02-05', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (506, 3, 2, 60, 2, '2019-07-22', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (507, 4, 2, 25, 3, '2019-06-06', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (508, 15, 3, 61, 6, '2019-07-29', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (509, 18, 1, 28, 8, '2019-09-06', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (510, 14, 3, 57, 6, '2019-07-25', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (511, 5, 1, 54, 4, '2020-01-13', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (512, 18, 1, 72, 7, '2020-01-11', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (513, 19, 2, 47, 5, '2019-03-31', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (514, 14, 3, 30, 10, '2020-02-29', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (515, 7, 4, 60, 10, '2019-05-09', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (516, 3, 3, 47, 3, '2019-02-05', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (517, 24, 4, 38, 10, '2019-09-29', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (518, 2, 4, 58, 1, '2019-02-28', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (519, 24, 2, 56, 2, '2019-12-03', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (520, 12, 4, 59, 10, '2019-10-05', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (521, 3, 4, 29, 10, '2019-07-22', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (522, 6, 2, 60, 8, '2019-11-30', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (523, 5, 2, 49, 4, '2020-01-13', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (524, 2, 3, 59, 4, '2019-12-15', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (525, 8, 4, 48, 7, '2019-11-26', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (526, 11, 3, 55, 2, '2020-01-11', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (527, 15, 4, 73, 9, '2019-07-29', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (528, 19, 2, 65, 5, '2020-03-23', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (529, 5, 2, 63, 10, '2019-02-28', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (530, 12, 1, 70, 4, '2020-03-22', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (531, 20, 3, 75, 5, '2020-01-13', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (532, 10, 4, 57, 9, '2019-01-28', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (533, 18, 1, 28, 8, '2019-02-28', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (534, 18, 3, 73, 2, '2019-02-05', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (535, 5, 1, 58, 2, '2020-02-29', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (536, 2, 3, 62, 5, '2019-10-02', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (537, 3, 4, 36, 7, '2019-11-28', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (538, 14, 2, 44, 1, '2019-06-27', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (539, 22, 4, 60, 8, '2019-02-10', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (540, 12, 4, 8, 6, '2020-03-23', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (541, 18, 2, 29, 8, '2019-07-17', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (542, 25, 3, 65, 7, '2019-05-03', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (543, 14, 2, 44, 5, '2019-10-02', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (544, 2, 4, 4, 8, '2019-08-13', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (545, 21, 3, 3, 10, '2019-04-02', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (546, 23, 2, 61, 1, '2019-07-22', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (547, 4, 3, 29, 7, '2019-06-27', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (548, 1, 2, 44, 6, '2019-08-10', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (549, 12, 2, 13, 7, '2020-03-20', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (550, 3, 3, 6, 7, '2019-09-22', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (551, 23, 2, 29, 3, '2019-08-16', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (552, 13, 3, 28, 5, '2019-05-11', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (553, 1, 1, 53, 6, '2019-01-28', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (554, 5, 4, 50, 6, '2019-07-29', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (555, 3, 1, 61, 3, '2019-07-22', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (556, 11, 3, 5, 10, '2019-11-28', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (557, 22, 1, 69, 1, '2019-08-22', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (558, 15, 3, 26, 2, '2019-08-31', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (559, 2, 1, 20, 3, '2019-12-15', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (560, 11, 1, 31, 10, '2019-08-31', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (561, 25, 3, 49, 3, '2019-09-22', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (562, 5, 2, 19, 4, '2019-02-05', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (563, 25, 4, 19, 6, '2019-05-11', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (564, 19, 4, 64, 1, '2019-03-31', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (565, 18, 2, 19, 5, '2019-03-30', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (566, 13, 1, 27, 1, '2019-02-10', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (567, 4, 4, 69, 6, '2019-07-25', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (568, 7, 4, 64, 3, '2019-08-31', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (569, 21, 2, 11, 9, '2019-08-10', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (570, 20, 1, 66, 9, '2019-12-30', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (571, 11, 1, 45, 1, '2019-08-10', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (572, 6, 2, 23, 6, '2019-12-30', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (573, 24, 3, 65, 8, '2020-02-29', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (574, 4, 4, 43, 1, '2019-10-27', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (575, 15, 2, 11, 8, '2019-04-02', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (576, 5, 3, 5, 2, '2019-10-05', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (577, 22, 2, 44, 10, '2019-03-15', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (578, 14, 1, 46, 6, '2019-10-05', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (579, 20, 2, 42, 3, '2019-08-16', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (580, 2, 1, 44, 10, '2019-04-19', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (581, 12, 1, 73, 9, '2019-05-24', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (582, 2, 2, 56, 8, '2019-06-11', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (583, 19, 1, 27, 1, '2019-04-02', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (584, 12, 4, 44, 9, '2019-08-09', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (585, 13, 1, 25, 9, '2019-10-27', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (586, 18, 2, 11, 4, '2020-03-22', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (587, 3, 3, 34, 5, '2019-11-26', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (588, 3, 3, 48, 4, '2019-10-05', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (589, 10, 4, 4, 10, '2019-06-11', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (590, 5, 1, 47, 3, '2019-05-11', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (591, 20, 2, 20, 3, '2019-03-30', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (592, 3, 3, 42, 9, '2019-08-13', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (593, 15, 2, 15, 7, '2019-04-19', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (594, 2, 3, 28, 3, '2019-06-11', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (595, 8, 2, 4, 7, '2019-11-26', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (596, 19, 4, 42, 6, '2019-04-19', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (597, 7, 2, 7, 1, '2019-02-06', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (598, 10, 4, 52, 10, '2019-07-29', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (599, 6, 4, 55, 2, '2019-08-31', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (600, 12, 2, 53, 7, '2020-03-20', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (601, 7, 3, 47, 9, '2020-03-23', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (602, 18, 1, 49, 8, '2019-05-11', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (603, 4, 1, 62, 5, '2019-09-06', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (604, 5, 4, 38, 2, '2019-08-16', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (605, 21, 1, 26, 10, '2019-11-26', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (606, 15, 4, 21, 1, '2019-05-11', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (607, 7, 3, 20, 1, '2019-07-17', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (608, 13, 2, 14, 6, '2020-01-13', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (609, 9, 1, 72, 8, '2019-08-13', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (610, 21, 1, 28, 1, '2020-03-22', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (611, 23, 3, 54, 3, '2019-10-27', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (612, 5, 3, 25, 3, '2019-03-30', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (613, 16, 2, 75, 4, '2019-11-28', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (614, 23, 2, 42, 1, '2019-02-06', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (615, 10, 1, 26, 3, '2019-02-05', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (616, 12, 2, 56, 5, '2019-09-22', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (617, 16, 3, 54, 5, '2019-07-25', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (618, 20, 1, 17, 5, '2019-05-09', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (619, 12, 3, 62, 1, '2019-01-28', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (620, 24, 2, 50, 1, '2019-07-22', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (621, 16, 4, 35, 2, '2019-07-22', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (622, 7, 1, 69, 7, '2019-03-30', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (623, 5, 1, 40, 1, '2020-03-23', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (624, 9, 3, 18, 5, '2019-03-30', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (625, 15, 4, 5, 2, '2019-09-29', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (626, 20, 1, 7, 6, '2019-10-05', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (627, 14, 4, 20, 7, '2019-08-07', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (628, 9, 1, 11, 5, '2019-06-11', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (629, 16, 1, 25, 3, '2019-09-29', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (630, 10, 4, 54, 6, '2019-07-22', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (631, 11, 4, 52, 7, '2019-03-31', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (632, 16, 3, 62, 4, '2019-08-16', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (633, 19, 2, 5, 1, '2019-03-30', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (634, 13, 3, 1, 6, '2019-09-06', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (635, 15, 1, 72, 2, '2020-01-13', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (636, 2, 2, 74, 7, '2019-06-11', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (637, 8, 3, 16, 2, '2020-03-23', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (638, 3, 2, 67, 6, '2020-03-20', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (639, 5, 4, 56, 7, '2020-02-29', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (640, 23, 3, 23, 8, '2019-02-05', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (641, 24, 4, 60, 5, '2019-08-22', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (642, 24, 3, 42, 5, '2019-11-28', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (643, 11, 4, 8, 6, '2019-10-27', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (644, 8, 3, 31, 9, '2019-02-28', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (645, 1, 3, 6, 4, '2019-03-30', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (646, 23, 4, 37, 10, '2019-05-04', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (647, 9, 4, 52, 5, '2020-03-23', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (648, 20, 2, 25, 6, '2019-08-07', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (649, 15, 1, 32, 7, '2019-08-31', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (650, 3, 3, 18, 1, '2020-03-23', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (651, 13, 2, 55, 2, '2019-05-03', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (652, 5, 3, 61, 6, '2019-07-22', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (653, 1, 2, 8, 9, '2019-12-03', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (654, 14, 3, 57, 1, '2019-02-28', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (655, 19, 3, 32, 10, '2019-05-11', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (656, 13, 1, 32, 3, '2019-07-29', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (657, 16, 3, 8, 7, '2019-05-04', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (658, 25, 1, 13, 6, '2020-02-29', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (659, 6, 3, 43, 3, '2019-01-28', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (660, 5, 2, 53, 7, '2019-04-19', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (661, 4, 4, 63, 2, '2019-06-27', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (662, 20, 2, 43, 10, '2019-10-05', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (663, 1, 3, 58, 4, '2019-04-19', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (664, 7, 1, 69, 3, '2020-03-23', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (665, 3, 3, 16, 2, '2019-02-10', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (666, 15, 1, 17, 6, '2020-03-23', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (667, 3, 1, 65, 9, '2019-05-04', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (668, 14, 4, 2, 8, '2019-09-22', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (669, 20, 2, 37, 10, '2019-10-05', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (670, 15, 4, 56, 5, '2019-06-27', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (671, 2, 2, 26, 1, '2019-07-22', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (672, 5, 3, 1, 10, '2020-03-23', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (673, 6, 1, 64, 10, '2019-08-10', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (674, 25, 3, 30, 6, '2019-11-30', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (675, 13, 4, 25, 5, '2019-02-10', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (676, 15, 3, 27, 2, '2019-08-30', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (677, 14, 4, 12, 10, '2019-03-31', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (678, 16, 1, 18, 9, '2019-11-28', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (679, 8, 1, 48, 10, '2019-08-09', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (680, 23, 3, 10, 8, '2019-02-10', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (681, 25, 2, 13, 9, '2019-07-25', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (682, 13, 1, 48, 6, '2019-02-28', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (683, 6, 3, 39, 1, '2019-12-03', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (684, 9, 4, 75, 4, '2019-07-22', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (685, 24, 2, 3, 10, '2019-08-10', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (686, 18, 4, 46, 3, '2019-09-06', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (687, 12, 2, 50, 10, '2019-09-22', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (688, 1, 2, 27, 5, '2019-10-26', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (689, 14, 2, 53, 5, '2020-03-23', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (690, 8, 2, 73, 1, '2019-06-27', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (691, 4, 1, 58, 8, '2019-05-04', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (692, 25, 4, 44, 1, '2019-09-29', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (693, 3, 2, 23, 6, '2019-03-30', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (694, 3, 4, 43, 8, '2019-03-15', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (695, 20, 3, 13, 4, '2019-02-28', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (696, 22, 2, 14, 1, '2019-03-30', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (697, 7, 3, 50, 5, '2020-03-22', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (698, 20, 2, 9, 7, '2020-01-13', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (699, 17, 3, 70, 7, '2019-08-09', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (700, 10, 4, 71, 9, '2019-08-13', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (701, 6, 3, 48, 2, '2019-02-28', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (702, 17, 3, 3, 7, '2019-02-06', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (703, 2, 1, 57, 5, '2019-08-31', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (704, 4, 1, 64, 4, '2019-09-06', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (705, 13, 2, 21, 6, '2019-09-22', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (706, 15, 4, 1, 2, '2019-02-05', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (707, 6, 3, 5, 1, '2019-12-30', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (708, 4, 4, 75, 9, '2019-08-09', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (709, 22, 1, 11, 9, '2019-10-05', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (710, 17, 3, 73, 10, '2019-06-11', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (711, 14, 1, 1, 1, '2019-02-06', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (712, 16, 4, 7, 3, '2019-11-28', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (713, 25, 2, 30, 6, '2019-08-13', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (714, 18, 3, 38, 6, '2020-03-20', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (715, 3, 1, 27, 6, '2020-03-23', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (716, 13, 1, 1, 8, '2019-08-09', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (717, 23, 3, 45, 6, '2019-03-30', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (718, 10, 2, 62, 9, '2020-01-11', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (719, 1, 3, 74, 1, '2019-12-03', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (720, 6, 1, 65, 8, '2019-02-05', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (721, 19, 4, 36, 10, '2020-01-13', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (722, 23, 1, 53, 1, '2019-11-30', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (723, 10, 2, 25, 6, '2019-07-17', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (724, 17, 4, 15, 1, '2019-03-30', '8:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (725, 21, 1, 35, 8, '2019-12-15', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (726, 8, 3, 13, 9, '2019-07-25', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (727, 12, 4, 10, 10, '2020-03-22', '7:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (728, 5, 3, 32, 6, '2019-11-30', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (729, 7, 3, 25, 4, '2020-01-13', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (730, 3, 3, 11, 7, '2019-06-11', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (731, 4, 2, 67, 4, '2020-01-11', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (732, 2, 2, 75, 9, '2019-12-30', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (733, 25, 2, 6, 4, '2020-02-29', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (734, 16, 3, 59, 5, '2019-08-16', '6:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (735, 3, 4, 52, 4, '2019-11-28', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (736, 25, 4, 5, 4, '2019-05-24', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (737, 8, 3, 38, 6, '2019-08-07', '11:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (738, 5, 2, 57, 9, '2019-12-30', '16:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (739, 2, 2, 2, 4, '2020-01-13', '19:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (740, 19, 4, 52, 9, '2019-10-26', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (741, 21, 1, 27, 6, '2019-08-31', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (742, 17, 1, 25, 2, '2019-05-09', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (743, 13, 2, 47, 8, '2019-06-27', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (744, 21, 4, 27, 3, '2019-07-22', '9:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (745, 22, 2, 2, 6, '2020-01-13', '17:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (746, 15, 2, 1, 1, '2020-01-11', '18:30');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (747, 14, 3, 32, 7, '2019-09-06', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (748, 22, 3, 28, 2, '2019-03-30', '5:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (749, 12, 4, 15, 7, '2019-11-30', '12:00');
-insert into session (id_session, id_specialty, id_warmup, id_athlete, id_coach, date_, hour) values (750, 12, 2, 64, 4, '2019-11-28', '11:00');
+
+INSERT INTO session VALUES
+(1,24,4,68,5,'06-02-19','18:30'),
+(2,22,3,8,3,'04-02-19','19:30'),
+(3,18,4,16,2,'25-01-19','17:30'),
+(4,25,3,59,3,'23-02-19','8:00'),
+(5,9,3,74,12,'11-01-19','7:00'),
+(6,25,2,52,8,'08-02-19','18:30'),
+(7,19,1,33,10,'29-01-19','17:30'),
+(8,2,4,50,10,'06-02-19','18:30'),
+(9,4,4,9,2,'12-02-19','12:00'),
+(10,5,1,49,9,'04-02-19','6:00'),
+(11,3,2,22,7,'07-01-19','7:00'),
+(12,10,3,26,3,'16-01-19','19:30'),
+(13,18,3,47,1,'16-01-19','12:00'),
+(14,1,1,18,1,'11-01-19','6:00'),
+(15,25,2,19,12,'01-02-19','19:30'),
+(16,18,3,44,7,'19-01-19','8:00'),
+(17,6,4,31,3,'22-02-19','16:30'),
+(18,21,2,38,11,'25-02-19','16:30'),
+(19,6,3,15,9,'21-01-19','12:00'),
+(20,17,1,68,2,'13-02-19','5:00'),
+(21,25,4,68,6,'29-01-19','12:00'),
+(22,17,3,12,1,'29-01-19','5:00'),
+(23,16,3,67,9,'26-01-19','9:30'),
+(24,23,3,26,5,'29-01-19','6:00'),
+(25,17,1,16,4,'15-02-19','18:30'),
+(26,19,2,48,12,'30-01-19','7:00'),
+(27,14,3,54,2,'08-01-19','19:30'),
+(28,5,1,69,5,'11-02-19','18:30'),
+(29,14,1,27,7,'19-01-19','9:30'),
+(30,9,3,53,5,'15-01-19','16:30'),
+(31,11,4,57,9,'11-01-19','19:30'),
+(32,13,1,75,2,'07-02-19','12:00'),
+(33,14,3,35,9,'08-01-19','16:30'),
+(34,25,3,66,8,'15-02-19','7:00'),
+(35,16,3,75,1,'21-01-19','5:00'),
+(36,24,2,3,1,'01-02-19','6:00'),
+(37,21,4,38,8,'08-02-19','18:30'),
+(38,16,3,31,10,'13-02-19','6:00'),
+(39,17,1,6,7,'13-02-19','18:30'),
+(40,9,1,68,5,'14-01-19','6:00'),
+(41,6,2,39,12,'14-01-19','5:00'),
+(42,23,3,25,7,'09-01-19','7:00'),
+(43,1,2,4,10,'21-01-19','6:00'),
+(44,9,3,52,8,'12-01-19','8:00'),
+(45,1,4,58,12,'13-02-19','12:00'),
+(46,17,2,53,8,'24-01-19','19:30'),
+(47,22,2,47,11,'14-01-19','5:00'),
+(48,25,1,16,8,'20-02-19','18:30'),
+(49,25,4,73,11,'18-02-19','19:30'),
+(50,7,3,68,3,'02-02-19','9:30'),
+(51,13,3,46,8,'21-02-19','5:00'),
+(52,24,2,54,3,'09-01-19','18:30'),
+(53,19,3,42,7,'13-02-19','17:30'),
+(54,5,1,46,3,'06-02-19','12:00'),
+(55,4,1,16,9,'15-02-19','7:00'),
+(56,14,4,68,6,'11-02-19','16:30'),
+(57,10,1,7,2,'15-02-19','5:00'),
+(58,6,2,71,8,'13-02-19','5:00'),
+(59,24,3,1,9,'08-02-19','17:30'),
+(60,6,4,57,4,'20-02-19','17:30'),
+(61,6,2,52,2,'09-02-19','8:00'),
+(62,13,3,67,1,'08-02-19','6:00'),
+(63,9,4,36,1,'17-01-19','7:00'),
+(64,3,2,72,9,'14-02-19','17:30'),
+(65,12,4,66,10,'18-02-19','7:00'),
+(66,13,4,54,9,'17-01-19','17:30'),
+(67,2,1,29,8,'30-01-19','12:00'),
+(68,3,4,25,8,'20-02-19','17:30'),
+(69,10,3,9,7,'08-02-19','19:30'),
+(70,1,3,18,12,'09-02-19','9:30'),
+(71,22,1,45,6,'25-01-19','18:30'),
+(72,18,1,23,4,'14-02-19','18:30'),
+(73,12,3,70,10,'17-01-19','16:30'),
+(74,17,4,18,7,'10-01-19','12:00'),
+(75,23,3,50,7,'08-01-19','18:30'),
+(76,22,3,40,11,'19-01-19','8:00'),
+(77,23,4,42,9,'09-01-19','6:00'),
+(78,1,4,18,7,'30-01-19','17:30'),
+(79,16,2,75,11,'07-01-19','16:30'),
+(80,10,2,45,6,'25-01-19','5:00'),
+(81,14,1,41,6,'09-02-19','11:00'),
+(82,2,3,65,9,'02-02-19','9:30'),
+(83,2,3,52,1,'22-01-19','6:00'),
+(84,19,1,69,3,'08-01-19','5:00'),
+(85,3,3,45,9,'19-02-19','19:30'),
+(86,3,1,61,3,'01-02-19','6:00'),
+(87,3,2,19,7,'07-02-19','6:00'),
+(88,15,2,20,2,'02-02-19','8:00'),
+(89,2,1,24,2,'21-01-19','18:30'),
+(90,3,2,67,2,'17-01-19','6:00'),
+(91,23,1,50,10,'12-02-19','19:30'),
+(92,21,2,67,3,'21-01-19','17:30'),
+(93,24,1,30,1,'28-01-19','6:00'),
+(94,8,2,9,12,'12-02-19','19:30'),
+(95,20,2,24,12,'09-02-19','9:30'),
+(96,22,4,39,10,'13-02-19','6:00'),
+(97,2,4,42,5,'08-01-19','16:30'),
+(98,21,3,70,1,'12-01-19','11:00'),
+(99,1,4,32,11,'11-02-19','16:30'),
+(100,5,1,20,6,'02-02-19','9:30'),
+(101,1,3,7,12,'22-01-19','5:00'),
+(102,13,3,72,8,'10-01-19','5:00'),
+(103,24,2,53,12,'11-02-19','17:30'),
+(104,15,1,70,5,'26-01-19','8:00'),
+(105,24,4,16,10,'13-02-19','12:00'),
+(106,15,4,32,12,'20-02-19','17:30'),
+(107,12,1,19,5,'31-01-19','12:00'),
+(108,21,1,39,3,'16-02-19','8:00'),
+(109,20,2,50,11,'05-02-19','19:30'),
+(110,9,2,13,1,'21-01-19','7:00'),
+(111,2,1,31,4,'19-01-19','11:00'),
+(112,19,4,22,12,'12-01-19','8:00'),
+(113,19,3,25,9,'08-01-19','17:30'),
+(114,3,2,71,5,'26-01-19','8:00'),
+(115,24,2,41,2,'01-02-19','5:00'),
+(116,14,2,70,1,'12-02-19','16:30'),
+(117,12,3,66,10,'09-01-19','19:30'),
+(118,3,1,29,6,'18-02-19','17:30'),
+(119,1,1,63,11,'12-02-19','16:30'),
+(120,18,3,58,7,'25-01-19','6:00'),
+(121,25,4,11,3,'20-02-19','7:00'),
+(122,5,3,1,2,'11-02-19','5:00'),
+(123,8,3,14,11,'12-01-19','11:00'),
+(124,20,2,71,10,'28-01-19','19:30'),
+(125,17,3,24,10,'04-02-19','5:00'),
+(126,20,4,41,7,'11-01-19','16:30'),
+(127,25,1,62,8,'15-01-19','5:00'),
+(128,8,4,37,1,'09-02-19','8:00'),
+(129,3,3,62,8,'30-01-19','5:00'),
+(130,11,3,36,6,'25-01-19','18:30'),
+(131,25,3,44,6,'20-02-19','5:00'),
+(132,21,2,51,6,'21-02-19','17:30'),
+(133,10,3,33,8,'07-02-19','19:30'),
+(134,4,4,19,2,'14-01-19','19:30'),
+(135,17,4,20,3,'19-01-19','11:00'),
+(136,15,1,9,4,'19-02-19','5:00'),
+(137,5,4,23,4,'25-02-19','5:00'),
+(138,5,3,72,6,'22-02-19','16:30'),
+(139,1,2,52,3,'16-01-19','6:00'),
+(140,13,3,44,4,'24-01-19','16:30'),
+(141,7,3,33,8,'15-01-19','18:30'),
+(142,4,2,39,10,'28-01-19','19:30'),
+(143,12,2,66,3,'19-02-19','16:30'),
+(144,24,2,63,11,'29-01-19','19:30'),
+(145,20,4,26,3,'06-02-19','6:00'),
+(146,2,1,42,6,'09-01-19','12:00'),
+(147,19,1,75,10,'14-01-19','6:00'),
+(148,21,4,38,9,'04-02-19','6:00'),
+(149,3,2,6,10,'23-02-19','11:00'),
+(150,14,1,6,2,'31-01-19','7:00'),
+(151,20,2,53,10,'15-02-19','7:00'),
+(152,22,4,58,8,'21-02-19','19:30'),
+(153,24,4,46,7,'15-02-19','16:30'),
+(154,9,1,12,6,'18-02-19','7:00'),
+(155,11,3,71,9,'20-02-19','18:30'),
+(156,20,2,24,10,'25-01-19','16:30'),
+(157,10,4,16,4,'02-02-19','9:30'),
+(158,20,2,65,2,'23-01-19','5:00'),
+(159,9,3,63,3,'21-02-19','5:00'),
+(160,7,1,7,12,'15-01-19','7:00'),
+(161,23,2,64,8,'12-01-19','11:00'),
+(162,25,1,2,8,'25-02-19','19:30'),
+(163,5,1,20,5,'15-01-19','17:30'),
+(164,13,2,15,10,'12-01-19','9:30'),
+(165,20,3,48,7,'18-02-19','5:00'),
+(166,11,4,27,12,'10-01-19','6:00'),
+(167,6,4,3,5,'07-01-19','6:00'),
+(168,18,2,49,7,'13-02-19','7:00'),
+(169,20,3,20,2,'11-02-19','6:00'),
+(170,5,3,52,2,'22-01-19','7:00'),
+(171,10,1,60,4,'09-01-19','5:00'),
+(172,18,4,51,12,'28-01-19','17:30'),
+(173,13,1,38,5,'16-01-19','18:30'),
+(174,19,2,71,5,'02-02-19','11:00'),
+(175,9,2,39,1,'19-01-19','8:00'),
+(176,2,4,39,12,'26-01-19','8:00'),
+(177,4,2,70,7,'12-02-19','7:00'),
+(178,21,4,29,3,'16-02-19','9:30'),
+(179,23,3,2,8,'22-01-19','7:00'),
+(180,21,4,2,4,'04-02-19','5:00'),
+(181,4,2,24,1,'22-02-19','5:00'),
+(182,24,4,38,8,'30-01-19','7:00'),
+(183,4,2,26,8,'21-01-19','7:00'),
+(184,9,1,23,4,'07-02-19','17:30'),
+(185,19,1,7,6,'07-01-19','17:30'),
+(186,9,3,34,11,'25-02-19','17:30'),
+(187,17,2,50,12,'12-02-19','18:30'),
+(188,22,4,73,3,'29-01-19','12:00'),
+(189,22,4,61,6,'25-02-19','5:00'),
+(190,13,4,61,10,'09-02-19','8:00'),
+(191,25,3,28,10,'23-02-19','8:00'),
+(192,20,3,34,11,'11-01-19','12:00'),
+(193,9,3,72,7,'01-02-19','19:30'),
+(194,15,3,28,10,'24-01-19','18:30'),
+(195,23,1,55,10,'11-02-19','7:00'),
+(196,23,3,69,7,'15-02-19','6:00'),
+(197,22,2,64,9,'11-01-19','7:00'),
+(198,19,2,48,11,'07-02-19','17:30'),
+(199,21,1,54,9,'22-01-19','16:30'),
+(200,19,3,67,11,'19-01-19','8:00'),
+(201,19,4,4,11,'14-02-19','16:30'),
+(202,7,1,46,2,'11-01-19','18:30'),
+(203,10,2,71,3,'15-01-19','7:00'),
+(204,21,1,3,4,'30-01-19','6:00'),
+(205,19,1,10,7,'10-01-19','17:30'),
+(206,10,3,52,4,'11-02-19','18:30'),
+(207,5,1,44,10,'04-02-19','17:30'),
+(208,11,1,69,9,'02-02-19','8:00'),
+(209,20,3,33,1,'22-01-19','5:00'),
+(210,8,3,52,4,'17-01-19','6:00'),
+(211,15,3,44,5,'21-01-19','7:00'),
+(212,17,1,63,8,'07-02-19','6:00'),
+(213,25,4,25,4,'08-01-19','5:00'),
+(214,9,3,53,9,'21-01-19','6:00'),
+(215,2,2,28,5,'04-02-19','12:00'),
+(216,1,3,66,5,'18-01-19','16:30'),
+(217,19,2,26,11,'21-02-19','18:30'),
+(218,19,3,31,6,'22-01-19','5:00'),
+(219,6,3,63,5,'16-02-19','9:30'),
+(220,5,2,61,1,'01-02-19','17:30'),
+(221,24,3,34,6,'18-02-19','5:00'),
+(222,5,2,47,2,'08-01-19','19:30'),
+(223,25,4,46,2,'25-01-19','18:30'),
+(224,2,4,59,8,'02-02-19','11:00'),
+(225,20,4,1,10,'05-02-19','5:00'),
+(226,19,1,29,3,'05-02-19','16:30'),
+(227,12,2,30,9,'08-02-19','6:00'),
+(228,7,1,37,6,'06-02-19','16:30'),
+(229,23,3,40,5,'30-01-19','5:00'),
+(230,2,1,59,9,'09-01-19','5:00'),
+(231,25,2,55,4,'22-02-19','12:00'),
+(232,13,1,54,2,'25-02-19','16:30'),
+(233,10,4,12,5,'30-01-19','6:00'),
+(234,24,3,64,8,'19-02-19','7:00'),
+(235,25,3,59,6,'26-01-19','8:00'),
+(236,20,2,37,8,'04-02-19','16:30'),
+(237,11,2,4,8,'22-02-19','12:00'),
+(238,23,4,71,9,'14-01-19','7:00'),
+(239,15,4,20,7,'12-01-19','11:00'),
+(240,15,3,43,9,'08-02-19','19:30'),
+(241,25,3,22,4,'12-01-19','9:30'),
+(242,25,2,2,5,'18-01-19','19:30'),
+(243,20,1,37,8,'31-01-19','6:00'),
+(244,9,1,57,11,'16-01-19','7:00'),
+(245,1,1,22,2,'22-01-19','6:00'),
+(246,3,3,39,5,'25-01-19','17:30'),
+(247,22,4,51,12,'23-02-19','9:30'),
+(248,17,3,56,8,'22-01-19','5:00'),
+(249,16,1,17,7,'19-02-19','19:30'),
+(250,15,4,46,1,'19-01-19','8:00'),
+(251,12,2,15,6,'02-02-19','11:00'),
+(252,21,3,21,12,'31-01-19','6:00'),
+(253,6,1,18,3,'01-02-19','5:00'),
+(254,7,2,73,11,'16-01-19','7:00'),
+(255,11,2,19,4,'24-01-19','18:30'),
+(256,24,3,12,9,'10-01-19','18:30'),
+(257,6,3,16,1,'05-02-19','7:00'),
+(258,25,2,1,4,'21-01-19','18:30'),
+(259,10,1,29,11,'07-02-19','12:00'),
+(260,21,3,54,1,'01-02-19','19:30'),
+(261,23,1,70,5,'21-02-19','17:30'),
+(262,5,1,3,1,'07-02-19','16:30'),
+(263,6,3,31,4,'11-01-19','19:30'),
+(264,17,3,22,6,'19-02-19','18:30'),
+(265,18,1,11,6,'14-02-19','6:00'),
+(266,24,2,10,9,'14-01-19','12:00'),
+(267,22,1,25,11,'20-02-19','5:00'),
+(268,13,1,49,8,'08-02-19','12:00'),
+(269,1,1,14,7,'15-01-19','6:00'),
+(270,12,4,44,3,'22-02-19','6:00'),
+(271,18,4,11,10,'18-01-19','5:00'),
+(272,1,4,33,7,'15-01-19','12:00'),
+(273,4,4,5,6,'09-02-19','8:00'),
+(274,11,3,30,11,'18-02-19','6:00'),
+(275,12,1,65,3,'21-01-19','6:00'),
+(276,22,4,63,8,'15-02-19','6:00'),
+(277,4,4,11,9,'15-02-19','16:30'),
+(278,19,4,75,2,'25-01-19','19:30'),
+(279,10,4,73,2,'21-01-19','7:00'),
+(280,15,4,22,2,'13-02-19','18:30'),
+(281,8,2,64,7,'15-02-19','6:00'),
+(282,2,2,9,12,'18-02-19','6:00'),
+(283,15,1,57,6,'15-01-19','6:00'),
+(284,8,1,4,8,'31-01-19','18:30'),
+(285,9,1,59,4,'19-01-19','9:30'),
+(286,11,1,55,11,'12-02-19','12:00'),
+(287,16,3,37,3,'19-01-19','8:00'),
+(288,2,4,2,5,'07-01-19','19:30'),
+(289,2,4,59,8,'21-02-19','17:30'),
+(290,15,4,32,10,'05-02-19','19:30'),
+(291,4,4,59,9,'18-01-19','5:00'),
+(292,15,3,54,4,'25-02-19','7:00'),
+(293,22,3,46,4,'14-01-19','6:00'),
+(294,25,3,37,1,'09-02-19','8:00'),
+(295,25,3,19,8,'31-01-19','5:00'),
+(296,5,3,21,3,'08-01-19','5:00'),
+(297,23,1,6,9,'05-02-19','18:30'),
+(298,3,3,74,6,'06-02-19','6:00'),
+(299,17,1,26,5,'31-01-19','16:30'),
+(300,17,1,44,5,'14-02-19','6:00'),
+(301,21,2,69,7,'25-02-19','7:00'),
+(302,3,4,55,4,'05-02-19','19:30'),
+(303,13,1,12,3,'24-01-19','5:00'),
+(304,24,4,26,1,'21-02-19','7:00'),
+(305,21,4,31,5,'22-01-19','18:30'),
+(306,13,1,33,3,'18-02-19','6:00'),
+(307,12,3,13,2,'21-02-19','7:00'),
+(308,6,3,74,4,'31-01-19','19:30'),
+(309,25,3,33,11,'22-02-19','12:00'),
+(310,12,2,17,10,'26-01-19','9:30'),
+(311,7,3,53,2,'08-01-19','5:00'),
+(312,25,4,1,10,'15-02-19','18:30'),
+(313,24,1,67,7,'08-01-19','6:00'),
+(314,24,2,44,7,'19-02-19','5:00'),
+(315,23,4,63,1,'24-01-19','16:30'),
+(316,24,3,31,1,'15-02-19','5:00'),
+(317,18,3,75,8,'14-02-19','5:00'),
+(318,3,2,32,9,'26-01-19','11:00'),
+(319,19,4,34,5,'25-01-19','6:00'),
+(320,12,4,63,10,'07-02-19','6:00'),
+(321,21,4,9,11,'24-01-19','19:30'),
+(322,6,2,28,9,'29-01-19','12:00'),
+(323,11,3,27,11,'19-01-19','9:30'),
+(324,6,1,13,5,'20-02-19','17:30'),
+(325,10,3,65,1,'11-01-19','17:30'),
+(326,17,4,41,9,'21-02-19','19:30'),
+(327,1,2,38,2,'08-01-19','6:00'),
+(328,14,3,6,11,'25-02-19','7:00'),
+(329,17,4,14,7,'28-01-19','12:00'),
+(330,22,3,70,4,'22-02-19','12:00'),
+(331,3,3,64,12,'09-01-19','7:00'),
+(332,15,4,48,7,'02-02-19','11:00'),
+(333,18,1,56,3,'12-02-19','17:30'),
+(334,4,1,49,9,'21-01-19','17:30'),
+(335,10,1,8,10,'15-01-19','18:30'),
+(336,3,4,60,7,'07-02-19','5:00'),
+(337,8,1,47,11,'11-01-19','18:30'),
+(338,11,2,2,11,'17-01-19','17:30'),
+(339,10,4,1,1,'13-02-19','7:00'),
+(340,5,4,33,7,'18-02-19','7:00'),
+(341,8,4,71,11,'04-02-19','16:30'),
+(342,23,4,68,11,'18-02-19','19:30'),
+(343,23,2,12,1,'07-01-19','16:30'),
+(344,16,1,56,2,'06-02-19','16:30'),
+(345,23,3,68,10,'05-02-19','12:00'),
+(346,15,1,15,11,'18-02-19','19:30'),
+(347,12,2,71,8,'26-01-19','8:00'),
+(348,16,2,71,9,'02-02-19','11:00'),
+(349,15,3,65,3,'08-01-19','6:00'),
+(350,15,1,16,9,'13-02-19','12:00'),
+(351,22,1,24,5,'26-01-19','9:30'),
+(352,25,3,27,4,'23-01-19','16:30'),
+(353,1,4,54,5,'21-01-19','19:30'),
+(354,23,1,53,3,'07-01-19','16:30'),
+(355,2,1,58,10,'05-02-19','16:30'),
+(356,19,2,8,12,'08-02-19','19:30'),
+(357,8,2,8,3,'24-01-19','17:30'),
+(358,24,3,16,10,'14-02-19','7:00'),
+(359,7,3,1,9,'02-02-19','8:00'),
+(360,24,1,12,7,'12-02-19','17:30'),
+(361,23,2,49,6,'09-01-19','19:30'),
+(362,7,4,38,6,'26-01-19','11:00'),
+(363,3,1,67,5,'02-02-19','9:30'),
+(364,2,2,61,6,'16-02-19','9:30'),
+(365,18,2,31,1,'01-02-19','12:00'),
+(366,11,3,27,7,'01-02-19','16:30'),
+(367,3,4,37,10,'08-02-19','12:00'),
+(368,10,2,71,5,'02-02-19','8:00'),
+(369,18,1,16,5,'29-01-19','16:30'),
+(370,2,4,23,2,'12-02-19','12:00'),
+(371,14,3,56,1,'13-02-19','16:30'),
+(372,8,2,17,8,'08-02-19','6:00'),
+(373,9,3,66,12,'16-01-19','17:30'),
+(374,3,4,27,11,'22-02-19','17:30'),
+(375,13,1,41,11,'24-01-19','18:30'),
+(376,15,3,42,7,'31-01-19','6:00'),
+(377,18,3,6,6,'25-02-19','16:30'),
+(378,19,3,45,6,'24-01-19','18:30'),
+(379,6,1,13,3,'11-01-19','7:00'),
+(380,1,3,5,4,'19-01-19','9:30'),
+(381,14,2,5,11,'28-01-19','12:00'),
+(382,13,3,13,6,'30-01-19','12:00'),
+(383,24,2,66,3,'19-02-19','17:30'),
+(384,24,1,46,1,'10-01-19','18:30'),
+(385,16,3,21,11,'19-02-19','16:30'),
+(386,24,1,68,2,'12-01-19','9:30'),
+(387,13,3,32,11,'20-02-19','12:00'),
+(388,17,1,14,9,'31-01-19','16:30'),
+(389,13,4,56,10,'21-02-19','5:00'),
+(390,19,4,36,2,'24-01-19','12:00'),
+(391,13,2,31,11,'04-02-19','7:00'),
+(392,1,2,31,7,'20-02-19','6:00'),
+(393,23,3,51,9,'23-02-19','11:00'),
+(394,22,2,75,8,'07-01-19','7:00'),
+(395,10,4,23,4,'08-01-19','19:30'),
+(396,23,1,27,3,'28-01-19','7:00'),
+(397,18,4,18,8,'14-02-19','12:00'),
+(398,7,4,54,5,'22-02-19','19:30'),
+(399,23,2,67,7,'11-01-19','17:30'),
+(400,9,2,44,12,'04-02-19','5:00'),
+(401,2,1,55,4,'10-01-19','17:30'),
+(402,19,3,23,3,'14-02-19','16:30'),
+(403,22,2,69,1,'22-01-19','18:30'),
+(404,17,1,19,4,'14-02-19','17:30'),
+(405,8,4,24,8,'08-02-19','12:00'),
+(406,21,1,18,8,'08-02-19','16:30'),
+(407,25,3,48,7,'06-02-19','16:30'),
+(408,21,1,59,1,'18-01-19','18:30'),
+(409,13,2,17,7,'14-02-19','16:30'),
+(410,5,2,67,9,'04-02-19','16:30'),
+(411,2,1,6,8,'05-02-19','6:00'),
+(412,4,2,43,4,'11-02-19','16:30'),
+(413,17,1,47,7,'11-02-19','18:30'),
+(414,17,4,63,7,'15-01-19','5:00'),
+(415,25,3,16,9,'25-01-19','12:00'),
+(416,6,2,5,7,'31-01-19','7:00'),
+(417,13,3,2,8,'21-02-19','6:00'),
+(418,1,3,33,8,'15-02-19','12:00'),
+(419,3,2,63,9,'25-02-19','6:00'),
+(420,19,4,36,3,'20-02-19','5:00'),
+(421,3,1,62,9,'29-01-19','12:00'),
+(422,22,2,18,2,'14-02-19','5:00'),
+(423,17,4,46,6,'31-01-19','6:00'),
+(424,24,4,69,9,'10-01-19','7:00'),
+(425,11,4,56,3,'19-01-19','9:30'),
+(426,9,3,69,12,'18-01-19','5:00'),
+(427,16,3,48,5,'16-02-19','9:30'),
+(428,17,2,33,11,'25-01-19','12:00'),
+(429,12,1,30,6,'08-01-19','5:00'),
+(430,10,1,32,11,'07-01-19','7:00'),
+(431,23,4,58,9,'26-01-19','8:00'),
+(432,12,4,24,1,'09-01-19','18:30'),
+(433,11,1,66,2,'25-01-19','12:00'),
+(434,14,3,50,6,'11-02-19','16:30'),
+(435,23,4,21,7,'08-02-19','17:30'),
+(436,13,3,13,6,'11-01-19','17:30'),
+(437,4,4,25,2,'18-01-19','12:00'),
+(438,4,3,34,12,'06-02-19','5:00'),
+(439,16,4,63,7,'16-02-19','9:30'),
+(440,20,1,33,2,'22-01-19','12:00'),
+(441,21,1,19,2,'01-02-19','16:30'),
+(442,10,4,57,10,'31-01-19','17:30'),
+(443,24,1,51,2,'19-01-19','9:30'),
+(444,1,4,60,9,'07-02-19','7:00'),
+(445,14,2,8,11,'14-02-19','16:30'),
+(446,24,3,69,11,'10-01-19','5:00'),
+(447,9,2,8,4,'25-01-19','18:30'),
+(448,6,4,24,3,'19-02-19','19:30'),
+(449,16,3,23,8,'16-01-19','7:00'),
+(450,7,2,74,10,'20-02-19','5:00'),
+(451,10,3,59,9,'01-02-19','19:30'),
+(452,4,2,33,10,'16-01-19','16:30'),
+(453,16,2,71,11,'04-02-19','5:00'),
+(454,24,4,59,5,'23-01-19','16:30'),
+(455,24,3,27,8,'09-01-19','12:00'),
+(456,18,1,30,11,'18-02-19','7:00'),
+(457,20,3,70,2,'20-02-19','12:00'),
+(458,4,3,45,10,'12-02-19','17:30'),
+(459,8,2,65,8,'08-02-19','16:30'),
+(460,21,3,26,7,'26-01-19','8:00'),
+(461,24,4,4,11,'18-02-19','12:00'),
+(462,12,1,28,8,'14-02-19','16:30'),
+(463,7,1,3,12,'21-01-19','18:30'),
+(464,23,2,71,5,'14-02-19','19:30'),
+(465,22,1,52,3,'18-01-19','19:30'),
+(466,10,2,9,2,'18-02-19','5:00'),
+(467,13,3,5,2,'11-02-19','18:30'),
+(468,3,4,2,3,'29-01-19','18:30'),
+(469,24,1,1,5,'24-01-19','17:30'),
+(470,3,4,5,12,'23-01-19','6:00'),
+(471,14,4,12,6,'06-02-19','18:30'),
+(472,18,2,74,2,'02-02-19','8:00'),
+(473,6,1,12,6,'30-01-19','19:30'),
+(474,20,1,42,11,'06-02-19','16:30'),
+(475,6,2,63,3,'02-02-19','9:30'),
+(476,17,3,56,8,'17-01-19','17:30'),
+(477,21,2,20,6,'08-01-19','5:00'),
+(478,24,4,27,12,'14-02-19','7:00'),
+(479,9,3,56,10,'09-02-19','8:00'),
+(480,2,2,59,1,'20-02-19','6:00'),
+(481,18,2,7,2,'24-01-19','5:00'),
+(482,23,1,21,11,'15-01-19','7:00'),
+(483,6,2,72,5,'01-02-19','6:00'),
+(484,15,2,32,12,'15-02-19','18:30'),
+(485,18,4,39,1,'12-02-19','6:00'),
+(486,15,3,37,10,'14-02-19','18:30'),
+(487,15,2,21,11,'09-01-19','7:00'),
+(488,10,1,54,3,'18-02-19','5:00'),
+(489,15,2,64,3,'28-01-19','7:00'),
+(490,25,2,42,8,'22-02-19','7:00'),
+(491,8,1,22,2,'10-01-19','5:00'),
+(492,1,4,42,6,'10-01-19','5:00'),
+(493,18,1,21,8,'21-01-19','19:30'),
+(494,22,2,14,9,'11-02-19','5:00'),
+(495,24,3,68,5,'11-01-19','6:00'),
+(496,23,1,12,6,'21-02-19','19:30'),
+(497,21,4,68,7,'23-01-19','6:00'),
+(498,5,1,67,7,'08-01-19','16:30'),
+(499,19,3,39,11,'15-01-19','19:30'),
+(500,17,2,15,8,'09-02-19','11:00'),
+(501,22,2,44,1,'28-01-19','5:00'),
+(502,7,2,9,10,'25-01-19','17:30'),
+(503,5,3,61,11,'09-01-19','16:30'),
+(504,6,2,26,8,'13-02-19','12:00'),
+(505,20,4,11,1,'24-01-19','19:30'),
+(506,12,2,66,6,'28-01-19','17:30'),
+(507,25,1,45,7,'07-01-19','6:00'),
+(508,18,2,38,1,'12-02-19','6:00'),
+(509,8,4,47,11,'20-02-19','6:00'),
+(510,17,1,42,1,'14-02-19','18:30'),
+(511,21,2,17,9,'25-01-19','18:30'),
+(512,21,4,8,7,'09-01-19','18:30'),
+(513,6,1,51,4,'11-01-19','18:30'),
+(514,5,3,26,1,'31-01-19','19:30'),
+(515,17,1,50,7,'17-01-19','18:30'),
+(516,7,4,29,1,'12-01-19','8:00'),
+(517,22,2,32,8,'07-01-19','16:30'),
+(518,4,1,3,1,'25-01-19','12:00'),
+(519,24,1,11,3,'21-01-19','16:30'),
+(520,8,2,61,3,'15-02-19','6:00'),
+(521,20,4,73,6,'15-01-19','19:30'),
+(522,14,3,63,9,'24-01-19','12:00'),
+(523,12,4,7,4,'12-02-19','7:00'),
+(524,23,1,51,5,'21-02-19','6:00'),
+(525,21,3,33,5,'04-02-19','12:00'),
+(526,23,2,10,10,'06-02-19','17:30'),
+(527,3,1,5,4,'21-01-19','18:30'),
+(528,23,2,18,11,'30-01-19','12:00'),
+(529,21,2,2,3,'19-01-19','8:00'),
+(530,23,4,27,9,'09-02-19','11:00'),
+(531,14,3,5,7,'19-01-19','11:00'),
+(532,12,3,3,11,'12-01-19','9:30'),
+(533,8,2,32,3,'24-01-19','7:00'),
+(534,1,3,75,8,'07-02-19','17:30'),
+(535,1,4,40,5,'13-02-19','12:00'),
+(536,11,1,8,3,'04-02-19','12:00'),
+(537,19,2,58,2,'20-02-19','19:30'),
+(538,17,3,18,9,'31-01-19','12:00'),
+(539,14,1,32,10,'19-01-19','8:00'),
+(540,13,3,6,1,'16-01-19','16:30'),
+(541,13,4,71,11,'14-01-19','19:30'),
+(542,16,3,70,12,'07-02-19','5:00'),
+(543,22,3,48,11,'01-02-19','5:00'),
+(544,11,2,1,9,'22-01-19','5:00'),
+(545,23,3,12,7,'25-02-19','17:30'),
+(546,17,2,39,8,'24-01-19','19:30'),
+(547,18,1,45,7,'11-02-19','12:00'),
+(548,8,1,69,6,'20-02-19','7:00'),
+(549,21,2,54,7,'17-01-19','19:30'),
+(550,14,2,59,11,'06-02-19','7:00'),
+(551,15,4,39,1,'18-02-19','7:00'),
+(552,15,3,2,11,'11-01-19','18:30'),
+(553,15,2,32,5,'11-02-19','19:30'),
+(554,14,2,20,7,'25-01-19','17:30'),
+(555,22,4,47,10,'07-01-19','12:00'),
+(556,24,4,14,2,'18-01-19','16:30'),
+(557,5,3,39,9,'01-02-19','16:30'),
+(558,4,2,52,12,'20-02-19','17:30'),
+(559,21,1,21,3,'01-02-19','5:00'),
+(560,15,4,43,6,'02-02-19','9:30'),
+(561,14,1,28,1,'09-01-19','17:30'),
+(562,5,4,30,2,'23-01-19','6:00'),
+(563,14,1,42,9,'01-02-19','6:00'),
+(564,9,3,48,5,'12-01-19','11:00'),
+(565,13,1,40,8,'23-02-19','11:00'),
+(566,13,1,60,3,'31-01-19','7:00'),
+(567,16,2,15,8,'25-01-19','17:30'),
+(568,2,1,71,12,'28-01-19','17:30'),
+(569,25,2,51,2,'16-02-19','9:30'),
+(570,19,2,68,7,'07-02-19','19:30'),
+(571,22,4,49,5,'18-02-19','5:00'),
+(572,21,2,51,5,'08-02-19','17:30'),
+(573,4,1,54,7,'19-01-19','8:00'),
+(574,20,4,63,3,'22-02-19','6:00'),
+(575,11,3,44,11,'20-02-19','18:30'),
+(576,17,4,72,5,'28-01-19','19:30'),
+(577,4,4,7,11,'09-02-19','8:00'),
+(578,24,3,74,5,'25-01-19','12:00'),
+(579,18,2,5,2,'24-01-19','18:30'),
+(580,21,2,33,11,'05-02-19','19:30'),
+(581,9,3,74,6,'07-02-19','19:30'),
+(582,22,4,61,3,'18-02-19','16:30'),
+(583,9,4,14,9,'14-01-19','12:00'),
+(584,18,2,48,4,'11-02-19','17:30'),
+(585,17,4,45,10,'07-02-19','7:00'),
+(586,23,1,61,7,'21-01-19','12:00'),
+(587,5,4,28,4,'21-02-19','18:30'),
+(588,16,1,31,7,'14-02-19','12:00'),
+(589,10,4,55,8,'18-01-19','17:30'),
+(590,9,4,43,7,'06-02-19','6:00'),
+(591,22,4,41,11,'19-01-19','11:00'),
+(592,9,1,73,6,'31-01-19','17:30'),
+(593,23,3,4,10,'28-01-19','6:00'),
+(594,23,3,12,8,'13-02-19','7:00'),
+(595,6,4,21,6,'30-01-19','18:30'),
+(596,20,4,55,3,'11-02-19','17:30'),
+(597,1,3,10,12,'24-01-19','18:30'),
+(598,9,3,54,8,'14-02-19','19:30'),
+(599,7,3,46,2,'14-01-19','5:00'),
+(600,15,3,39,6,'21-01-19','17:30'),
+(601,12,1,66,10,'07-02-19','6:00'),
+(602,15,1,39,1,'02-02-19','8:00'),
+(603,7,2,33,3,'24-01-19','5:00'),
+(604,16,1,3,6,'16-01-19','18:30'),
+(605,16,2,33,8,'08-01-19','19:30'),
+(606,1,3,33,6,'21-01-19','6:00'),
+(607,16,4,5,10,'12-01-19','11:00'),
+(608,21,2,32,9,'17-01-19','7:00'),
+(609,6,4,73,4,'25-02-19','7:00'),
+(610,6,1,53,3,'23-01-19','7:00'),
+(611,11,2,13,10,'20-02-19','5:00'),
+(612,6,2,56,12,'18-01-19','12:00'),
+(613,25,4,26,11,'11-02-19','19:30'),
+(614,25,1,67,7,'19-01-19','11:00'),
+(615,6,2,11,12,'19-01-19','8:00'),
+(616,25,4,47,1,'28-01-19','19:30'),
+(617,2,1,7,7,'10-01-19','17:30'),
+(618,11,2,24,2,'11-02-19','17:30'),
+(619,12,4,72,11,'07-02-19','17:30'),
+(620,11,1,62,8,'25-02-19','19:30'),
+(621,15,3,45,7,'22-02-19','17:30'),
+(622,9,2,8,2,'19-01-19','8:00'),
+(623,11,3,6,12,'28-01-19','19:30'),
+(624,1,1,2,6,'04-02-19','12:00'),
+(625,9,3,8,10,'12-02-19','12:00'),
+(626,6,4,8,5,'11-02-19','6:00'),
+(627,19,3,7,4,'14-01-19','16:30'),
+(628,21,4,61,4,'25-02-19','19:30'),
+(629,18,1,56,12,'29-01-19','6:00'),
+(630,15,1,20,11,'22-02-19','6:00'),
+(631,2,1,21,11,'21-02-19','19:30'),
+(632,7,3,23,6,'20-02-19','19:30'),
+(633,17,2,4,12,'29-01-19','17:30'),
+(634,14,1,29,5,'12-02-19','6:00'),
+(635,21,3,29,6,'11-01-19','12:00'),
+(636,2,1,23,10,'21-02-19','12:00'),
+(637,19,3,42,4,'16-01-19','17:30'),
+(638,12,3,2,10,'21-02-19','12:00'),
+(639,6,2,45,1,'14-02-19','17:30'),
+(640,5,2,42,3,'12-02-19','5:00'),
+(641,25,4,66,8,'08-02-19','16:30'),
+(642,14,2,17,5,'19-02-19','17:30'),
+(643,13,3,23,1,'15-01-19','7:00'),
+(644,23,4,22,10,'18-02-19','6:00'),
+(645,9,4,1,12,'14-02-19','5:00'),
+(646,8,4,62,11,'19-01-19','11:00'),
+(647,8,4,38,1,'17-01-19','12:00'),
+(648,18,4,74,7,'23-02-19','11:00'),
+(649,1,2,13,3,'09-01-19','16:30'),
+(650,2,1,22,9,'06-02-19','6:00'),
+(651,17,3,74,9,'18-01-19','7:00'),
+(652,4,4,57,12,'29-01-19','5:00'),
+(653,9,4,70,5,'04-02-19','12:00'),
+(654,3,1,13,12,'30-01-19','7:00'),
+(655,14,4,16,2,'26-01-19','11:00'),
+(656,2,3,27,9,'19-01-19','11:00'),
+(657,10,2,34,11,'16-01-19','17:30'),
+(658,6,1,31,10,'23-01-19','6:00'),
+(659,2,2,10,7,'21-02-19','16:30'),
+(660,16,2,63,10,'14-02-19','6:00'),
+(661,1,3,36,9,'11-02-19','18:30'),
+(662,19,4,8,1,'22-01-19','6:00'),
+(663,10,3,60,6,'15-02-19','5:00'),
+(664,10,2,36,2,'05-02-19','17:30'),
+(665,6,4,4,11,'25-02-19','12:00'),
+(666,15,2,70,8,'16-01-19','16:30'),
+(667,17,3,42,6,'29-01-19','12:00'),
+(668,22,2,17,2,'22-02-19','12:00'),
+(669,13,2,9,6,'28-01-19','5:00'),
+(670,20,1,44,8,'21-02-19','16:30'),
+(671,17,3,49,12,'19-02-19','17:30'),
+(672,21,2,19,8,'21-01-19','6:00'),
+(673,4,3,58,12,'09-01-19','17:30'),
+(674,23,1,12,10,'30-01-19','18:30'),
+(675,1,2,69,6,'14-02-19','5:00'),
+(676,9,3,45,11,'26-01-19','9:30'),
+(677,9,4,45,6,'14-02-19','5:00'),
+(678,23,2,45,10,'11-01-19','18:30'),
+(679,9,3,29,12,'09-02-19','11:00'),
+(680,16,4,32,5,'18-02-19','19:30'),
+(681,19,2,47,3,'31-01-19','7:00'),
+(682,14,1,25,8,'09-01-19','6:00'),
+(683,22,1,29,4,'14-02-19','7:00'),
+(684,9,1,26,2,'08-01-19','12:00'),
+(685,13,1,45,12,'25-01-19','18:30'),
+(686,20,2,42,2,'28-01-19','7:00'),
+(687,12,3,57,5,'12-01-19','9:30'),
+(688,21,1,41,1,'22-02-19','17:30'),
+(689,18,4,33,1,'02-02-19','8:00'),
+(690,24,4,74,4,'20-02-19','18:30'),
+(691,16,3,22,3,'09-02-19','11:00'),
+(692,23,4,18,7,'14-01-19','7:00'),
+(693,25,4,46,4,'11-01-19','7:00'),
+(694,5,3,25,11,'18-02-19','6:00'),
+(695,16,3,64,9,'17-01-19','12:00'),
+(696,19,2,30,9,'21-02-19','16:30'),
+(697,7,1,22,6,'10-01-19','6:00'),
+(698,7,4,72,4,'22-01-19','18:30'),
+(699,3,3,25,5,'13-02-19','6:00'),
+(700,14,1,35,12,'25-02-19','12:00'),
+(701,2,4,68,11,'19-01-19','8:00'),
+(702,18,4,40,4,'30-01-19','18:30'),
+(703,23,4,40,10,'22-02-19','16:30'),
+(704,15,1,1,11,'18-01-19','5:00'),
+(705,8,2,21,7,'22-02-19','17:30'),
+(706,25,4,58,11,'15-02-19','17:30'),
+(707,2,4,31,3,'22-02-19','16:30'),
+(708,18,2,45,2,'23-01-19','16:30'),
+(709,2,2,8,10,'20-02-19','16:30'),
+(710,15,1,40,3,'19-02-19','12:00'),
+(711,15,1,21,6,'21-02-19','18:30'),
+(712,9,3,60,10,'21-02-19','17:30'),
+(713,21,2,25,8,'15-02-19','18:30'),
+(714,11,1,38,9,'08-01-19','6:00'),
+(715,5,1,15,12,'23-02-19','9:30'),
+(716,1,4,39,11,'09-01-19','19:30'),
+(717,20,4,65,7,'18-02-19','7:00'),
+(718,3,1,29,3,'02-02-19','8:00'),
+(719,21,3,46,9,'14-01-19','12:00'),
+(720,22,1,40,7,'22-02-19','6:00'),
+(721,16,2,37,12,'17-01-19','19:30'),
+(722,4,2,18,3,'22-02-19','16:30'),
+(723,10,1,17,7,'07-02-19','16:30'),
+(724,2,2,68,6,'22-01-19','17:30'),
+(725,25,3,57,10,'14-01-19','17:30'),
+(726,3,4,51,7,'29-01-19','17:30'),
+(727,22,3,12,9,'07-01-19','17:30'),
+(728,17,4,9,1,'19-01-19','11:00'),
+(729,16,4,31,3,'18-01-19','7:00'),
+(730,9,4,13,5,'25-01-19','5:00'),
+(731,19,3,62,5,'11-01-19','19:30'),
+(732,25,1,67,10,'09-02-19','11:00'),
+(733,19,1,33,8,'23-02-19','9:30'),
+(734,5,2,7,11,'18-02-19','6:00'),
+(735,10,2,43,9,'14-02-19','19:30'),
+(736,2,4,45,4,'05-02-19','16:30'),
+(737,3,2,20,8,'21-01-19','16:30'),
+(738,2,2,65,6,'04-02-19','18:30'),
+(739,6,4,36,3,'10-01-19','7:00'),
+(740,1,3,65,8,'08-02-19','7:00'),
+(741,3,3,17,12,'04-02-19','7:00'),
+(742,10,4,19,8,'18-01-19','17:30'),
+(743,6,2,58,1,'07-02-19','6:00'),
+(744,20,3,66,7,'22-01-19','16:30'),
+(745,15,3,51,5,'01-02-19','12:00'),
+(746,20,3,41,5,'18-01-19','5:00'),
+(747,11,4,58,3,'28-01-19','12:00'),
+(748,3,3,54,11,'11-01-19','18:30'),
+(749,4,4,33,7,'28-01-19','17:30'),
+(750,2,4,9,7,'08-01-19','16:30');

@@ -1,750 +1,751 @@
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (1, 'RX', 27, 48);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (2, 'SCALED', 48, 24);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (3, 'RX', 9, 27);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (4, 'RX', 55, 9);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (5, 'RX', 53, 15);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (6, 'RX+', 29, 44);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (7, 'SCALED', 22, 5);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (8, 'RX', 41, 6);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (9, 'SCALED', 25, 5);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (10, 'RX+', 19, 38);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (11, 'SCALED', 67, 49);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (12, 'SCALED', 53, 10);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (13, 'RX+', 68, 11);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (14, 'RX+', 11, 13);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (15, 'RX', 55, 13);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (16, 'RX+', 19, 29);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (17, 'SCALED', 18, 46);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (18, 'RX+', 12, 21);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (19, 'SCALED', 11, 45);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (20, 'SCALED', 49, 35);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (21, 'RX+', 39, 46);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (22, 'SCALED', 41, 12);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (23, 'RX+', 20, 18);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (24, 'SCALED', 19, 38);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (25, 'RX+', 12, 8);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (26, 'RX', 14, 39);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (27, 'RX', 69, 8);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (28, 'SCALED', 75, 26);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (29, 'RX+', 56, 14);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (30, 'RX', 13, 25);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (31, 'RX', 18, 24);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (32, 'SCALED', 46, 23);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (33, 'RX', 12, 10);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (34, 'SCALED', 29, 12);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (35, 'RX+', 9, 23);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (36, 'RX+', 20, 26);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (37, 'RX', 32, 49);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (38, 'RX', 67, 11);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (39, 'RX+', 44, 31);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (40, 'SCALED', 56, 47);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (41, 'SCALED', 8, 24);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (42, 'RX', 5, 16);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (43, 'RX', 8, 16);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (44, 'RX+', 57, 19);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (45, 'SCALED', 58, 39);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (46, 'SCALED', 39, 32);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (47, 'RX+', 39, 7);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (48, 'RX', 35, 22);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (49, 'RX', 14, 7);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (50, 'SCALED', 28, 33);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (51, 'SCALED', 5, 24);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (52, 'SCALED', 13, 6);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (53, 'SCALED', 8, 16);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (54, 'SCALED', 47, 26);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (55, 'RX+', 61, 13);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (56, 'RX', 35, 5);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (57, 'RX', 42, 13);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (58, 'RX+', 18, 40);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (59, 'RX+', 49, 28);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (60, 'RX+', 47, 28);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (61, 'SCALED', 24, 22);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (62, 'RX', 31, 22);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (63, 'RX+', 35, 50);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (64, 'RX', 12, 25);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (65, 'SCALED', 17, 5);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (66, 'RX+', 72, 45);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (67, 'SCALED', 28, 9);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (68, 'RX', 36, 25);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (69, 'RX+', 60, 10);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (70, 'RX+', 19, 8);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (71, 'RX+', 62, 34);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (72, 'RX+', 60, 38);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (73, 'RX+', 41, 24);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (74, 'SCALED', 60, 12);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (75, 'RX', 46, 48);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (76, 'SCALED', 50, 17);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (77, 'RX+', 61, 47);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (78, 'RX+', 28, 27);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (79, 'RX+', 50, 18);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (80, 'SCALED', 74, 18);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (81, 'SCALED', 31, 13);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (82, 'RX', 14, 27);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (83, 'RX', 20, 11);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (84, 'RX', 63, 28);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (85, 'SCALED', 12, 21);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (86, 'RX', 32, 14);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (87, 'SCALED', 60, 31);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (88, 'RX', 47, 42);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (89, 'RX', 63, 36);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (90, 'SCALED', 22, 43);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (91, 'RX+', 49, 27);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (92, 'RX+', 8, 31);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (93, 'RX+', 28, 15);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (94, 'RX+', 57, 45);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (95, 'SCALED', 54, 16);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (96, 'RX+', 50, 28);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (97, 'RX+', 70, 14);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (98, 'SCALED', 46, 27);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (99, 'SCALED', 50, 12);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (100, 'RX', 55, 12);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (101, 'RX+', 21, 25);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (102, 'RX+', 51, 10);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (103, 'RX+', 75, 37);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (104, 'SCALED', 61, 45);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (105, 'SCALED', 11, 16);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (106, 'RX+', 50, 44);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (107, 'SCALED', 5, 17);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (108, 'RX+', 55, 17);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (109, 'RX+', 8, 10);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (110, 'SCALED', 37, 50);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (111, 'SCALED', 20, 38);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (112, 'RX', 47, 9);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (113, 'SCALED', 42, 37);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (114, 'RX+', 34, 46);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (115, 'SCALED', 35, 8);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (116, 'RX', 73, 34);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (117, 'SCALED', 73, 17);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (118, 'RX+', 40, 11);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (119, 'RX+', 23, 22);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (120, 'RX', 53, 10);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (121, 'SCALED', 40, 38);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (122, 'RX+', 73, 10);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (123, 'RX', 74, 45);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (124, 'RX', 15, 40);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (125, 'SCALED', 27, 50);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (126, 'RX+', 40, 25);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (127, 'RX+', 35, 19);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (128, 'RX+', 51, 35);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (129, 'RX+', 39, 21);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (130, 'RX', 12, 35);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (131, 'RX+', 40, 39);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (132, 'SCALED', 64, 47);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (133, 'RX', 7, 20);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (134, 'RX', 73, 48);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (135, 'RX', 37, 26);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (136, 'SCALED', 53, 14);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (137, 'RX+', 38, 43);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (138, 'RX+', 51, 39);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (139, 'RX+', 49, 11);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (140, 'SCALED', 60, 46);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (141, 'RX+', 41, 9);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (142, 'SCALED', 31, 8);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (143, 'RX+', 33, 40);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (144, 'RX', 19, 21);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (145, 'SCALED', 32, 7);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (146, 'RX+', 24, 46);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (147, 'RX+', 17, 32);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (148, 'RX', 8, 38);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (149, 'SCALED', 72, 22);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (150, 'SCALED', 46, 24);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (151, 'RX+', 74, 50);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (152, 'SCALED', 36, 17);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (153, 'SCALED', 28, 8);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (154, 'RX+', 72, 15);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (155, 'RX', 26, 46);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (156, 'SCALED', 47, 48);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (157, 'RX', 20, 47);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (158, 'SCALED', 66, 13);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (159, 'RX+', 24, 42);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (160, 'RX', 21, 37);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (161, 'RX+', 45, 20);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (162, 'RX+', 15, 35);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (163, 'SCALED', 44, 34);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (164, 'RX', 5, 43);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (165, 'RX', 71, 41);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (166, 'RX+', 33, 28);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (167, 'SCALED', 33, 42);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (168, 'RX', 75, 45);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (169, 'RX', 71, 25);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (170, 'SCALED', 60, 44);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (171, 'SCALED', 12, 45);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (172, 'RX', 70, 24);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (173, 'SCALED', 35, 17);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (174, 'SCALED', 57, 47);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (175, 'RX+', 14, 48);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (176, 'RX+', 53, 40);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (177, 'SCALED', 28, 37);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (178, 'RX', 20, 22);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (179, 'SCALED', 45, 45);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (180, 'SCALED', 36, 39);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (181, 'RX', 28, 29);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (182, 'RX', 56, 29);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (183, 'RX+', 37, 27);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (184, 'SCALED', 9, 37);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (185, 'RX+', 21, 50);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (186, 'SCALED', 23, 29);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (187, 'SCALED', 19, 42);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (188, 'RX', 60, 16);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (189, 'SCALED', 65, 28);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (190, 'RX+', 15, 34);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (191, 'SCALED', 32, 13);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (192, 'RX+', 47, 5);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (193, 'RX+', 26, 8);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (194, 'RX', 14, 16);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (195, 'RX+', 21, 46);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (196, 'RX', 69, 41);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (197, 'RX', 65, 20);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (198, 'SCALED', 52, 35);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (199, 'SCALED', 7, 29);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (200, 'RX+', 58, 13);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (201, 'RX', 46, 39);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (202, 'SCALED', 26, 17);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (203, 'RX', 36, 45);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (204, 'SCALED', 51, 38);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (205, 'RX', 6, 15);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (206, 'RX+', 74, 27);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (207, 'RX+', 50, 23);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (208, 'RX', 65, 46);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (209, 'RX+', 36, 22);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (210, 'RX+', 63, 5);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (211, 'RX+', 69, 24);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (212, 'RX+', 18, 26);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (213, 'SCALED', 36, 12);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (214, 'RX+', 29, 12);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (215, 'SCALED', 48, 7);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (216, 'RX', 71, 49);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (217, 'RX+', 35, 42);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (218, 'RX', 9, 30);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (219, 'RX', 49, 26);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (220, 'SCALED', 25, 9);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (221, 'RX', 41, 41);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (222, 'RX', 8, 7);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (223, 'SCALED', 67, 43);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (224, 'RX', 14, 24);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (225, 'RX', 33, 18);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (226, 'RX', 14, 38);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (227, 'SCALED', 74, 39);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (228, 'RX', 58, 46);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (229, 'RX', 43, 9);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (230, 'RX+', 70, 33);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (231, 'RX', 34, 30);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (232, 'RX', 32, 7);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (233, 'RX+', 41, 13);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (234, 'SCALED', 6, 31);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (235, 'SCALED', 66, 9);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (236, 'RX', 59, 26);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (237, 'RX', 23, 37);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (238, 'SCALED', 56, 27);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (239, 'SCALED', 32, 16);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (240, 'RX', 38, 24);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (241, 'RX', 22, 30);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (242, 'SCALED', 54, 12);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (243, 'RX', 25, 22);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (244, 'SCALED', 34, 50);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (245, 'RX', 47, 14);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (246, 'SCALED', 44, 13);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (247, 'RX', 17, 32);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (248, 'SCALED', 51, 25);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (249, 'RX+', 64, 9);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (250, 'RX', 40, 13);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (251, 'RX+', 49, 29);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (252, 'RX', 20, 16);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (253, 'RX', 68, 46);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (254, 'RX+', 75, 8);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (255, 'RX+', 32, 44);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (256, 'RX', 26, 19);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (257, 'SCALED', 21, 36);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (258, 'RX', 6, 44);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (259, 'RX', 64, 7);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (260, 'RX', 66, 46);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (261, 'SCALED', 56, 43);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (262, 'SCALED', 14, 26);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (263, 'RX', 63, 23);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (264, 'RX', 24, 31);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (265, 'RX+', 24, 41);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (266, 'SCALED', 35, 27);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (267, 'RX', 27, 46);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (268, 'RX+', 31, 6);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (269, 'SCALED', 13, 41);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (270, 'RX+', 59, 30);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (271, 'RX+', 64, 19);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (272, 'RX', 74, 22);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (273, 'SCALED', 57, 38);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (274, 'SCALED', 66, 18);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (275, 'RX+', 37, 25);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (276, 'SCALED', 35, 42);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (277, 'RX', 49, 41);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (278, 'RX+', 74, 16);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (279, 'RX+', 53, 27);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (280, 'RX+', 20, 20);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (281, 'SCALED', 71, 45);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (282, 'SCALED', 10, 48);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (283, 'RX+', 34, 29);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (284, 'SCALED', 63, 49);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (285, 'RX+', 21, 43);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (286, 'RX', 19, 17);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (287, 'RX', 46, 42);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (288, 'RX+', 36, 43);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (289, 'RX+', 51, 38);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (290, 'RX+', 73, 28);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (291, 'RX+', 21, 49);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (292, 'RX+', 50, 10);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (293, 'RX+', 43, 12);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (294, 'RX+', 37, 16);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (295, 'RX+', 39, 20);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (296, 'RX+', 58, 10);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (297, 'SCALED', 18, 31);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (298, 'RX+', 67, 49);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (299, 'RX', 60, 6);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (300, 'SCALED', 21, 29);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (301, 'SCALED', 10, 7);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (302, 'RX', 29, 43);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (303, 'RX+', 41, 28);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (304, 'RX', 62, 46);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (305, 'RX+', 6, 50);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (306, 'RX', 54, 46);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (307, 'RX+', 46, 28);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (308, 'RX', 62, 15);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (309, 'RX+', 18, 33);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (310, 'RX', 71, 45);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (311, 'SCALED', 59, 20);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (312, 'RX', 62, 8);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (313, 'RX+', 26, 15);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (314, 'RX', 59, 32);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (315, 'RX', 62, 13);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (316, 'RX', 34, 48);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (317, 'RX+', 40, 42);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (318, 'RX+', 71, 32);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (319, 'SCALED', 8, 44);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (320, 'SCALED', 28, 41);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (321, 'RX', 36, 36);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (322, 'RX', 52, 37);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (323, 'RX+', 42, 15);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (324, 'RX+', 67, 38);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (325, 'RX+', 57, 45);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (326, 'RX+', 20, 10);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (327, 'RX', 46, 36);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (328, 'RX+', 48, 30);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (329, 'RX+', 41, 29);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (330, 'RX+', 45, 41);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (331, 'RX+', 28, 47);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (332, 'RX+', 54, 30);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (333, 'SCALED', 36, 41);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (334, 'RX+', 9, 12);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (335, 'RX', 26, 28);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (336, 'SCALED', 8, 39);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (337, 'RX', 55, 7);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (338, 'SCALED', 38, 15);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (339, 'SCALED', 18, 23);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (340, 'RX+', 42, 13);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (341, 'RX', 29, 15);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (342, 'SCALED', 5, 35);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (343, 'SCALED', 65, 16);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (344, 'RX+', 41, 37);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (345, 'RX+', 22, 9);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (346, 'RX', 48, 15);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (347, 'RX+', 32, 49);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (348, 'RX+', 26, 35);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (349, 'RX', 33, 31);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (350, 'SCALED', 49, 28);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (351, 'RX+', 63, 8);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (352, 'RX', 36, 5);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (353, 'SCALED', 12, 22);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (354, 'RX+', 43, 41);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (355, 'RX', 17, 49);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (356, 'RX', 63, 41);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (357, 'SCALED', 11, 19);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (358, 'RX+', 70, 33);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (359, 'RX+', 54, 44);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (360, 'RX', 11, 10);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (361, 'RX+', 57, 37);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (362, 'RX+', 25, 15);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (363, 'RX+', 29, 6);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (364, 'SCALED', 17, 37);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (365, 'SCALED', 50, 6);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (366, 'RX+', 9, 25);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (367, 'RX+', 43, 41);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (368, 'RX+', 49, 29);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (369, 'RX', 18, 9);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (370, 'SCALED', 28, 19);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (371, 'RX', 66, 12);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (372, 'RX+', 17, 39);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (373, 'RX', 47, 34);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (374, 'RX+', 53, 35);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (375, 'RX+', 33, 37);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (376, 'SCALED', 30, 23);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (377, 'RX+', 63, 8);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (378, 'RX', 7, 31);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (379, 'SCALED', 63, 19);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (380, 'RX', 54, 10);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (381, 'SCALED', 63, 22);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (382, 'SCALED', 66, 32);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (383, 'RX', 34, 40);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (384, 'RX', 64, 11);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (385, 'RX', 22, 41);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (386, 'RX+', 66, 26);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (387, 'SCALED', 50, 47);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (388, 'SCALED', 9, 13);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (389, 'RX+', 33, 17);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (390, 'RX', 73, 46);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (391, 'RX', 13, 41);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (392, 'SCALED', 38, 7);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (393, 'RX+', 14, 27);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (394, 'RX+', 36, 10);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (395, 'SCALED', 57, 42);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (396, 'RX+', 24, 47);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (397, 'SCALED', 17, 48);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (398, 'RX', 60, 10);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (399, 'RX', 22, 31);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (400, 'RX', 66, 28);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (401, 'RX+', 45, 15);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (402, 'SCALED', 59, 26);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (403, 'RX+', 7, 27);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (404, 'RX+', 60, 33);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (405, 'RX', 31, 29);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (406, 'RX+', 17, 38);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (407, 'SCALED', 51, 5);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (408, 'RX', 64, 48);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (409, 'RX', 63, 39);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (410, 'RX+', 60, 38);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (411, 'RX', 51, 40);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (412, 'SCALED', 72, 7);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (413, 'SCALED', 26, 19);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (414, 'SCALED', 26, 7);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (415, 'RX', 44, 50);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (416, 'RX+', 16, 10);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (417, 'RX+', 56, 44);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (418, 'RX+', 18, 13);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (419, 'SCALED', 13, 24);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (420, 'SCALED', 52, 35);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (421, 'RX+', 11, 50);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (422, 'SCALED', 48, 46);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (423, 'RX+', 45, 39);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (424, 'RX', 6, 19);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (425, 'RX+', 27, 36);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (426, 'SCALED', 39, 43);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (427, 'SCALED', 15, 37);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (428, 'RX', 52, 19);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (429, 'RX', 59, 14);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (430, 'RX+', 46, 29);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (431, 'SCALED', 47, 8);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (432, 'SCALED', 59, 24);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (433, 'SCALED', 7, 20);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (434, 'RX+', 15, 36);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (435, 'SCALED', 17, 49);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (436, 'SCALED', 7, 36);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (437, 'RX', 50, 18);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (438, 'RX+', 8, 24);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (439, 'RX', 23, 36);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (440, 'SCALED', 22, 50);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (441, 'SCALED', 72, 7);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (442, 'RX+', 58, 6);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (443, 'SCALED', 50, 23);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (444, 'RX', 71, 8);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (445, 'RX', 64, 11);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (446, 'RX+', 10, 6);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (447, 'RX+', 17, 29);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (448, 'RX', 7, 19);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (449, 'RX+', 24, 23);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (450, 'RX', 41, 47);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (451, 'RX', 29, 35);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (452, 'RX', 19, 45);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (453, 'SCALED', 48, 44);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (454, 'RX', 32, 30);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (455, 'SCALED', 59, 15);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (456, 'RX', 40, 31);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (457, 'RX', 21, 32);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (458, 'RX', 49, 33);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (459, 'SCALED', 6, 41);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (460, 'SCALED', 67, 8);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (461, 'RX+', 55, 37);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (462, 'RX+', 10, 25);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (463, 'RX', 74, 31);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (464, 'RX+', 31, 7);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (465, 'RX+', 22, 28);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (466, 'SCALED', 20, 37);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (467, 'RX', 67, 27);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (468, 'RX', 36, 34);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (469, 'SCALED', 22, 21);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (470, 'RX+', 59, 7);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (471, 'RX+', 42, 5);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (472, 'RX', 27, 39);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (473, 'SCALED', 72, 42);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (474, 'RX', 69, 18);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (475, 'RX', 72, 40);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (476, 'RX+', 45, 42);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (477, 'RX+', 68, 41);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (478, 'RX+', 58, 29);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (479, 'RX', 27, 32);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (480, 'RX', 42, 27);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (481, 'SCALED', 43, 29);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (482, 'RX+', 31, 46);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (483, 'RX', 49, 28);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (484, 'SCALED', 72, 48);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (485, 'SCALED', 11, 46);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (486, 'RX+', 72, 37);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (487, 'RX+', 15, 15);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (488, 'RX', 49, 11);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (489, 'RX', 62, 9);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (490, 'RX+', 33, 23);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (491, 'SCALED', 15, 20);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (492, 'RX', 51, 28);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (493, 'RX+', 16, 50);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (494, 'SCALED', 6, 43);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (495, 'RX', 28, 23);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (496, 'RX', 22, 18);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (497, 'RX+', 21, 32);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (498, 'RX', 56, 22);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (499, 'SCALED', 41, 50);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (500, 'RX+', 17, 42);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (501, 'RX+', 24, 44);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (502, 'RX', 29, 26);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (503, 'RX', 44, 33);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (504, 'RX+', 13, 36);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (505, 'RX+', 39, 10);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (506, 'RX', 21, 16);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (507, 'RX', 16, 19);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (508, 'RX', 39, 37);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (509, 'RX+', 67, 7);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (510, 'RX', 15, 45);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (511, 'RX', 29, 43);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (512, 'RX', 41, 43);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (513, 'RX', 57, 44);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (514, 'SCALED', 28, 30);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (515, 'SCALED', 69, 30);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (516, 'RX', 34, 6);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (517, 'RX+', 61, 22);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (518, 'RX', 59, 29);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (519, 'RX', 44, 28);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (520, 'RX', 12, 43);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (521, 'SCALED', 30, 28);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (522, 'SCALED', 72, 12);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (523, 'RX+', 35, 20);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (524, 'RX+', 35, 32);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (525, 'RX+', 8, 48);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (526, 'SCALED', 11, 13);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (527, 'RX+', 35, 35);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (528, 'SCALED', 6, 18);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (529, 'RX+', 28, 12);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (530, 'RX', 61, 25);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (531, 'SCALED', 10, 12);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (532, 'SCALED', 46, 23);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (533, 'RX+', 56, 16);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (534, 'RX+', 35, 37);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (535, 'SCALED', 43, 36);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (536, 'RX', 31, 40);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (537, 'SCALED', 28, 43);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (538, 'RX+', 41, 39);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (539, 'SCALED', 17, 31);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (540, 'RX', 20, 38);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (541, 'RX', 40, 30);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (542, 'RX', 35, 29);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (543, 'RX+', 52, 47);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (544, 'SCALED', 11, 27);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (545, 'RX+', 19, 47);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (546, 'SCALED', 5, 44);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (547, 'RX', 10, 16);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (548, 'RX', 71, 22);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (549, 'RX+', 24, 44);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (550, 'RX', 33, 21);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (551, 'RX+', 24, 49);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (552, 'RX+', 35, 12);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (553, 'RX+', 36, 25);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (554, 'RX+', 25, 33);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (555, 'RX+', 24, 49);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (556, 'SCALED', 27, 10);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (557, 'RX', 39, 26);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (558, 'RX+', 57, 10);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (559, 'SCALED', 73, 23);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (560, 'RX', 32, 40);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (561, 'RX', 42, 27);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (562, 'RX', 27, 38);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (563, 'RX+', 28, 14);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (564, 'SCALED', 30, 27);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (565, 'RX', 58, 28);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (566, 'RX', 69, 41);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (567, 'RX+', 31, 9);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (568, 'RX', 55, 35);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (569, 'SCALED', 48, 17);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (570, 'RX+', 69, 48);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (571, 'SCALED', 25, 18);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (572, 'RX', 59, 18);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (573, 'RX', 64, 22);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (574, 'SCALED', 51, 27);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (575, 'RX+', 54, 12);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (576, 'RX', 50, 16);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (577, 'SCALED', 71, 47);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (578, 'SCALED', 23, 31);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (579, 'RX', 6, 18);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (580, 'RX+', 59, 48);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (581, 'RX', 33, 5);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (582, 'SCALED', 22, 33);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (583, 'RX+', 45, 31);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (584, 'SCALED', 10, 37);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (585, 'RX+', 16, 9);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (586, 'RX+', 15, 5);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (587, 'SCALED', 55, 27);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (588, 'RX', 39, 22);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (589, 'RX+', 70, 22);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (590, 'RX+', 11, 31);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (591, 'RX+', 27, 12);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (592, 'RX+', 14, 29);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (593, 'RX+', 13, 44);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (594, 'SCALED', 18, 8);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (595, 'RX', 35, 34);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (596, 'SCALED', 15, 26);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (597, 'RX+', 67, 26);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (598, 'SCALED', 65, 32);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (599, 'SCALED', 33, 7);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (600, 'SCALED', 69, 30);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (601, 'RX+', 50, 38);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (602, 'SCALED', 19, 41);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (603, 'RX+', 57, 17);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (604, 'RX+', 69, 21);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (605, 'RX+', 22, 26);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (606, 'RX', 23, 26);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (607, 'RX', 60, 48);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (608, 'RX+', 60, 5);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (609, 'RX+', 15, 28);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (610, 'RX+', 31, 32);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (611, 'SCALED', 73, 27);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (612, 'RX+', 12, 33);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (613, 'RX+', 5, 46);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (614, 'RX', 48, 46);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (615, 'RX+', 53, 29);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (616, 'RX+', 5, 23);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (617, 'RX', 30, 14);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (618, 'RX+', 44, 35);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (619, 'RX+', 9, 41);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (620, 'RX+', 63, 50);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (621, 'RX', 32, 50);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (622, 'RX', 16, 34);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (623, 'RX', 12, 18);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (624, 'RX', 16, 24);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (625, 'SCALED', 17, 13);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (626, 'RX+', 34, 21);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (627, 'SCALED', 22, 26);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (628, 'RX+', 38, 41);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (629, 'RX+', 56, 12);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (630, 'RX', 20, 18);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (631, 'RX+', 22, 21);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (632, 'RX', 27, 12);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (633, 'RX+', 56, 13);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (634, 'RX+', 12, 28);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (635, 'RX', 41, 33);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (636, 'RX+', 49, 19);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (637, 'SCALED', 12, 22);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (638, 'SCALED', 32, 44);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (639, 'RX+', 16, 47);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (640, 'RX+', 48, 46);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (641, 'RX', 9, 47);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (642, 'RX+', 33, 24);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (643, 'SCALED', 66, 16);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (644, 'SCALED', 65, 22);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (645, 'RX', 42, 27);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (646, 'RX', 35, 5);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (647, 'RX+', 46, 32);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (648, 'RX+', 13, 45);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (649, 'RX+', 21, 25);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (650, 'SCALED', 71, 15);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (651, 'RX+', 63, 42);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (652, 'RX+', 60, 16);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (653, 'SCALED', 57, 11);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (654, 'SCALED', 55, 22);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (655, 'RX', 72, 16);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (656, 'SCALED', 45, 13);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (657, 'RX', 70, 28);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (658, 'SCALED', 70, 11);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (659, 'RX+', 65, 18);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (660, 'RX', 37, 13);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (661, 'RX+', 19, 41);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (662, 'RX', 67, 10);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (663, 'RX', 30, 45);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (664, 'RX+', 69, 11);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (665, 'RX+', 26, 15);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (666, 'SCALED', 42, 19);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (667, 'RX', 31, 28);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (668, 'RX+', 58, 11);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (669, 'SCALED', 14, 16);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (670, 'SCALED', 22, 43);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (671, 'RX', 60, 21);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (672, 'SCALED', 36, 14);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (673, 'SCALED', 45, 20);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (674, 'SCALED', 16, 37);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (675, 'RX', 43, 27);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (676, 'SCALED', 67, 37);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (677, 'RX', 20, 6);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (678, 'RX', 59, 44);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (679, 'RX', 12, 13);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (680, 'RX', 61, 5);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (681, 'RX', 53, 39);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (682, 'SCALED', 51, 9);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (683, 'RX+', 68, 17);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (684, 'RX+', 22, 11);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (685, 'RX+', 13, 38);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (686, 'RX', 45, 20);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (687, 'RX', 39, 27);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (688, 'RX+', 23, 14);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (689, 'RX+', 72, 26);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (690, 'SCALED', 23, 16);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (691, 'SCALED', 59, 24);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (692, 'SCALED', 24, 44);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (693, 'SCALED', 10, 15);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (694, 'RX', 24, 47);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (695, 'RX+', 17, 45);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (696, 'RX+', 37, 41);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (697, 'RX', 64, 30);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (698, 'RX+', 11, 29);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (699, 'SCALED', 21, 13);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (700, 'RX+', 24, 34);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (701, 'RX+', 18, 22);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (702, 'RX+', 10, 45);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (703, 'SCALED', 17, 40);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (704, 'SCALED', 46, 42);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (705, 'RX+', 40, 47);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (706, 'SCALED', 5, 12);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (707, 'SCALED', 11, 14);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (708, 'RX', 72, 27);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (709, 'SCALED', 35, 12);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (710, 'RX', 55, 38);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (711, 'RX+', 10, 42);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (712, 'RX', 25, 20);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (713, 'RX', 72, 9);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (714, 'RX', 51, 46);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (715, 'SCALED', 19, 12);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (716, 'SCALED', 68, 9);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (717, 'RX+', 61, 26);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (718, 'RX+', 11, 26);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (719, 'RX', 41, 19);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (720, 'RX', 50, 6);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (721, 'SCALED', 74, 39);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (722, 'SCALED', 55, 44);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (723, 'RX+', 65, 27);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (724, 'RX', 47, 48);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (725, 'SCALED', 35, 37);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (726, 'RX+', 18, 19);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (727, 'SCALED', 55, 6);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (728, 'SCALED', 34, 11);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (729, 'RX+', 46, 30);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (730, 'RX+', 28, 16);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (731, 'RX', 36, 33);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (732, 'RX+', 20, 9);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (733, 'RX+', 6, 30);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (734, 'SCALED', 16, 48);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (735, 'RX', 59, 28);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (736, 'SCALED', 58, 43);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (737, 'RX', 64, 20);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (738, 'SCALED', 34, 7);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (739, 'RX', 72, 36);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (740, 'SCALED', 38, 50);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (741, 'SCALED', 45, 37);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (742, 'RX', 20, 15);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (743, 'RX+', 10, 21);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (744, 'SCALED', 32, 43);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (745, 'RX', 63, 31);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (746, 'RX', 23, 5);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (747, 'SCALED', 16, 41);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (748, 'SCALED', 17, 22);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (749, 'RX', 63, 16);
-insert into session_results (id_session_results, wod_level, wod_score, specialty_score) values (750, 'RX', 28, 12);
+INSERT INTO session_results VALUES
+(1,36,29),
+(2,32,29),
+(3,66,37),
+(4,27,44),
+(5,47,7),
+(6,7,22),
+(7,29,46),
+(8,54,20),
+(9,57,6),
+(10,51,18),
+(11,53,22),
+(12,55,49),
+(13,21,23),
+(14,64,35),
+(15,68,29),
+(16,34,24),
+(17,74,32),
+(18,10,12),
+(19,22,29),
+(20,6,16),
+(21,26,36),
+(22,38,11),
+(23,18,17),
+(24,50,12),
+(25,6,37),
+(26,72,48),
+(27,52,42),
+(28,25,23),
+(29,39,26),
+(30,60,33),
+(31,60,13),
+(32,60,37),
+(33,39,28),
+(34,42,49),
+(35,44,19),
+(36,33,22),
+(37,62,35),
+(38,11,28),
+(39,13,12),
+(40,17,27),
+(41,30,47),
+(42,55,45),
+(43,22,5),
+(44,74,24),
+(45,52,20),
+(46,65,40),
+(47,22,12),
+(48,15,18),
+(49,67,41),
+(50,48,30),
+(51,73,7),
+(52,22,41),
+(53,72,34),
+(54,27,34),
+(55,21,34),
+(56,29,33),
+(57,43,39),
+(58,33,21),
+(59,39,36),
+(60,14,30),
+(61,33,30),
+(62,49,32),
+(63,63,47),
+(64,38,39),
+(65,38,43),
+(66,12,50),
+(67,42,36),
+(68,28,23),
+(69,23,26),
+(70,72,48),
+(71,17,10),
+(72,68,37),
+(73,40,16),
+(74,6,5),
+(75,57,35),
+(76,13,8),
+(77,66,40),
+(78,28,37),
+(79,34,49),
+(80,53,46),
+(81,74,14),
+(82,27,30),
+(83,40,30),
+(84,14,28),
+(85,33,27),
+(86,53,39),
+(87,71,48),
+(88,19,42),
+(89,17,5),
+(90,28,11),
+(91,29,17),
+(92,64,13),
+(93,71,17),
+(94,75,8),
+(95,39,13),
+(96,57,50),
+(97,66,19),
+(98,54,11),
+(99,22,18),
+(100,39,26),
+(101,58,39),
+(102,10,32),
+(103,26,10),
+(104,13,15),
+(105,23,35),
+(106,19,14),
+(107,46,5),
+(108,20,50),
+(109,16,33),
+(110,6,48),
+(111,9,32),
+(112,45,47),
+(113,64,47),
+(114,69,36),
+(115,15,33),
+(116,55,20),
+(117,18,37),
+(118,66,23),
+(119,59,17),
+(120,46,40),
+(121,14,43),
+(122,31,38),
+(123,49,41),
+(124,62,31),
+(125,18,11),
+(126,68,17),
+(127,42,12),
+(128,25,23),
+(129,41,5),
+(130,34,9),
+(131,46,43),
+(132,47,27),
+(133,64,22),
+(134,32,11),
+(135,55,17),
+(136,6,50),
+(137,53,10),
+(138,74,36),
+(139,70,8),
+(140,9,27),
+(141,14,7),
+(142,68,46),
+(143,72,28),
+(144,41,42),
+(145,23,13),
+(146,34,34),
+(147,61,36),
+(148,73,42),
+(149,23,39),
+(150,59,37),
+(151,68,37),
+(152,40,37),
+(153,74,36),
+(154,74,29),
+(155,39,26),
+(156,11,12),
+(157,29,19),
+(158,60,36),
+(159,48,17),
+(160,57,48),
+(161,67,28),
+(162,45,35),
+(163,27,48),
+(164,36,22),
+(165,8,50),
+(166,22,14),
+(167,22,33),
+(168,16,50),
+(169,67,45),
+(170,13,38),
+(171,19,28),
+(172,49,33),
+(173,44,11),
+(174,53,47),
+(175,51,10),
+(176,59,25),
+(177,68,33),
+(178,52,8),
+(179,23,12),
+(180,27,17),
+(181,61,36),
+(182,65,28),
+(183,42,6),
+(184,74,12),
+(185,46,46),
+(186,31,37),
+(187,38,47),
+(188,15,6),
+(189,59,39),
+(190,10,5),
+(191,60,6),
+(192,32,22),
+(193,52,27),
+(194,31,38),
+(195,35,43),
+(196,72,40),
+(197,16,41),
+(198,55,8),
+(199,64,17),
+(200,5,47),
+(201,70,25),
+(202,30,7),
+(203,69,31),
+(204,15,24),
+(205,74,39),
+(206,54,42),
+(207,66,48),
+(208,11,46),
+(209,55,36),
+(210,48,13),
+(211,60,42),
+(212,64,28),
+(213,28,16),
+(214,68,7),
+(215,65,22),
+(216,67,41),
+(217,6,35),
+(218,28,44),
+(219,74,50),
+(220,34,47),
+(221,13,45),
+(222,17,25),
+(223,60,16),
+(224,50,37),
+(225,19,5),
+(226,25,41),
+(227,55,21),
+(228,70,44),
+(229,35,49),
+(230,75,39),
+(231,47,23),
+(232,46,41),
+(233,65,35),
+(234,63,50),
+(235,10,16),
+(236,49,25),
+(237,41,18),
+(238,46,28),
+(239,55,46),
+(240,42,17),
+(241,57,32),
+(242,72,46),
+(243,41,31),
+(244,28,40),
+(245,34,11),
+(246,55,30),
+(247,41,12),
+(248,33,39),
+(249,36,38),
+(250,34,16),
+(251,52,36),
+(252,44,30),
+(253,28,28),
+(254,57,14),
+(255,37,27),
+(256,63,49),
+(257,38,10),
+(258,67,16),
+(259,14,44),
+(260,24,45),
+(261,61,49),
+(262,11,48),
+(263,42,45),
+(264,44,50),
+(265,67,40),
+(266,59,6),
+(267,38,16),
+(268,38,36),
+(269,48,18),
+(270,47,27),
+(271,14,41),
+(272,58,23),
+(273,13,18),
+(274,39,40),
+(275,42,5),
+(276,7,27),
+(277,37,6),
+(278,12,49),
+(279,73,45),
+(280,54,42),
+(281,55,15),
+(282,64,21),
+(283,68,11),
+(284,73,6),
+(285,60,24),
+(286,53,29),
+(287,67,33),
+(288,68,43),
+(289,52,38),
+(290,13,21),
+(291,73,49),
+(292,56,29),
+(293,74,37),
+(294,6,8),
+(295,38,31),
+(296,51,27),
+(297,38,8),
+(298,59,15),
+(299,62,33),
+(300,30,49),
+(301,16,14),
+(302,17,26),
+(303,18,41),
+(304,27,6),
+(305,20,28),
+(306,27,44),
+(307,54,44),
+(308,74,5),
+(309,16,35),
+(310,30,42),
+(311,30,36),
+(312,35,43),
+(313,10,32),
+(314,44,44),
+(315,8,12),
+(316,66,25),
+(317,12,43),
+(318,40,36),
+(319,57,23),
+(320,7,46),
+(321,25,10),
+(322,11,49),
+(323,8,41),
+(324,62,35),
+(325,5,45),
+(326,67,8),
+(327,41,14),
+(328,9,43),
+(329,54,45),
+(330,37,27),
+(331,6,20),
+(332,28,20),
+(333,20,36),
+(334,6,25),
+(335,7,42),
+(336,5,37),
+(337,27,33),
+(338,50,17),
+(339,27,47),
+(340,52,14),
+(341,66,29),
+(342,75,35),
+(343,34,34),
+(344,20,43),
+(345,71,14),
+(346,47,21),
+(347,63,26),
+(348,19,39),
+(349,13,21),
+(350,16,34),
+(351,60,25),
+(352,22,11),
+(353,8,34),
+(354,13,13),
+(355,56,24),
+(356,65,28),
+(357,50,21),
+(358,11,10),
+(359,48,46),
+(360,54,20),
+(361,28,26),
+(362,21,17),
+(363,74,43),
+(364,55,29),
+(365,15,39),
+(366,73,19),
+(367,38,32),
+(368,66,17),
+(369,21,32),
+(370,47,37),
+(371,27,29),
+(372,70,14),
+(373,42,37),
+(374,35,6),
+(375,10,27),
+(376,27,10),
+(377,64,6),
+(378,19,5),
+(379,59,49),
+(380,39,40),
+(381,61,10),
+(382,24,49),
+(383,11,31),
+(384,30,14),
+(385,11,19),
+(386,12,5),
+(387,5,47),
+(388,10,28),
+(389,74,43),
+(390,26,9),
+(391,64,30),
+(392,73,44),
+(393,25,49),
+(394,6,49),
+(395,27,15),
+(396,23,45),
+(397,41,43),
+(398,71,35),
+(399,74,32),
+(400,33,10),
+(401,67,40),
+(402,42,15),
+(403,34,39),
+(404,12,30),
+(405,9,48),
+(406,46,21),
+(407,30,37),
+(408,75,26),
+(409,21,44),
+(410,55,27),
+(411,36,41),
+(412,75,41),
+(413,66,20),
+(414,49,29),
+(415,34,25),
+(416,29,47),
+(417,41,30),
+(418,55,31),
+(419,72,50),
+(420,58,21),
+(421,44,43),
+(422,21,35),
+(423,18,26),
+(424,22,27),
+(425,60,21),
+(426,12,34),
+(427,44,49),
+(428,40,26),
+(429,28,43),
+(430,28,38),
+(431,54,45),
+(432,7,14),
+(433,17,48),
+(434,36,23),
+(435,57,35),
+(436,45,21),
+(437,48,25),
+(438,11,27),
+(439,6,36),
+(440,44,20),
+(441,10,46),
+(442,14,35),
+(443,23,5),
+(444,73,14),
+(445,52,44),
+(446,23,25),
+(447,67,19),
+(448,44,22),
+(449,26,49),
+(450,65,19),
+(451,23,49),
+(452,18,42),
+(453,52,23),
+(454,10,18),
+(455,42,46),
+(456,30,10),
+(457,69,23),
+(458,13,48),
+(459,64,28),
+(460,48,18),
+(461,64,31),
+(462,75,22),
+(463,64,8),
+(464,24,32),
+(465,31,15),
+(466,75,35),
+(467,47,30),
+(468,68,50),
+(469,72,37),
+(470,54,29),
+(471,59,50),
+(472,23,44),
+(473,56,21),
+(474,28,48),
+(475,9,27),
+(476,35,30),
+(477,10,11),
+(478,13,36),
+(479,67,50),
+(480,29,34),
+(481,30,14),
+(482,7,16),
+(483,36,30),
+(484,30,14),
+(485,73,28),
+(486,54,21),
+(487,55,15),
+(488,64,7),
+(489,53,15),
+(490,34,41),
+(491,52,33),
+(492,53,38),
+(493,38,22),
+(494,71,15),
+(495,75,48),
+(496,68,43),
+(497,10,15),
+(498,26,36),
+(499,49,22),
+(500,67,41),
+(501,62,27),
+(502,36,20),
+(503,20,35),
+(504,12,31),
+(505,58,48),
+(506,30,21),
+(507,33,22),
+(508,73,36),
+(509,22,32),
+(510,30,27),
+(511,44,6),
+(512,5,9),
+(513,59,10),
+(514,53,27),
+(515,38,28),
+(516,63,39),
+(517,35,47),
+(518,37,37),
+(519,35,36),
+(520,42,11),
+(521,43,12),
+(522,27,38),
+(523,70,47),
+(524,13,32),
+(525,15,28),
+(526,56,5),
+(527,40,23),
+(528,51,23),
+(529,59,32),
+(530,24,22),
+(531,25,41),
+(532,67,50),
+(533,9,36),
+(534,62,30),
+(535,51,43),
+(536,5,29),
+(537,60,7),
+(538,7,30),
+(539,29,9),
+(540,73,41),
+(541,20,19),
+(542,37,27),
+(543,25,21),
+(544,19,28),
+(545,53,19),
+(546,33,7),
+(547,63,23),
+(548,70,26),
+(549,21,39),
+(550,53,28),
+(551,42,5),
+(552,19,34),
+(553,24,34),
+(554,31,31),
+(555,55,21),
+(556,75,19),
+(557,16,47),
+(558,10,28),
+(559,30,13),
+(560,64,49),
+(561,12,11),
+(562,50,36),
+(563,30,46),
+(564,56,39),
+(565,68,23),
+(566,25,24),
+(567,14,37),
+(568,51,35),
+(569,65,6),
+(570,14,14),
+(571,31,32),
+(572,14,43),
+(573,14,29),
+(574,40,16),
+(575,46,19),
+(576,8,36),
+(577,6,41),
+(578,53,22),
+(579,68,43),
+(580,41,23),
+(581,54,13),
+(582,43,49),
+(583,24,34),
+(584,64,20),
+(585,74,40),
+(586,44,10),
+(587,30,45),
+(588,48,49),
+(589,72,40),
+(590,66,21),
+(591,47,24),
+(592,24,31),
+(593,44,48),
+(594,48,20),
+(595,16,24),
+(596,56,5),
+(597,18,43),
+(598,65,48),
+(599,50,6),
+(600,37,17),
+(601,42,27),
+(602,25,29),
+(603,57,47),
+(604,75,36),
+(605,65,39),
+(606,56,44),
+(607,15,14),
+(608,37,28),
+(609,7,49),
+(610,67,34),
+(611,22,8),
+(612,73,24),
+(613,51,9),
+(614,74,45),
+(615,12,20),
+(616,68,46),
+(617,55,20),
+(618,37,45),
+(619,10,20),
+(620,13,49),
+(621,43,5),
+(622,54,6),
+(623,74,20),
+(624,50,38),
+(625,28,24),
+(626,14,36),
+(627,33,30),
+(628,26,42),
+(629,74,26),
+(630,32,34),
+(631,24,32),
+(632,63,50),
+(633,54,40),
+(634,46,34),
+(635,28,25),
+(636,14,34),
+(637,15,5),
+(638,63,13),
+(639,8,17),
+(640,18,14),
+(641,23,28),
+(642,44,10),
+(643,49,15),
+(644,70,34),
+(645,11,12),
+(646,18,19),
+(647,6,18),
+(648,13,44),
+(649,50,38),
+(650,59,38),
+(651,5,6),
+(652,57,47),
+(653,60,25),
+(654,16,27),
+(655,21,37),
+(656,11,5),
+(657,71,28),
+(658,14,36),
+(659,49,18),
+(660,69,44),
+(661,49,40),
+(662,22,20),
+(663,35,6),
+(664,54,37),
+(665,71,35),
+(666,58,29),
+(667,19,16),
+(668,61,22),
+(669,53,12),
+(670,58,26),
+(671,57,27),
+(672,14,24),
+(673,75,50),
+(674,40,29),
+(675,31,9),
+(676,10,22),
+(677,25,8),
+(678,21,13),
+(679,43,7),
+(680,51,47),
+(681,42,48),
+(682,35,5),
+(683,49,34),
+(684,44,33),
+(685,65,25),
+(686,35,7),
+(687,38,35),
+(688,14,49),
+(689,35,32),
+(690,47,50),
+(691,73,44),
+(692,75,37),
+(693,25,36),
+(694,47,31),
+(695,24,45),
+(696,69,12),
+(697,45,46),
+(698,18,38),
+(699,36,41),
+(700,21,25),
+(701,49,42),
+(702,61,41),
+(703,50,47),
+(704,33,10),
+(705,62,47),
+(706,17,25),
+(707,48,28),
+(708,10,24),
+(709,73,7),
+(710,36,7),
+(711,39,42),
+(712,5,43),
+(713,54,23),
+(714,10,17),
+(715,36,34),
+(716,55,8),
+(717,50,15),
+(718,37,21),
+(719,59,17),
+(720,36,13),
+(721,68,30),
+(722,47,14),
+(723,10,50),
+(724,73,38),
+(725,55,31),
+(726,28,34),
+(727,66,43),
+(728,59,33),
+(729,38,42),
+(730,59,40),
+(731,57,25),
+(732,41,46),
+(733,28,49),
+(734,22,29),
+(735,26,22),
+(736,71,17),
+(737,17,9),
+(738,46,13),
+(739,17,18),
+(740,75,38),
+(741,12,48),
+(742,56,40),
+(743,68,36),
+(744,34,27),
+(745,58,17),
+(746,13,9),
+(747,22,32),
+(748,43,20),
+(749,47,17),
+(750,73,23);

@@ -1,50 +1,45 @@
-insert into class (date_, id_wod) values ('2019-11-08', 13);
-insert into class (date_, id_wod) values ('2020-02-04', 11);
-insert into class (date_, id_wod) values ('2019-11-26', 17);
-insert into class (date_, id_wod) values ('2020-01-22', 20);
-insert into class (date_, id_wod) values ('2020-02-13', 16);
-insert into class (date_, id_wod) values ('2019-08-21', 22);
-insert into class (date_, id_wod) values ('2019-08-20', 16);
-insert into class (date_, id_wod) values ('2020-02-23', 6);
-insert into class (date_, id_wod) values ('2019-11-30', 12);
-insert into class (date_, id_wod) values ('2019-07-14', 13);
-insert into class (date_, id_wod) values ('2020-03-19', 16);
-insert into class (date_, id_wod) values ('2020-03-20', 3);
-insert into class (date_, id_wod) values ('2019-09-10', 2);
-insert into class (date_, id_wod) values ('2019-05-08', 6);
-insert into class (date_, id_wod) values ('2020-02-05', 24);
-insert into class (date_, id_wod) values ('2019-09-06', 24);
-insert into class (date_, id_wod) values ('2020-01-29', 13);
-insert into class (date_, id_wod) values ('2019-09-02', 24);
-insert into class (date_, id_wod) values ('2019-06-15', 9);
-insert into class (date_, id_wod) values ('2019-03-23', 13);
-insert into class (date_, id_wod) values ('2019-07-09', 11);
-insert into class (date_, id_wod) values ('2019-12-14', 1);
-insert into class (date_, id_wod) values ('2019-05-09', 10);
-insert into class (date_, id_wod) values ('2019-05-12', 2);
-insert into class (date_, id_wod) values ('2020-03-02', 13);
-insert into class (date_, id_wod) values ('2019-11-08', 12);
-insert into class (date_, id_wod) values ('2019-03-14', 15);
-insert into class (date_, id_wod) values ('2019-02-01', 6);
-insert into class (date_, id_wod) values ('2019-06-01', 2);
-insert into class (date_, id_wod) values ('2019-09-18', 23);
-insert into class (date_, id_wod) values ('2019-07-11', 2);
-insert into class (date_, id_wod) values ('2019-07-23', 11);
-insert into class (date_, id_wod) values ('2019-08-24', 1);
-insert into class (date_, id_wod) values ('2019-05-04', 2);
-insert into class (date_, id_wod) values ('2020-02-11', 22);
-insert into class (date_, id_wod) values ('2019-07-03', 8);
-insert into class (date_, id_wod) values ('2020-01-24', 23);
-insert into class (date_, id_wod) values ('2019-12-12', 11);
-insert into class (date_, id_wod) values ('2019-05-19', 6);
-insert into class (date_, id_wod) values ('2020-02-25', 13);
-insert into class (date_, id_wod) values ('2020-03-05', 14);
-insert into class (date_, id_wod) values ('2019-09-18', 17);
-insert into class (date_, id_wod) values ('2019-06-27', 21);
-insert into class (date_, id_wod) values ('2019-12-03', 21);
-insert into class (date_, id_wod) values ('2019-01-13', 18);
-insert into class (date_, id_wod) values ('2019-12-31', 11);
-insert into class (date_, id_wod) values ('2019-03-15', 24);
-insert into class (date_, id_wod) values ('2019-06-06', 6);
-insert into class (date_, id_wod) values ('2019-07-13', 9);
-insert into class (date_, id_wod) values ('2019-07-02', 2);
+
+INSERT INTO class VALUES
+('07-01-19',17),
+('08-01-19',15),
+('09-01-19',5),
+('10-01-19',2),
+('11-01-19',16),
+('12-01-19',4),
+('14-01-19',14),
+('15-01-19',16),
+('16-01-19',18),
+('17-01-19',22),
+('18-01-19',19),
+('19-01-19',22),
+('21-01-19',12),
+('22-01-19',4),
+('23-01-19',17),
+('24-01-19',24),
+('25-01-19',24),
+('26-01-19',5),
+('28-01-19',7),
+('29-01-19',22),
+('30-01-19',20),
+('31-01-19',16),
+('01-02-19',6),
+('02-02-19',14),
+('04-02-19',3),
+('05-02-19',7),
+('06-02-19',23),
+('07-02-19',12),
+('08-02-19',6),
+('09-02-19',10),
+('11-02-19',11),
+('12-02-19',1),
+('13-02-19',1),
+('14-02-19',21),
+('15-02-19',18),
+('16-02-19',7),
+('18-02-19',22),
+('19-02-19',20),
+('20-02-19',12),
+('21-02-19',19),
+('22-02-19',19),
+('23-02-19',13),
+('25-02-19',1);

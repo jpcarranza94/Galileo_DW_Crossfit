@@ -1,75 +1,77 @@
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (1, 'Noby', 72.3, 1.44, 29, 'F', 1, '6865550018', '9909378676');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (2, 'Elijah', 65.06, 1.87, 16, 'F', 1, '9153524690', '6223664966');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (3, 'Teador', 63.54, 1.66, 22, 'M', 1, '1955237455', '7707308439');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (4, 'Ophelia', 56.04, 1.61, 19, 'M', 1, '6205073945', '9196080158');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (5, 'Chelsea', 68.88, 1.58, 23, 'M', 1, '2924998550', '2251086308');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (6, 'Pietrek', 66.26, 1.36, 28, 'M', 1, '3991754178', '6624243597');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (7, 'Allyce', 61.09, 1.89, 19, 'M', 1, '4947736187', '4335907565');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (8, 'Reggis', 64.43, 1.3, 20, 'F', 1, '7898614333', '4208138041');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (9, 'Francine', 56.99, 1.43, 23, 'F', 1, '4452308178', '4893963471');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (10, 'Alain', 62.47, 1.74, 24, 'F', 1, '5699370159', '7768886351');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (11, 'Carlyn', 67.97, 1.39, 18, 'M', 1, '7737541088', '8496972205');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (12, 'Rozina', 69.19, 1.78, 25, 'M', 1, '5406499844', '8984141126');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (13, 'Karin', 57.07, 1.72, 19, 'M', 1, '9161722961', '6733907439');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (14, 'Madonna', 63.83, 1.28, 14, 'M', 1, '3568871326', '2775926886');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (15, 'Lurlene', 58.34, 1.64, 24, 'M', 1, '1992036913', '7366062694');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (16, 'Huntlee', 61.85, 1.47, 32, 'F', 1, '2065724384', '6574425165');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (17, 'Cirstoforo', 60.75, 1.49, 26, 'M', 1, '2179718752', '3497873478');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (18, 'Jameson', 56.07, 1.76, 33, 'F', 1, '7717000692', '9814836665');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (19, 'Obie', 70.23, 1.91, 22, 'M', 1, '7475447191', '5949484958');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (20, 'Berny', 60.43, 1.46, 24, 'M', 1, '3576334146', '6507354398');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (21, 'Jaquenette', 66.19, 1.67, 19, 'M', 1, '5993565159', '4081276438');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (22, 'Garrard', 64.49, 1.41, 28, 'F', 1, '6652513810', '6332896717');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (23, 'Monica', 69.18, 1.65, 24, 'M', 1, '1294523167', '8294915999');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (24, 'Colan', 66.19, 1.52, 26, 'M', 1, '5025174873', '9768959525');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (25, 'Reine', 67.22, 1.47, 29, 'M', 1, '2384479262', '2454251325');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (26, 'Berty', 74.7, 1.76, 34, 'F', 1, '3707378433', '2277684433');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (27, 'Marysa', 67.68, 1.43, 31, 'M', 1, '4602187528', '4395328745');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (28, 'Cyrill', 67.87, 1.66, 29, 'M', 1, '8825972292', '7003898722');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (29, 'Derk', 59.08, 1.74, 18, 'F', 1, '8316960052', '1073468282');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (30, 'Brenn', 73.87, 1.62, 31, 'F', 1, '2791892644', '1164671283');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (31, 'Casandra', 67.45, 1.67, 22, 'M', 1, '2079351062', '8651136715');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (32, 'Yevette', 68.82, 1.69, 16, 'M', 1, '9392884589', '1101839537');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (33, 'Gerry', 67.54, 1.66, 25, 'F', 1, '1689364584', '5106586206');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (34, 'Paulie', 64.74, 1.3, 21, 'M', 1, '7161936126', '2237668599');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (35, 'Shirley', 71.76, 1.42, 21, 'F', 1, '2357000718', '3722272210');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (36, 'Margalit', 67.51, 1.58, 15, 'F', 1, '6526260696', '5518614066');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (37, 'Claude', 65.35, 1.38, 29, 'M', 1, '8369848785', '6914734817');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (38, 'Daisy', 71.41, 1.63, 21, 'F', 1, '8762877922', '8731112796');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (39, 'Elliot', 60.48, 1.39, 21, 'M', 1, '6553211686', '5759930217');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (40, 'Phylis', 56.94, 1.85, 19, 'F', 1, '2423307784', '7549202874');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (41, 'Retha', 61.89, 1.93, 25, 'F', 1, '8248693186', '8346895981');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (42, 'Cullen', 64.98, 1.55, 24, 'F', 1, '3531939968', '2762273823');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (43, 'Pen', 55.07, 1.55, 23, 'F', 1, '3365816857', '6077124204');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (44, 'Chery', 63.69, 1.88, 25, 'F', 1, '8192475536', '6825228382');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (45, 'Dewie', 59.72, 1.33, 16, 'F', 1, '9934067125', '7254503829');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (46, 'Borg', 66.1, 1.78, 22, 'M', 1, '9948573342', '2403882772');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (47, 'Elmer', 63.25, 1.55, 28, 'M', 1, '1498341756', '4552040425');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (48, 'Seth', 65.0, 1.64, 18, 'F', 1, '5628247798', '7098061166');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (49, 'Ricky', 62.28, 1.84, 26, 'M', 1, '9884040183', '7209285666');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (50, 'Lorelei', 71.88, 1.57, 11, 'M', 1, '5002851585', '3162244514');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (51, 'Husein', 63.59, 1.63, 13, 'M', 1, '4542067275', '1175459498');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (52, 'Benson', 62.7, 1.76, 38, 'F', 1, '9833606761', '8221700788');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (53, 'Gayler', 64.8, 1.62, 21, 'M', 1, '4578329152', '5269873985');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (54, 'Fidel', 68.2, 1.47, 21, 'M', 1, '2566854222', '6375419238');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (55, 'Tobit', 65.82, 1.75, 23, 'F', 1, '7327962699', '1317603804');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (56, 'Sanford', 57.51, 1.71, 26, 'F', 1, '4557978018', '4671759894');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (57, 'Adriano', 71.8, 1.49, 17, 'M', 1, '3342521556', '4069248626');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (58, 'Rozina', 62.35, 1.67, 22, 'F', 1, '9694898900', '5064844051');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (59, 'Essie', 66.05, 1.71, 16, 'F', 1, '6609775504', '8628931384');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (60, 'Lark', 67.93, 1.69, 21, 'F', 1, '3234015673', '3128477386');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (61, 'Siouxie', 55.81, 1.7, 25, 'M', 1, '6037902755', '5915792437');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (62, 'Fritz', 54.36, 1.78, 24, 'M', 1, '9162700291', '9686596462');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (63, 'Collin', 72.27, 1.57, 23, 'F', 1, '9933709209', '7722850449');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (64, 'Alexine', 74.0, 1.68, 25, 'F', 1, '2789435318', '5225553219');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (65, 'Inglis', 62.71, 1.81, 31, 'F', 1, '3315381161', '2556675486');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (66, 'Antonio', 64.84, 1.39, 25, 'F', 1, '9063516119', '2122317501');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (67, 'Lindsy', 54.79, 1.79, 26, 'M', 1, '2022645249', '9601822388');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (68, 'Shem', 65.44, 1.63, 22, 'F', 1, '2677087263', '6098990721');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (69, 'Deina', 55.3, 1.62, 19, 'M', 1, '9748441129', '1697750960');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (70, 'Keenan', 68.54, 1.92, 24, 'F', 1, '1696731335', '2437317905');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (71, 'Myca', 61.38, 1.42, 23, 'F', 1, '7063178759', '3346383149');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (72, 'Bartlett', 66.92, 1.68, 25, 'F', 1, '9357246348', '6785492749');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (73, 'Andie', 62.44, 1.34, 29, 'F', 1, '3003532909', '8751310781');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (74, 'Loretta', 73.84, 1.49, 20, 'F', 1, '3096834758', '4924129468');
-insert into athlete (id_athlete, name, weight, height, age, sex, solvency , telephone, DPI) values (75, 'Britni', 60.52, 1.63, 26, 'F', 1, '4626830289', '1059932486');
+
+INSERT INTO athlete VALUES
+(1,'Honoria',63.46,1.93,18,'M',1,9902547786,9092707151),
+(2,'Niki',56.87,1.66,24,'F',1,8705649694,6025396580),
+(3,'Herby',62.65,1.92,23,'M',1,9783046073,6191763166),
+(4,'Rustin',78.36,1.71,29,'M',1,6943074954,4421664860),
+(5,'Ruttger',70.81,1.66,28,'M',1,3249731949,7091647120),
+(6,'Ansley',68.25,1.58,30,'F',1,6936307387,4548026094),
+(7,'Loree',72.55,1.63,24,'M',1,4098169235,9121098792),
+(8,'Christan',53.78,1.53,16,'M',1,8132778652,6033899479),
+(9,'Dianemarie',54.68,1.48,24,'F',1,6777191499,6454313559),
+(10,'Emmalynne',63.27,1.73,23,'M',1,8427305455,4403255570),
+(11,'Moira',63.6,1.44,29,'M',1,4664372733,1221468319),
+(12,'Mose',57.17,1.74,20,'M',1,2052526631,4748417172),
+(13,'Ronda',63.15,1.5,17,'M',1,7308355200,9075673986),
+(14,'Gearalt',73.56,1.71,25,'F',1,5973911514,3455150938),
+(15,'Burke',60.63,1.67,21,'M',1,4177030921,3688681575),
+(16,'Emmerich',62.98,1.81,24,'M',1,9459953453,6822990060),
+(17,'Gratia',67.49,1.52,25,'F',1,1375655837,7937011239),
+(18,'Prince',55.18,1.5,20,'M',1,2107573620,5533181530),
+(19,'Leicester',66.09,1.65,28,'M',1,9266582250,7909735756),
+(20,'Chaddy',58.25,1.55,21,'M',1,3882885395,3004865714),
+(21,'Claudie',60.99,1.62,19,'F',1,3504915291,1008650192),
+(22,'Vaclav',61.54,1.43,18,'M',1,4809732861,8338369173),
+(23,'Hasty',69.23,1.44,22,'F',1,5779191718,4874965353),
+(24,'Patti',64.75,1.6,17,'F',1,4664817870,9439967865),
+(25,'Grace',62.57,1.63,28,'M',1,4648777003,6942826662),
+(26,'Mace',66.73,1.64,23,'M',1,3693421304,3322683707),
+(27,'Raddy',59.43,1.78,30,'M',1,4766964223,6853439970),
+(28,'Atlanta',68.76,1.5,30,'M',1,9627168066,4907945030),
+(29,'Ruggiero',64.38,1.74,28,'M',1,2113392393,4747277613),
+(30,'Jewel',62.36,1.46,19,'M',1,6761466878,4725868373),
+(31,'Clerissa',76.48,1.42,22,'F',1,6863066826,2619855178),
+(32,'Lurline',59.57,1.62,27,'F',1,2063570982,4164765490),
+(33,'Basil',59.22,1.7,22,'M',1,7472369655,7842651750),
+(34,'Josepha',63.83,1.49,22,'M',1,8669640536,3328793698),
+(35,'Aindrea',64.47,1.75,29,'F',1,4542320961,8934932264),
+(36,'Renato',59.1,2.02,20,'M',1,7455832031,7812915373),
+(37,'Hestia',58.99,1.49,23,'F',1,8103896247,9045809923),
+(38,'Elora',68.66,1.62,25,'F',1,1868591520,8094362769),
+(39,'Sven',62.12,1.55,23,'M',1,4638685914,4262044570),
+(40,'Lelia',59.6,1.42,26,'F',1,9589596882,5529141349),
+(41,'Adlai',67.38,1.54,22,'M',1,5774981898,7183288177),
+(42,'Corabel',62.01,1.78,31,'M',1,9683146227,4127539078),
+(43,'Orelle',62.7,1.72,22,'F',1,3832179240,8594613567),
+(44,'Glenine',72.4,1.53,34,'F',1,9398517982,3457913706),
+(45,'Staford',60.0,1.44,33,'F',1,8715737824,1309697979),
+(46,'Micaela',63.77,1.59,31,'M',1,5841366087,7397223502),
+(47,'Amaleta',59.87,1.35,22,'M',1,9472357056,6542699906),
+(48,'Martha',73.09,1.51,31,'F',1,9575690744,6891827104),
+(49,'Marcelle',61.28,1.7,31,'F',1,9468800718,9596185585),
+(50,'Stafford',59.05,1.96,27,'F',1,9397115151,9227906053),
+(51,'Myron',67.7,1.63,37,'F',1,3193469912,2099574438),
+(52,'Dianemarie',61.47,1.64,12,'M',1,4752055939,7562622493),
+(53,'Lorry',68.6,1.44,12,'M',1,7994368893,9066657148),
+(54,'Johann',56.82,1.69,31,'M',1,9954665871,4445115155),
+(55,'Terza',62.24,1.41,34,'F',1,3507447901,3376867530),
+(56,'Tobin',61.17,1.4,21,'F',1,9177202639,4745157714),
+(57,'Danny',66.93,1.48,29,'F',1,3415166249,2649830631),
+(58,'Curr',67.18,1.51,27,'M',1,6078340023,8441693930),
+(59,'Clare',76.26,1.5,21,'F',1,7852021988,1915825901),
+(60,'Pieter',68.61,1.75,31,'M',1,8031817519,7502768582),
+(61,'Rey',64.43,1.96,25,'F',1,9497538738,6637912347),
+(62,'Peadar',69.53,1.79,22,'M',1,9187163677,6924337758),
+(63,'Germayne',70.62,1.36,34,'F',1,8684857769,6835606426),
+(64,'Nessie',72.29,1.84,19,'F',1,4485295905,2201740633),
+(65,'Libbi',68.36,1.83,18,'F',1,5691316018,5732700728),
+(66,'Dewain',59.94,1.74,25,'M',1,1419855927,7224606447),
+(67,'Byrom',63.73,1.51,26,'F',1,8474918771,4051521041),
+(68,'Daisi',71.78,1.46,30,'F',1,4208358546,5283771776),
+(69,'Amby',63.03,1.47,27,'M',1,8243935806,2021462939),
+(70,'Hulda',62.36,1.41,24,'M',1,5499972866,1538528003),
+(71,'Geno',73.36,1.62,27,'F',1,4854852658,9057095806),
+(72,'Daria',75.62,1.53,25,'M',1,5251603449,2826163741),
+(73,'Albina',59.88,1.44,23,'M',1,3577768362,4619548113),
+(74,'Livia',64.19,1.48,14,'F',1,2768259743,7927453644),
+(75,'Ali',63.23,1.76,27,'F',1,6543132769,1079767657);

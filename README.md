@@ -12,7 +12,14 @@
 2. Spript DDL
 	- ***schema_main.sql***: contiene la creación de la base de datos y sus triggers
 3. Script de insersión
-	- ***schema_data.sql***: contiene la data recopilada en un solo script 
+	- ***schema_data.sql***: contiene data de WODS, specialties, warmups, y RX goals. Árchivo contenido en carpeta *data_mockaroo*.
 		- Los scripts individuales se encuentran en la carpeta *data_mockaroo* 
+		- Ejecutar los archivos .sql de la carpeta en el siguiente orden:
+			1) ***athlete.sql***
+			2) ***class.sql***
+			3) ***coach.sql***
+			4) ***session.sql***
+			5) ***session_results.sql***
+
 4. Script con visitas solicitadas 
 	- ***schema_procedures.sql***: cuenta con los procedures y vistas pedidas
