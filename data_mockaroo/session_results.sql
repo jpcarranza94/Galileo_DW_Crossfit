@@ -1,751 +1,752 @@
-INSERT INTO session_results VALUES
-(1,36,29),
-(2,32,29),
-(3,66,37),
-(4,27,44),
-(5,47,7),
-(6,7,22),
-(7,29,46),
-(8,54,20),
-(9,57,6),
-(10,51,18),
-(11,53,22),
-(12,55,49),
-(13,21,23),
-(14,64,35),
-(15,68,29),
-(16,34,24),
-(17,74,32),
-(18,10,12),
-(19,22,29),
-(20,6,16),
-(21,26,36),
-(22,38,11),
-(23,18,17),
-(24,50,12),
-(25,6,37),
-(26,72,48),
-(27,52,42),
-(28,25,23),
-(29,39,26),
-(30,60,33),
-(31,60,13),
-(32,60,37),
-(33,39,28),
-(34,42,49),
-(35,44,19),
-(36,33,22),
-(37,62,35),
-(38,11,28),
-(39,13,12),
-(40,17,27),
-(41,30,47),
-(42,55,45),
-(43,22,5),
-(44,74,24),
-(45,52,20),
-(46,65,40),
-(47,22,12),
-(48,15,18),
-(49,67,41),
-(50,48,30),
-(51,73,7),
-(52,22,41),
-(53,72,34),
-(54,27,34),
-(55,21,34),
-(56,29,33),
-(57,43,39),
-(58,33,21),
-(59,39,36),
-(60,14,30),
-(61,33,30),
-(62,49,32),
-(63,63,47),
-(64,38,39),
-(65,38,43),
-(66,12,50),
-(67,42,36),
-(68,28,23),
-(69,23,26),
-(70,72,48),
-(71,17,10),
-(72,68,37),
-(73,40,16),
-(74,6,5),
-(75,57,35),
-(76,13,8),
-(77,66,40),
-(78,28,37),
-(79,34,49),
-(80,53,46),
-(81,74,14),
-(82,27,30),
-(83,40,30),
-(84,14,28),
-(85,33,27),
-(86,53,39),
-(87,71,48),
-(88,19,42),
-(89,17,5),
-(90,28,11),
-(91,29,17),
-(92,64,13),
-(93,71,17),
-(94,75,8),
-(95,39,13),
-(96,57,50),
-(97,66,19),
-(98,54,11),
-(99,22,18),
-(100,39,26),
-(101,58,39),
-(102,10,32),
-(103,26,10),
-(104,13,15),
-(105,23,35),
-(106,19,14),
-(107,46,5),
-(108,20,50),
-(109,16,33),
-(110,6,48),
-(111,9,32),
-(112,45,47),
-(113,64,47),
-(114,69,36),
-(115,15,33),
-(116,55,20),
-(117,18,37),
-(118,66,23),
-(119,59,17),
-(120,46,40),
-(121,14,43),
-(122,31,38),
-(123,49,41),
-(124,62,31),
-(125,18,11),
-(126,68,17),
-(127,42,12),
-(128,25,23),
-(129,41,5),
-(130,34,9),
-(131,46,43),
-(132,47,27),
-(133,64,22),
-(134,32,11),
-(135,55,17),
-(136,6,50),
-(137,53,10),
-(138,74,36),
-(139,70,8),
-(140,9,27),
-(141,14,7),
-(142,68,46),
-(143,72,28),
-(144,41,42),
-(145,23,13),
-(146,34,34),
-(147,61,36),
-(148,73,42),
-(149,23,39),
-(150,59,37),
-(151,68,37),
-(152,40,37),
-(153,74,36),
-(154,74,29),
-(155,39,26),
-(156,11,12),
-(157,29,19),
-(158,60,36),
-(159,48,17),
-(160,57,48),
-(161,67,28),
-(162,45,35),
-(163,27,48),
-(164,36,22),
-(165,8,50),
-(166,22,14),
-(167,22,33),
-(168,16,50),
-(169,67,45),
-(170,13,38),
-(171,19,28),
-(172,49,33),
-(173,44,11),
-(174,53,47),
-(175,51,10),
-(176,59,25),
-(177,68,33),
-(178,52,8),
-(179,23,12),
-(180,27,17),
-(181,61,36),
-(182,65,28),
-(183,42,6),
-(184,74,12),
-(185,46,46),
-(186,31,37),
-(187,38,47),
-(188,15,6),
-(189,59,39),
-(190,10,5),
-(191,60,6),
-(192,32,22),
-(193,52,27),
-(194,31,38),
-(195,35,43),
-(196,72,40),
-(197,16,41),
-(198,55,8),
-(199,64,17),
-(200,5,47),
-(201,70,25),
-(202,30,7),
-(203,69,31),
-(204,15,24),
-(205,74,39),
-(206,54,42),
-(207,66,48),
-(208,11,46),
-(209,55,36),
-(210,48,13),
-(211,60,42),
-(212,64,28),
-(213,28,16),
-(214,68,7),
-(215,65,22),
-(216,67,41),
-(217,6,35),
-(218,28,44),
-(219,74,50),
-(220,34,47),
-(221,13,45),
-(222,17,25),
-(223,60,16),
-(224,50,37),
-(225,19,5),
-(226,25,41),
-(227,55,21),
-(228,70,44),
-(229,35,49),
-(230,75,39),
-(231,47,23),
-(232,46,41),
-(233,65,35),
-(234,63,50),
-(235,10,16),
-(236,49,25),
-(237,41,18),
-(238,46,28),
-(239,55,46),
-(240,42,17),
-(241,57,32),
-(242,72,46),
-(243,41,31),
-(244,28,40),
-(245,34,11),
-(246,55,30),
-(247,41,12),
-(248,33,39),
-(249,36,38),
-(250,34,16),
-(251,52,36),
-(252,44,30),
-(253,28,28),
-(254,57,14),
-(255,37,27),
-(256,63,49),
-(257,38,10),
-(258,67,16),
-(259,14,44),
-(260,24,45),
-(261,61,49),
-(262,11,48),
-(263,42,45),
-(264,44,50),
-(265,67,40),
-(266,59,6),
-(267,38,16),
-(268,38,36),
-(269,48,18),
-(270,47,27),
-(271,14,41),
-(272,58,23),
-(273,13,18),
-(274,39,40),
-(275,42,5),
-(276,7,27),
-(277,37,6),
-(278,12,49),
-(279,73,45),
-(280,54,42),
-(281,55,15),
-(282,64,21),
-(283,68,11),
-(284,73,6),
-(285,60,24),
-(286,53,29),
-(287,67,33),
-(288,68,43),
-(289,52,38),
-(290,13,21),
-(291,73,49),
-(292,56,29),
-(293,74,37),
-(294,6,8),
-(295,38,31),
-(296,51,27),
-(297,38,8),
-(298,59,15),
-(299,62,33),
-(300,30,49),
-(301,16,14),
-(302,17,26),
-(303,18,41),
-(304,27,6),
-(305,20,28),
-(306,27,44),
-(307,54,44),
-(308,74,5),
-(309,16,35),
-(310,30,42),
-(311,30,36),
-(312,35,43),
-(313,10,32),
-(314,44,44),
-(315,8,12),
-(316,66,25),
-(317,12,43),
-(318,40,36),
-(319,57,23),
-(320,7,46),
-(321,25,10),
-(322,11,49),
-(323,8,41),
-(324,62,35),
-(325,5,45),
-(326,67,8),
-(327,41,14),
-(328,9,43),
-(329,54,45),
-(330,37,27),
-(331,6,20),
-(332,28,20),
-(333,20,36),
-(334,6,25),
-(335,7,42),
-(336,5,37),
-(337,27,33),
-(338,50,17),
-(339,27,47),
-(340,52,14),
-(341,66,29),
-(342,75,35),
-(343,34,34),
-(344,20,43),
-(345,71,14),
-(346,47,21),
-(347,63,26),
-(348,19,39),
-(349,13,21),
-(350,16,34),
-(351,60,25),
-(352,22,11),
-(353,8,34),
-(354,13,13),
-(355,56,24),
-(356,65,28),
-(357,50,21),
-(358,11,10),
-(359,48,46),
-(360,54,20),
-(361,28,26),
-(362,21,17),
-(363,74,43),
-(364,55,29),
-(365,15,39),
-(366,73,19),
-(367,38,32),
-(368,66,17),
-(369,21,32),
-(370,47,37),
-(371,27,29),
-(372,70,14),
-(373,42,37),
-(374,35,6),
-(375,10,27),
-(376,27,10),
-(377,64,6),
-(378,19,5),
-(379,59,49),
-(380,39,40),
-(381,61,10),
-(382,24,49),
-(383,11,31),
-(384,30,14),
-(385,11,19),
-(386,12,5),
-(387,5,47),
-(388,10,28),
-(389,74,43),
-(390,26,9),
-(391,64,30),
-(392,73,44),
-(393,25,49),
-(394,6,49),
-(395,27,15),
-(396,23,45),
-(397,41,43),
-(398,71,35),
-(399,74,32),
-(400,33,10),
-(401,67,40),
-(402,42,15),
-(403,34,39),
-(404,12,30),
-(405,9,48),
-(406,46,21),
-(407,30,37),
-(408,75,26),
-(409,21,44),
-(410,55,27),
-(411,36,41),
-(412,75,41),
-(413,66,20),
-(414,49,29),
-(415,34,25),
-(416,29,47),
-(417,41,30),
-(418,55,31),
-(419,72,50),
-(420,58,21),
-(421,44,43),
-(422,21,35),
-(423,18,26),
-(424,22,27),
-(425,60,21),
-(426,12,34),
-(427,44,49),
-(428,40,26),
-(429,28,43),
-(430,28,38),
-(431,54,45),
-(432,7,14),
-(433,17,48),
-(434,36,23),
-(435,57,35),
-(436,45,21),
-(437,48,25),
-(438,11,27),
-(439,6,36),
-(440,44,20),
-(441,10,46),
-(442,14,35),
-(443,23,5),
-(444,73,14),
-(445,52,44),
-(446,23,25),
-(447,67,19),
-(448,44,22),
-(449,26,49),
-(450,65,19),
-(451,23,49),
-(452,18,42),
-(453,52,23),
-(454,10,18),
-(455,42,46),
-(456,30,10),
-(457,69,23),
-(458,13,48),
-(459,64,28),
-(460,48,18),
-(461,64,31),
-(462,75,22),
-(463,64,8),
-(464,24,32),
-(465,31,15),
-(466,75,35),
-(467,47,30),
-(468,68,50),
-(469,72,37),
-(470,54,29),
-(471,59,50),
-(472,23,44),
-(473,56,21),
-(474,28,48),
-(475,9,27),
-(476,35,30),
-(477,10,11),
-(478,13,36),
-(479,67,50),
-(480,29,34),
-(481,30,14),
-(482,7,16),
-(483,36,30),
-(484,30,14),
-(485,73,28),
-(486,54,21),
-(487,55,15),
-(488,64,7),
-(489,53,15),
-(490,34,41),
-(491,52,33),
-(492,53,38),
-(493,38,22),
-(494,71,15),
-(495,75,48),
-(496,68,43),
-(497,10,15),
-(498,26,36),
-(499,49,22),
-(500,67,41),
-(501,62,27),
-(502,36,20),
-(503,20,35),
-(504,12,31),
-(505,58,48),
-(506,30,21),
-(507,33,22),
-(508,73,36),
-(509,22,32),
-(510,30,27),
-(511,44,6),
-(512,5,9),
-(513,59,10),
-(514,53,27),
-(515,38,28),
-(516,63,39),
-(517,35,47),
-(518,37,37),
-(519,35,36),
-(520,42,11),
-(521,43,12),
-(522,27,38),
-(523,70,47),
-(524,13,32),
-(525,15,28),
-(526,56,5),
-(527,40,23),
-(528,51,23),
-(529,59,32),
-(530,24,22),
-(531,25,41),
-(532,67,50),
-(533,9,36),
-(534,62,30),
-(535,51,43),
-(536,5,29),
-(537,60,7),
-(538,7,30),
-(539,29,9),
-(540,73,41),
-(541,20,19),
-(542,37,27),
-(543,25,21),
-(544,19,28),
-(545,53,19),
-(546,33,7),
-(547,63,23),
-(548,70,26),
-(549,21,39),
-(550,53,28),
-(551,42,5),
-(552,19,34),
-(553,24,34),
-(554,31,31),
-(555,55,21),
-(556,75,19),
-(557,16,47),
-(558,10,28),
-(559,30,13),
-(560,64,49),
-(561,12,11),
-(562,50,36),
-(563,30,46),
-(564,56,39),
-(565,68,23),
-(566,25,24),
-(567,14,37),
-(568,51,35),
-(569,65,6),
-(570,14,14),
-(571,31,32),
-(572,14,43),
-(573,14,29),
-(574,40,16),
-(575,46,19),
-(576,8,36),
-(577,6,41),
-(578,53,22),
-(579,68,43),
-(580,41,23),
-(581,54,13),
-(582,43,49),
-(583,24,34),
-(584,64,20),
-(585,74,40),
-(586,44,10),
-(587,30,45),
-(588,48,49),
-(589,72,40),
-(590,66,21),
-(591,47,24),
-(592,24,31),
-(593,44,48),
-(594,48,20),
-(595,16,24),
-(596,56,5),
-(597,18,43),
-(598,65,48),
-(599,50,6),
-(600,37,17),
-(601,42,27),
-(602,25,29),
-(603,57,47),
-(604,75,36),
-(605,65,39),
-(606,56,44),
-(607,15,14),
-(608,37,28),
-(609,7,49),
-(610,67,34),
-(611,22,8),
-(612,73,24),
-(613,51,9),
-(614,74,45),
-(615,12,20),
-(616,68,46),
-(617,55,20),
-(618,37,45),
-(619,10,20),
-(620,13,49),
-(621,43,5),
-(622,54,6),
-(623,74,20),
-(624,50,38),
-(625,28,24),
-(626,14,36),
-(627,33,30),
-(628,26,42),
-(629,74,26),
-(630,32,34),
-(631,24,32),
-(632,63,50),
-(633,54,40),
-(634,46,34),
-(635,28,25),
-(636,14,34),
-(637,15,5),
-(638,63,13),
-(639,8,17),
-(640,18,14),
-(641,23,28),
-(642,44,10),
-(643,49,15),
-(644,70,34),
-(645,11,12),
-(646,18,19),
-(647,6,18),
-(648,13,44),
-(649,50,38),
-(650,59,38),
-(651,5,6),
-(652,57,47),
-(653,60,25),
-(654,16,27),
-(655,21,37),
-(656,11,5),
-(657,71,28),
-(658,14,36),
-(659,49,18),
-(660,69,44),
-(661,49,40),
-(662,22,20),
-(663,35,6),
-(664,54,37),
-(665,71,35),
-(666,58,29),
-(667,19,16),
-(668,61,22),
-(669,53,12),
-(670,58,26),
-(671,57,27),
-(672,14,24),
-(673,75,50),
-(674,40,29),
-(675,31,9),
-(676,10,22),
-(677,25,8),
-(678,21,13),
-(679,43,7),
-(680,51,47),
-(681,42,48),
-(682,35,5),
-(683,49,34),
-(684,44,33),
-(685,65,25),
-(686,35,7),
-(687,38,35),
-(688,14,49),
-(689,35,32),
-(690,47,50),
-(691,73,44),
-(692,75,37),
-(693,25,36),
-(694,47,31),
-(695,24,45),
-(696,69,12),
-(697,45,46),
-(698,18,38),
-(699,36,41),
-(700,21,25),
-(701,49,42),
-(702,61,41),
-(703,50,47),
-(704,33,10),
-(705,62,47),
-(706,17,25),
-(707,48,28),
-(708,10,24),
-(709,73,7),
-(710,36,7),
-(711,39,42),
-(712,5,43),
-(713,54,23),
-(714,10,17),
-(715,36,34),
-(716,55,8),
-(717,50,15),
-(718,37,21),
-(719,59,17),
-(720,36,13),
-(721,68,30),
-(722,47,14),
-(723,10,50),
-(724,73,38),
-(725,55,31),
-(726,28,34),
-(727,66,43),
-(728,59,33),
-(729,38,42),
-(730,59,40),
-(731,57,25),
-(732,41,46),
-(733,28,49),
-(734,22,29),
-(735,26,22),
-(736,71,17),
-(737,17,9),
-(738,46,13),
-(739,17,18),
-(740,75,38),
-(741,12,48),
-(742,56,40),
-(743,68,36),
-(744,34,27),
-(745,58,17),
-(746,13,9),
-(747,22,32),
-(748,43,20),
-(749,47,17),
-(750,73,23);
+
+
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(1,"36","29");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(2,"32","29");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(3,"66","37");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(4,"27","44");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(5,"47","7");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(6,"7","22");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(7,"29","46");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(8,"54","20");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(9,"57","6");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(10,"51","18");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(11,"53","22");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(12,"55","49");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(13,"21","23");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(14,"64","35");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(15,"68","29");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(16,"34","24");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(17,"74","32");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(18,"10","12");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(19,"22","29");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(20,"6","16");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(21,"26","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(22,"38","11");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(23,"18","17");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(24,"50","12");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(25,"6","37");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(26,"72","48");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(27,"52","42");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(28,"25","23");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(29,"39","26");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(30,"60","33");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(31,"60","13");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(32,"60","37");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(33,"39","28");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(34,"42","49");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(35,"44","19");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(36,"33","22");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(37,"62","35");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(38,"11","28");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(39,"13","12");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(40,"17","27");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(41,"30","47");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(42,"55","45");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(43,"22","5");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(44,"74","24");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(45,"52","20");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(46,"65","40");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(47,"22","12");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(48,"15","18");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(49,"67","41");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(50,"48","30");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(51,"73","7");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(52,"22","41");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(53,"72","34");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(54,"27","34");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(55,"21","34");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(56,"29","33");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(57,"43","39");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(58,"33","21");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(59,"39","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(60,"14","30");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(61,"33","30");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(62,"49","32");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(63,"63","47");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(64,"38","39");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(65,"38","43");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(66,"12","50");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(67,"42","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(68,"28","23");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(69,"23","26");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(70,"72","48");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(71,"17","10");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(72,"68","37");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(73,"40","16");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(74,"6","5");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(75,"57","35");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(76,"13","8");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(77,"66","40");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(78,"28","37");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(79,"34","49");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(80,"53","46");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(81,"74","14");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(82,"27","30");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(83,"40","30");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(84,"14","28");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(85,"33","27");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(86,"53","39");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(87,"71","48");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(88,"19","42");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(89,"17","5");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(90,"28","11");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(91,"29","17");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(92,"64","13");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(93,"71","17");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(94,"75","8");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(95,"39","13");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(96,"57","50");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(97,"66","19");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(98,"54","11");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(99,"22","18");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(100,"39","26");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(101,"58","39");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(102,"10","32");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(103,"26","10");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(104,"13","15");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(105,"23","35");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(106,"19","14");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(107,"46","5");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(108,"20","50");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(109,"16","33");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(110,"6","48");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(111,"9","32");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(112,"45","47");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(113,"64","47");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(114,"69","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(115,"15","33");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(116,"55","20");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(117,"18","37");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(118,"66","23");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(119,"59","17");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(120,"46","40");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(121,"14","43");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(122,"31","38");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(123,"49","41");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(124,"62","31");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(125,"18","11");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(126,"68","17");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(127,"42","12");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(128,"25","23");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(129,"41","5");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(130,"34","9");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(131,"46","43");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(132,"47","27");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(133,"64","22");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(134,"32","11");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(135,"55","17");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(136,"6","50");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(137,"53","10");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(138,"74","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(139,"70","8");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(140,"9","27");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(141,"14","7");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(142,"68","46");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(143,"72","28");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(144,"41","42");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(145,"23","13");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(146,"34","34");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(147,"61","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(148,"73","42");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(149,"23","39");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(150,"59","37");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(151,"68","37");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(152,"40","37");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(153,"74","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(154,"74","29");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(155,"39","26");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(156,"11","12");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(157,"29","19");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(158,"60","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(159,"48","17");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(160,"57","48");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(161,"67","28");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(162,"45","35");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(163,"27","48");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(164,"36","22");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(165,"8","50");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(166,"22","14");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(167,"22","33");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(168,"16","50");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(169,"67","45");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(170,"13","38");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(171,"19","28");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(172,"49","33");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(173,"44","11");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(174,"53","47");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(175,"51","10");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(176,"59","25");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(177,"68","33");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(178,"52","8");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(179,"23","12");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(180,"27","17");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(181,"61","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(182,"65","28");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(183,"42","6");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(184,"74","12");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(185,"46","46");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(186,"31","37");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(187,"38","47");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(188,"15","6");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(189,"59","39");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(190,"10","5");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(191,"60","6");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(192,"32","22");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(193,"52","27");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(194,"31","38");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(195,"35","43");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(196,"72","40");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(197,"16","41");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(198,"55","8");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(199,"64","17");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(200,"5","47");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(201,"70","25");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(202,"30","7");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(203,"69","31");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(204,"15","24");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(205,"74","39");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(206,"54","42");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(207,"66","48");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(208,"11","46");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(209,"55","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(210,"48","13");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(211,"60","42");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(212,"64","28");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(213,"28","16");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(214,"68","7");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(215,"65","22");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(216,"67","41");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(217,"6","35");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(218,"28","44");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(219,"74","50");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(220,"34","47");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(221,"13","45");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(222,"17","25");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(223,"60","16");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(224,"50","37");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(225,"19","5");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(226,"25","41");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(227,"55","21");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(228,"70","44");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(229,"35","49");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(230,"75","39");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(231,"47","23");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(232,"46","41");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(233,"65","35");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(234,"63","50");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(235,"10","16");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(236,"49","25");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(237,"41","18");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(238,"46","28");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(239,"55","46");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(240,"42","17");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(241,"57","32");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(242,"72","46");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(243,"41","31");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(244,"28","40");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(245,"34","11");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(246,"55","30");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(247,"41","12");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(248,"33","39");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(249,"36","38");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(250,"34","16");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(251,"52","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(252,"44","30");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(253,"28","28");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(254,"57","14");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(255,"37","27");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(256,"63","49");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(257,"38","10");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(258,"67","16");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(259,"14","44");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(260,"24","45");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(261,"61","49");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(262,"11","48");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(263,"42","45");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(264,"44","50");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(265,"67","40");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(266,"59","6");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(267,"38","16");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(268,"38","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(269,"48","18");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(270,"47","27");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(271,"14","41");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(272,"58","23");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(273,"13","18");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(274,"39","40");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(275,"42","5");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(276,"7","27");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(277,"37","6");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(278,"12","49");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(279,"73","45");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(280,"54","42");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(281,"55","15");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(282,"64","21");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(283,"68","11");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(284,"73","6");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(285,"60","24");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(286,"53","29");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(287,"67","33");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(288,"68","43");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(289,"52","38");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(290,"13","21");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(291,"73","49");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(292,"56","29");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(293,"74","37");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(294,"6","8");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(295,"38","31");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(296,"51","27");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(297,"38","8");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(298,"59","15");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(299,"62","33");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(300,"30","49");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(301,"16","14");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(302,"17","26");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(303,"18","41");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(304,"27","6");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(305,"20","28");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(306,"27","44");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(307,"54","44");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(308,"74","5");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(309,"16","35");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(310,"30","42");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(311,"30","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(312,"35","43");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(313,"10","32");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(314,"44","44");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(315,"8","12");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(316,"66","25");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(317,"12","43");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(318,"40","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(319,"57","23");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(320,"7","46");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(321,"25","10");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(322,"11","49");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(323,"8","41");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(324,"62","35");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(325,"5","45");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(326,"67","8");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(327,"41","14");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(328,"9","43");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(329,"54","45");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(330,"37","27");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(331,"6","20");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(332,"28","20");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(333,"20","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(334,"6","25");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(335,"7","42");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(336,"5","37");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(337,"27","33");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(338,"50","17");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(339,"27","47");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(340,"52","14");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(341,"66","29");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(342,"75","35");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(343,"34","34");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(344,"20","43");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(345,"71","14");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(346,"47","21");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(347,"63","26");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(348,"19","39");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(349,"13","21");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(350,"16","34");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(351,"60","25");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(352,"22","11");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(353,"8","34");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(354,"13","13");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(355,"56","24");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(356,"65","28");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(357,"50","21");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(358,"11","10");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(359,"48","46");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(360,"54","20");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(361,"28","26");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(362,"21","17");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(363,"74","43");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(364,"55","29");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(365,"15","39");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(366,"73","19");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(367,"38","32");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(368,"66","17");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(369,"21","32");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(370,"47","37");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(371,"27","29");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(372,"70","14");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(373,"42","37");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(374,"35","6");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(375,"10","27");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(376,"27","10");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(377,"64","6");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(378,"19","5");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(379,"59","49");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(380,"39","40");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(381,"61","10");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(382,"24","49");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(383,"11","31");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(384,"30","14");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(385,"11","19");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(386,"12","5");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(387,"5","47");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(388,"10","28");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(389,"74","43");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(390,"26","9");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(391,"64","30");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(392,"73","44");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(393,"25","49");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(394,"6","49");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(395,"27","15");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(396,"23","45");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(397,"41","43");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(398,"71","35");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(399,"74","32");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(400,"33","10");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(401,"67","40");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(402,"42","15");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(403,"34","39");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(404,"12","30");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(405,"9","48");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(406,"46","21");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(407,"30","37");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(408,"75","26");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(409,"21","44");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(410,"55","27");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(411,"36","41");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(412,"75","41");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(413,"66","20");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(414,"49","29");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(415,"34","25");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(416,"29","47");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(417,"41","30");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(418,"55","31");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(419,"72","50");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(420,"58","21");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(421,"44","43");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(422,"21","35");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(423,"18","26");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(424,"22","27");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(425,"60","21");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(426,"12","34");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(427,"44","49");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(428,"40","26");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(429,"28","43");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(430,"28","38");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(431,"54","45");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(432,"7","14");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(433,"17","48");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(434,"36","23");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(435,"57","35");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(436,"45","21");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(437,"48","25");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(438,"11","27");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(439,"6","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(440,"44","20");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(441,"10","46");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(442,"14","35");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(443,"23","5");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(444,"73","14");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(445,"52","44");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(446,"23","25");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(447,"67","19");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(448,"44","22");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(449,"26","49");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(450,"65","19");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(451,"23","49");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(452,"18","42");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(453,"52","23");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(454,"10","18");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(455,"42","46");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(456,"30","10");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(457,"69","23");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(458,"13","48");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(459,"64","28");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(460,"48","18");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(461,"64","31");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(462,"75","22");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(463,"64","8");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(464,"24","32");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(465,"31","15");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(466,"75","35");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(467,"47","30");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(468,"68","50");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(469,"72","37");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(470,"54","29");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(471,"59","50");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(472,"23","44");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(473,"56","21");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(474,"28","48");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(475,"9","27");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(476,"35","30");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(477,"10","11");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(478,"13","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(479,"67","50");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(480,"29","34");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(481,"30","14");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(482,"7","16");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(483,"36","30");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(484,"30","14");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(485,"73","28");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(486,"54","21");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(487,"55","15");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(488,"64","7");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(489,"53","15");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(490,"34","41");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(491,"52","33");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(492,"53","38");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(493,"38","22");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(494,"71","15");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(495,"75","48");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(496,"68","43");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(497,"10","15");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(498,"26","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(499,"49","22");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(500,"67","41");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(501,"62","27");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(502,"36","20");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(503,"20","35");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(504,"12","31");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(505,"58","48");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(506,"30","21");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(507,"33","22");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(508,"73","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(509,"22","32");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(510,"30","27");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(511,"44","6");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(512,"5","9");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(513,"59","10");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(514,"53","27");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(515,"38","28");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(516,"63","39");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(517,"35","47");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(518,"37","37");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(519,"35","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(520,"42","11");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(521,"43","12");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(522,"27","38");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(523,"70","47");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(524,"13","32");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(525,"15","28");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(526,"56","5");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(527,"40","23");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(528,"51","23");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(529,"59","32");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(530,"24","22");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(531,"25","41");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(532,"67","50");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(533,"9","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(534,"62","30");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(535,"51","43");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(536,"5","29");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(537,"60","7");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(538,"7","30");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(539,"29","9");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(540,"73","41");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(541,"20","19");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(542,"37","27");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(543,"25","21");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(544,"19","28");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(545,"53","19");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(546,"33","7");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(547,"63","23");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(548,"70","26");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(549,"21","39");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(550,"53","28");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(551,"42","5");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(552,"19","34");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(553,"24","34");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(554,"31","31");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(555,"55","21");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(556,"75","19");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(557,"16","47");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(558,"10","28");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(559,"30","13");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(560,"64","49");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(561,"12","11");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(562,"50","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(563,"30","46");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(564,"56","39");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(565,"68","23");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(566,"25","24");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(567,"14","37");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(568,"51","35");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(569,"65","6");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(570,"14","14");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(571,"31","32");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(572,"14","43");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(573,"14","29");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(574,"40","16");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(575,"46","19");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(576,"8","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(577,"6","41");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(578,"53","22");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(579,"68","43");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(580,"41","23");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(581,"54","13");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(582,"43","49");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(583,"24","34");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(584,"64","20");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(585,"74","40");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(586,"44","10");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(587,"30","45");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(588,"48","49");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(589,"72","40");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(590,"66","21");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(591,"47","24");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(592,"24","31");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(593,"44","48");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(594,"48","20");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(595,"16","24");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(596,"56","5");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(597,"18","43");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(598,"65","48");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(599,"50","6");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(600,"37","17");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(601,"42","27");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(602,"25","29");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(603,"57","47");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(604,"75","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(605,"65","39");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(606,"56","44");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(607,"15","14");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(608,"37","28");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(609,"7","49");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(610,"67","34");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(611,"22","8");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(612,"73","24");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(613,"51","9");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(614,"74","45");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(615,"12","20");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(616,"68","46");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(617,"55","20");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(618,"37","45");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(619,"10","20");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(620,"13","49");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(621,"43","5");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(622,"54","6");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(623,"74","20");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(624,"50","38");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(625,"28","24");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(626,"14","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(627,"33","30");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(628,"26","42");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(629,"74","26");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(630,"32","34");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(631,"24","32");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(632,"63","50");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(633,"54","40");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(634,"46","34");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(635,"28","25");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(636,"14","34");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(637,"15","5");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(638,"63","13");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(639,"8","17");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(640,"18","14");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(641,"23","28");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(642,"44","10");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(643,"49","15");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(644,"70","34");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(645,"11","12");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(646,"18","19");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(647,"6","18");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(648,"13","44");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(649,"50","38");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(650,"59","38");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(651,"5","6");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(652,"57","47");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(653,"60","25");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(654,"16","27");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(655,"21","37");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(656,"11","5");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(657,"71","28");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(658,"14","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(659,"49","18");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(660,"69","44");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(661,"49","40");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(662,"22","20");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(663,"35","6");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(664,"54","37");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(665,"71","35");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(666,"58","29");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(667,"19","16");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(668,"61","22");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(669,"53","12");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(670,"58","26");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(671,"57","27");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(672,"14","24");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(673,"75","50");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(674,"40","29");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(675,"31","9");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(676,"10","22");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(677,"25","8");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(678,"21","13");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(679,"43","7");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(680,"51","47");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(681,"42","48");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(682,"35","5");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(683,"49","34");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(684,"44","33");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(685,"65","25");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(686,"35","7");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(687,"38","35");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(688,"14","49");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(689,"35","32");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(690,"47","50");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(691,"73","44");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(692,"75","37");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(693,"25","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(694,"47","31");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(695,"24","45");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(696,"69","12");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(697,"45","46");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(698,"18","38");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(699,"36","41");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(700,"21","25");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(701,"49","42");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(702,"61","41");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(703,"50","47");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(704,"33","10");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(705,"62","47");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(706,"17","25");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(707,"48","28");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(708,"10","24");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(709,"73","7");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(710,"36","7");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(711,"39","42");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(712,"5","43");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(713,"54","23");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(714,"10","17");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(715,"36","34");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(716,"55","8");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(717,"50","15");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(718,"37","21");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(719,"59","17");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(720,"36","13");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(721,"68","30");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(722,"47","14");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(723,"10","50");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(724,"73","38");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(725,"55","31");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(726,"28","34");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(727,"66","43");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(728,"59","33");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(729,"38","42");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(730,"59","40");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(731,"57","25");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(732,"41","46");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(733,"28","49");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(734,"22","29");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(735,"26","22");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(736,"71","17");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(737,"17","9");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(738,"46","13");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(739,"17","18");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(740,"75","38");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(741,"12","48");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(742,"56","40");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(743,"68","36");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(744,"34","27");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(745,"58","17");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(746,"13","9");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(747,"22","32");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(748,"43","20");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(749,"47","17");
+INSERT INTO ,(id_session_results,wod_score,specialty_score) VALUES(750,"73","23");
