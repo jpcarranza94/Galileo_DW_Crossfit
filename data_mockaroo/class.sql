@@ -1,5 +1,5 @@
 
-INSERT INTO class VALUES
+INSERT INTO class(date_, id_wod) VALUES
 ('2019-01-07',17),
 ('2019-01-08',15),
 ('2019-01-09',5),
